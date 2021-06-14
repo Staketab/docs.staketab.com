@@ -1,2 +1,2 @@
-# Initial page
+# Welcome to Staketab.com Docs
 
