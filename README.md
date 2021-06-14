@@ -1,8 +1,4 @@
----
-description: fghjfgtjfghjfgjfgjfgjfgjfgj
----
-
-# Welcome to Staketab.com Docs
+# Welcome to Staketab.com
 
 ### Test
 
