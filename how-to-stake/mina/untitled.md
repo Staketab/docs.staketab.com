@@ -89,5 +89,151 @@ echo 'export MINA_PUBLIC_KEY=$(cat $HOME/keys/my-wallet.pub)' >> $HOME/.bashrc
 source ~/.bashrc
 ```
 
+## Launch a node with Docker
 
+### Install Docker
+
+Install and activate Docker:
+
+```text
+sudo apt install docker.io curl -y \
+&& sudo systemctl start docker \
+&& sudo systemctl enable docker
+```
+
+### Firewall configuration
+
+{% hint style="info" %}
+If your VPS server has a built-in Firewall, then you should open ports 8302 and 8303 there.
+
+If not, then follow the commands below:
+{% endhint %}
+
+Open ports 8302 and 8303:
+
+```text
+sudo iptables -A INPUT -p tcp --dport 8302:8303 -j ACCEPT
+```
+
+### Run a node
+
+Variables description:  
+  
+`--name mina` - you can use any name for the container, or leave it as it is;  
+`-block-producer-password "YOUR PASS"` - instead `YOUR PASS` enter the password for your key.  
+`$KEYPATH` - path to the file with the private key `my-wallet`. 
+
+Optional:  
+`--coinbase-receiver B62qp...` - flag to redirect block reward to another address.
+
+```text
+sudo docker run --name mina -d \
+--restart always \
+-p 8302:8302 \
+-p 127.0.0.1:3085:3085 \
+-v $(pwd)/keys:$HOME/keys:ro \
+-v $(pwd)/.mina-config:$HOME/.mina-config \
+minaprotocol/mina-daemon-baked:1.1.5-a42bdee daemon \
+-block-producer-key $KEYPATH \
+-block-producer-password "YOUR_PASS" \
+--peer-list-url https://storage.googleapis.com/mina-seed-lists/mainnet_seeds.txt \
+--insecure-rest-server \
+--open-limited-graphql-port \
+--limited-graphql-port 3095 \
+--file-log-level Debug \
+-log-level Info
+```
+
+### Viewing logs with docker
+
+View running containers:
+
+```text
+sudo docker ps -a
+```
+
+Node container logs:
+
+```text
+sudo docker logs --follow mina -f --tail 1000
+```
+
+Node status:
+
+```text
+sudo docker exec -it mina mina client status
+```
+
+Wait for the node to synchronize. The _Sync status:_ field should say _Synced_ \(see the screenshot below\). If the status says _Catched_, then you need to wait a little longer. After this you can start importing your keys.
+
+![](../../.gitbook/assets/image.png)
+
+## Launch a node with Service
+
+### Firewall configuration
+
+Open ports 22, 8302 and 8303 and activate the Firewall:
+
+```text
+sudo ufw allow 22 \
+&& sudo ufw allow 8302 \
+&& sudo ufw allow 8303 \
+&& sudo ufw enable
+```
+
+We check the status of open ports with the command:
+
+```text
+sudo ufw status
+```
+
+{% hint style="info" %}
+If you do not have UFW installed on your server, install it using the command `sudo apt install ufw`
+{% endhint %}
+
+### Node configuring
+
+Downloading package `Mina`:
+
+```text
+echo "deb [trusted=yes] http://packages.o1test.net release main" | sudo tee /etc/apt/sources.list.d/mina.list
+sudo apt-get update
+sudo apt-get install -y curl unzip mina-mainnet=1.1.5-a42bdee
+```
+
+Download the file with peers:
+
+```text
+curl https://storage.googleapis.com/mina-seed-lists/mainnet_seeds.txt > ~/peers.txt
+```
+
+Setting up the `mina-env` file:
+
+```text
+nano .mina-env
+```
+
+We copy and paste the variables into the file after entering your password from the key instead of `YOUR PASS FOR KEYS`:
+
+```text
+CODA_PRIVKEY_PASS="YOUR PASS FOR KEYS"
+EXTRA_FLAGS=" -file-log-level Debug"
+```
+
+Save ans exit: CTRL+S and CTRL+X
+
+### Start the service
+
+```text
+systemctl --user daemon-reload
+systemctl --user start mina
+systemctl --user enable mina
+sudo loginctl enable-linger
+```
+
+Viewing logs:
+
+```text
+journalctl --user-unit mina -n 1000 -f
+```
 
