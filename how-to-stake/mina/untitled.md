@@ -47,7 +47,7 @@ mina-generate-keypair -privkey-path ~/keys/my-wallet
 #### Option 2 using docker:
 
 ```text
-docker run  --interactive --tty --rm --volume $(pwd)/keys:/keys minaprotocol/generate-keypair:0.2.12-718eba4 -privkey-path /keys/my-wallet
+sudo docker run  --interactive --tty --rm --volume $(pwd)/keys:/keys minaprotocol/generate-keypair:0.2.12-718eba4 -privkey-path /keys/my-wallet
 ```
 
 ### Set necessary permissions:
@@ -70,7 +70,7 @@ mina-validate-keypair -privkey-path ~/keys/my-wallet
 #### Option 2 using docker:
 
 ```text
-docker run --interactive --tty --rm --entrypoint=mina-validate-keypair --volume $(pwd)/keys:/keys minaprotocol/generate-keypair:0.2.12-718eba4 -privkey-path /keys/my-wallet
+sudo docker run --interactive --tty --rm --entrypoint=mina-validate-keypair --volume $(pwd)/keys:/keys minaprotocol/generate-keypair:0.2.12-718eba4 -privkey-path /keys/my-wallet
 ```
 
 In both cases, if everything is ok with your keys, you will receive a message:
