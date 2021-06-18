@@ -166,7 +166,7 @@ sudo docker exec -it mina mina client status
 
 Wait for the node to synchronize. The _Sync status:_ field should say _Synced_ \(see the screenshot below\). If the status says _Catched_, then you need to wait a little longer. After this you can start importing your keys.
 
-![](../../.gitbook/assets/image%20%281%29.png)
+![](../../.gitbook/assets/image.png)
 
 ## Launch a node with Service
 
@@ -237,5 +237,98 @@ Viewing logs:
 journalctl --user-unit mina -n 1000 -f
 ```
 
+## Importing keys
 
+ We import an account with a key with the following command:
+
+With Service:
+
+```text
+mina accounts import -privkey-path $HOME/keys/my-wallet
+```
+
+With Docker:
+
+```text
+sudo docker exec -it mina mina accounts import -privkey-path $HOME/keys/my-wallet
+```
+
+The list of your accounts can be viewed with the command below:
+
+```text
+mina accounts list
+```
+
+## Unlock the account
+
+First, let's export the Public Key:
+
+```text
+export MINA_PUBLIC_KEY=$(cat $HOME/keys/my-wallet.pub)
+```
+
+Let's unlock the account so that you can move tokens:
+
+With Service:
+
+```text
+mina accounts unlock -public-key $MINA_PUBLIC_KEY
+```
+
+With Docker:
+
+```text
+sudo docker exec -it mina mina accounts unlock -public-key $MINA_PUBLIC_KEY
+```
+
+In the password input field, write your password from the key and press ENTER.
+
+## Stake tokens
+
+Use the following command template:
+
+```text
+mina client delegate-stake \
+-sender "PASTE YOUR MINA WALLET ADDRESS HERE" \
+-receiver "PASTE VALIDATOR'S ADDRESS HERE" \
+-fee "PASTE FEE HERE"
+```
+
+Example of the command above:
+
+With Service:
+
+```text
+mina client delegate-stake \
+-sender B62qnJHBeVJqWamtDhWDPwrX7Y5jiXKcMKTuvug9LQ8ictwNTWN7YvJ \
+-receiver B62qqV16g8s744GHM6Dph1uhW4fggYwyvtDnVSoRUyYqNvTir3Rqqzx \
+-fee 0.03
+```
+
+With Docker:
+
+```text
+sudo docker exec -it mina mina client delegate-stake \
+-sender B62qnJHBeVJqWamtDhWDPwrX7Y5jiXKcMKTuvug9LQ8ictwNTWN7YvJ \
+-receiver B62qqV16g8s744GHM6Dph1uhW4fggYwyvtDnVSoRUyYqNvTir3Rqqzx \
+-fee 0.03
+```
+
+Specify the following Mina fee amount depending on transaction speed you want:
+
+* Moderate speed is 0.01
+* Fast speed is 0.05
+* Very fast speed is 0.1
+
+Tokens are on the journey to stake and will be used by the staking provider soon. Just wait for your rewards from now. Don't be scared that your tokens are still visible on your balance. Physically Mina tokens are not moved to the staking provider from your wallet.
+
+The whole balance of your address will be delegated into stake to a validator.
+
+The command above sends your Mina funds to [StakeTab](https://staketab.com/) provider. If you want to stake Mina with another provider, you can select one on the [Validators Leaderboard](https://mina.staketab.com/).
+
+After delegation, you can stop your node running. There is no need for that after successful delegation.
+
+## Resources <a id="Resources"></a>
+
+There are much more options to stake Mina from your own node. For example, you can use Docker, set up TMUX and Snark stopper or update your node. For details, please see the [How to stake Mina using own delegating node detailed guide – ICOHigh Project](https://icohigh.gitbook.io/mina-node-testnet/english/generating-and-verifying-keys).
 
