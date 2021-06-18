@@ -8,7 +8,11 @@ You can stake Mina using third-party wallet on
 
 For detailed guides, please see:
 
-* [How to stake Mina using Clorio browser and desktop wallet](https://vhorba.atlassian.net/wiki/spaces/SE/pages/1948516362/How+to+stake+Mina+using+Clorio+browser+and+desktop+wallet)
-* [How to stake Mina using Auro browser wallet](https://vhorba.atlassian.net/wiki/spaces/SE/pages/1948647436/How+to+stake+Mina+using+Auro+browser+and+mobile+wallet)
-* [How to stake Mina using Staking-Power mobile wallet](https://vhorba.atlassian.net/wiki/spaces/SE/pages/1948581949/How+to+stake+Mina+using+Staking-Power+mobile+wallet)
+{% page-ref page="how-to-stake-mina-using-clorio-browser-and-desktop-wallet.md" %}
+
+{% page-ref page="how-to-stake-mina-using-auro-browser-and-mobile-wallet.md" %}
+
+{% page-ref page="how-to-stake-mina-using-staking-power-mobile-wallet.md" %}
+
+
 
