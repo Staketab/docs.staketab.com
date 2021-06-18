@@ -166,7 +166,7 @@ sudo docker exec -it mina mina client status
 
 Wait for the node to synchronize. The _Sync status:_ field should say _Synced_ \(see the screenshot below\). If the status says _Catched_, then you need to wait a little longer. After this you can start importing your keys.
 
-![](../../.gitbook/assets/image.png)
+![](../../.gitbook/assets/image%20%281%29.png)
 
 ## Launch a node with Service
 
@@ -236,4 +236,6 @@ Viewing logs:
 ```text
 journalctl --user-unit mina -n 1000 -f
 ```
+
+
 
