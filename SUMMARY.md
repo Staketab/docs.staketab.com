@@ -10,5 +10,4 @@
     * [How to stake Mina using Clorio browser and desktop wallet](how-to-stake/mina/using-third-party-wallet/how-to-stake-mina-using-clorio-browser-and-desktop-wallet.md)
     * [How to stake Mina using Auro browser and mobile wallet](how-to-stake/mina/using-third-party-wallet/how-to-stake-mina-using-auro-browser-and-mobile-wallet.md)
     * [How to stake Mina using Staking-Power mobile wallet](how-to-stake/mina/using-third-party-wallet/how-to-stake-mina-using-staking-power-mobile-wallet.md)
-  * [Using Ledger wallet](how-to-stake/mina/using-ledger-wallet.md)
 
