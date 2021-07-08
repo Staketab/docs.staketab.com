@@ -26,17 +26,17 @@ sudo apt-get install libudev-dev libusb-1.0-0-dev python-dev virtualenv
 sudo pip3 install ledgerblue
 ```
 
-6. Go to a [Ledger App Mina page](https://github.com/jspada/ledger-app-mina/releases)[.](https://github.com/jspada/ledger-app-mina/releases%5D.) You will see a list of Ledger App Mina releases. The current newest version is Ledger App Mina 1.0.2. Click on it. Then scroll down this section to "Assets" subsection at the bottom. Click on _ledger-app-mina-1.0.2-0-g843e809c.tar.gz_ button and download the archive.
+6. Go to a [Ledger App Mina page](https://github.com/jspada/ledger-app-mina/releases)[.](https://github.com/jspada/ledger-app-mina/releases%5D.) You will see a list of Ledger App Mina releases. The current newest version is Ledger App Mina 1.0.2. Click on it. Then scroll down this section to "Assets" subsection at the bottom. Click on `ledger-app-mina-1.0.2-0-g843e809c.tar.gz` button and download the archive.
 
 7. In the Terminal command line, go to the directory you just downloaded the archive. If you know how to do this, you don't need to read this point to the end.
 
-To do this, go to this directory using the File Explorer, right click on the _ledger-app-mina-1.0.2-0-g843e809c.tar.gz_ file and click on the "Properties" option. Go to a "Location" field of a "Basic" tab and double-click on the path you find there. Then copy this path by the right mouse click and "Copy" option or just use "Ctrl+C" keyboard combination. Path is copied to the clipboard. Then go to the Terminal window and paste the path with "cd" \(that means "change directory"\) into the command line. For example, if you downloaded the archive into _/home/cryptain/Downloads/_, your command to enter is the following:
+To do this, go to this directory using the File Explorer, right click on the `ledger-app-mina-1.0.2-0-g843e809c.tar.gz` file and click on the "Properties" option. Go to a "Location" field of a "Basic" tab and double-click on the path you find there. Then copy this path by the right mouse click and "Copy" option or just use "Ctrl+C" keyboard combination. Path is copied to the clipboard. Then go to the Terminal window and paste the path with "cd" \(that means "change directory"\) into the command line. For example, if you downloaded the archive into `/home/cryptain/Downloads/`, your command to enter is the following:
 
 ```text
 cd /home/cryptain/Downloads/
 ```
 
-The Terminal will show that you jumped to the _/home/cryptain/Downloads/_ directory from the directory you have been previously in.
+The Terminal will show that you jumped to the `/home/cryptain/Downloads/` directory from the directory you have been previously in.
 
 8. Get your hash:
 
@@ -46,11 +46,11 @@ sha256sum ledger-app-mina-1.0.2-0-g843e809c.tar.gz
 
 Terminal will show you a table. Copy a set of numbers and letters from the HASH column and paste it to a text file. It is your checksum to verify that you use correct app.
 
-9. Go to the Ledger App Mina 1.0.2 page or the release page you have downloaded in the step \#6, copy the SHA256 checksum from the bottom column \(corresponding to the _ledger-app-mina-1.0.2-0-g843e809c.tar.gz_\) and also paste it to your text file to compare these checksums. If they are the same, you use the correct version of the app and feel free to proceed the next step.
+9. Go to the Ledger App Mina 1.0.2 page or the release page you have downloaded in the step \#6, copy the SHA256 checksum from the bottom column \(corresponding to the `ledger-app-mina-1.0.2-0-g843e809c.tar.gz`\) and also paste it to your text file to compare these checksums. If they are the same, you use the correct version of the app and feel free to proceed the next step.
 
 10. Extract the archive. For ease, you can unzip the archive into the same directory as the .tar.gz file. After the extraction, you will see the _ledger-app-mina-1.0.2-0-g843e809c_ folder in the directory.
 
-You can extact the archive using Archive Manager by double clicking on the _ledger-app-mina-1.0.2-0-g843e809c.tar.gz_ and clicking on "Exctract" button or using the Terminal command:
+You can extact the archive using Archive Manager by double clicking on the `ledger-app-mina-1.0.2-0-g843e809c.tar.gz` and clicking on "Exctract" button or using the Terminal command:
 
 ```text
 tar xvzf ledger-app-mina-1.0.2-0-g843e809c.tar.gz
@@ -66,7 +66,7 @@ ledger-app-mina-1.0.2-0-g843e809c/mina_ledger_wallet
 ledger-app-mina-1.0.2-0-g843e809c/bin/app.hex
 ```
 
-11. Open the _ledger-app-mina-1.0.2-0-g843e809c_ directory in the Terminal. To do this, copy the path to this directory and paste it into the Terminal using "cd" command, for instance:
+11. Open the `ledger-app-mina-1.0.2-0-g843e809c` directory in the Terminal. To do this, copy the path to this directory and paste it into the Terminal using "cd" command, for instance:
 
 ```text
 cd /home/cryptain/Downloads/ledger-app-mina-1.0.2-0-g843e809c
