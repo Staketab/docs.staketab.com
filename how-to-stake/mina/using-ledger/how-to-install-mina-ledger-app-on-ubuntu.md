@@ -48,7 +48,7 @@ Terminal will show you a table. Copy a set of numbers and letters from the HASH 
 
 9. Go to the Ledger App Mina 1.0.2 page or the release page you have downloaded in the step \#6, copy the SHA256 checksum from the bottom column \(corresponding to the `ledger-app-mina-1.0.2-0-g843e809c.tar.gz`\) and also paste it to your text file to compare these checksums. If they are the same, you use the correct version of the app and feel free to proceed the next step.
 
-10. Extract the archive. For ease, you can unzip the archive into the same directory as the .tar.gz file. After the extraction, you will see the _ledger-app-mina-1.0.2-0-g843e809c_ folder in the directory.
+10. Extract the archive. For ease, you can unzip the archive into the same directory as the .tar.gz file. After the extraction, you will see the `ledger-app-mina-1.0.2-0-g843e809c` folder in the directory.
 
 You can extact the archive using Archive Manager by double clicking on the `ledger-app-mina-1.0.2-0-g843e809c.tar.gz` and clicking on "Exctract" button or using the Terminal command:
 
