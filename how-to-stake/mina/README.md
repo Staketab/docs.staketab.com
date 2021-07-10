@@ -10,7 +10,7 @@ You will receive your first Mina rewards from staking in 2-4 weeks from your del
 
 ## Where is to find validator's address? <a id="Where-is-to-find-validator&apos;s-address?"></a>
 
-You can find a list of validators at the Validators page \(link\) of StakeTab block explorer.
+You can find a list of validators at the [Validators page](https://mina.staketab.com/) of StakeTab block explorer.
 
 Keep in Mind that Mina validators participate in a lottery to win \(produce\) blocks and distribute rewards for wins to delegators manually in the Mina blockchain. To choose a lucky and trustworthy validator, enjoy [StakeTab Rewards Calculator](https://mina.staketab.com/validators/rewards) that provides a broad stats overview on validators so you can choose a staking option attractive to you.
 
