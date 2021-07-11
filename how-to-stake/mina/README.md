@@ -20,3 +20,7 @@ Keep in Mind that Mina validators participate in a lottery to win \(produce\) bl
 
 {% page-ref page="using-third-party-wallet/" %}
 
+{% page-ref page="using-ledger/" %}
+
+
+
