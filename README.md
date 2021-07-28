@@ -10,7 +10,7 @@ description: >-
 
 [https://staketab.com/](https://staketab.com/) - Staking provider website
 
-[https://mina.staketab.com/](https://mina.staketab.com/) - Mina validator leaderboard
+[https://mina.staketab.com/](https://mina.staketab.com/) - Mina Explorer
 
 ## Social media and contacts:
 
