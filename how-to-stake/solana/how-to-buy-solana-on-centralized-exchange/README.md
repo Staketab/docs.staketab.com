@@ -4,3 +4,7 @@ To stake Solana, you first need to get it. A fast and convenient way is to get S
 
 The guide below show how to do all of that using [okex.com](https://www.okex.com/join/2995542) centralized exchange.
 
+{% page-ref page="how-to-buy-solana-on-okex.com-centralized-exchange.md" %}
+
+
+
