@@ -15,13 +15,10 @@
     * [How to install Mina Ledger app on Windows](how-to-stake/mina/using-ledger/how-to-install-mina-ledger-app-on-windows.md)
     * [How to stake Mina from Clorio browser and desktop wallet using Ledger](how-to-stake/mina/using-ledger/how-to-stake-mina-from-clorio-browser-and-desktop-wallet-using-ledger.md)
     * [How to stake Mina from Auro browser and mobile wallet using Ledger](how-to-stake/mina/using-ledger/how-to-stake-mina-from-auro-browser-and-mobile-wallet-using-ledger.md)
-
----
-
-* [SOLANA](solana/README.md)
-  * [How to buy Solana on centralized exchange](solana/how-to-buy-solana-on-centralized-exchange/README.md)
-    * [How to buy Solana on okex.com centralized exchange](solana/how-to-buy-solana-on-centralized-exchange/how-to-buy-solana-on-okex.com-centralized-exchange.md)
-  * [How to stake Solana](solana/how-to-stake-solana/README.md)
-    * [How to stake Solana using SolFlare browser wallet](solana/how-to-stake-solana/how-to-stake-solana-using-solflare-browser-wallet.md)
-    * [How to stake Solana using Ledger and SolFlare browser wallet](solana/how-to-stake-solana/how-to-stake-solana-using-ledger-and-solflare-browser-wallet.md)
+* [SOLANA](how-to-stake/solana/README.md)
+  * [How to buy Solana on centralized exchange](how-to-stake/solana/how-to-buy-solana-on-centralized-exchange/README.md)
+    * [How to buy Solana on okex.com centralized exchange](how-to-stake/solana/how-to-buy-solana-on-centralized-exchange/how-to-buy-solana-on-okex.com-centralized-exchange.md)
+  * [How to stake Solana](how-to-stake/solana/how-to-stake-solana/README.md)
+    * [How to stake Solana using SolFlare browser wallet](how-to-stake/solana/how-to-stake-solana/how-to-stake-solana-using-solflare-browser-wallet.md)
+    * [How to stake Solana using Ledger and SolFlare browser wallet](how-to-stake/solana/how-to-stake-solana/how-to-stake-solana-using-ledger-and-solflare-browser-wallet.md)
 
