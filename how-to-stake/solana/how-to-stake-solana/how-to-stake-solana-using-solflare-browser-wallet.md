@@ -8,7 +8,7 @@
 
 ![](../../../.gitbook/assets/02_create_new_wallet_screen.png)
 
-3. Keep "Using Keystore File" open and click "Next".
+3. Keep "Using Keystore File" tab open and click "Next".
 
 ![](../../../.gitbook/assets/03_set_password.png)
 
@@ -16,7 +16,7 @@
 
 ![](../../../.gitbook/assets/04_download_keystore_file.png)
 
-5. Check a checkmark below the "DOWNLOAD KEYSTORE FILE" caption and click on blue button to the right of the caption. Save the keystore file to the destination only you have an access. For security enhancing, store the file in two places on different devices. There is no way to access the wallet without this file.
+5. Check a checkmark below the "DOWNLOAD KEYSTORE FILE" caption and click on blue button to the right of the caption. Save the keystore file to a location only you have an access. For security enhancing, store the file in two places on different devices. There is no way to access the wallet without this file.
 
 ![](../../../.gitbook/assets/05_upload_keystore_file.png)
 
@@ -62,7 +62,7 @@
 
 ![](../../../.gitbook/assets/16_view_details_button.png)
 
-16. To check the transaction details in the block explorer, clickon "View Details". Or just click on "Finish" to get back into your wallet.
+16. To check the transaction details in the block explorer, click on "View Details". Or just click on "Finish" to get back into your wallet.
 
 ![](../../../.gitbook/assets/17_finish_button_and_balance_of_wallet.png)
 
@@ -90,7 +90,7 @@
 
 ![](../../../.gitbook/assets/25_delegation_successful.png)
 
-22. When delegation is successful, notification window will appear. Your delegation will become active with the start of a new epoch in the Solana blockchain. You can check how much time is remaining until the new epoch on the main page of the [blockchain explorer](https://solanabeach.io).
+22. When delegation is successful, notification window will appear. Your delegation will become active with the start of a new epoch in the Solana blockchain. The epoch in Solana blockchain is approximately two days. You can check how much time is remaining until the new epoch on the main page of the [blockchain explorer](https://solanabeach.io).
 
 ![](../../../.gitbook/assets/26_time_to_next_epoch.png)
 
