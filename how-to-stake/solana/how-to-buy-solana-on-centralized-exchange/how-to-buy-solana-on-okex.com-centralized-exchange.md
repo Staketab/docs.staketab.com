@@ -98,3 +98,5 @@ When transfer is successful, the balance of your Trading account will be reduced
 
 6. When your withdrawal request is approved by OKEx, you will receive your SOL to your external wallet.
 
+{% page-ref page="../how-to-stake-solana/" %}
+
