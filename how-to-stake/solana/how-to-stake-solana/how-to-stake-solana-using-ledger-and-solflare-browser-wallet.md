@@ -50,7 +50,7 @@
 
 ![](../../../.gitbook/assets/16_view_details_button.png)
 
-14. To check the transaction details in the block explorer, clickon "View Details". Or just click on "Finish" to get back into your wallet.
+14. To check the transaction details in the [block explorer](https://solanabeach.io/), click on "View Details". Or just click on "Finish" to get back into your wallet.
 
 ![](../../../.gitbook/assets/17_finish_button_and_balance_of_wallet.png)
 
@@ -64,7 +64,7 @@
 
 ![](../../../.gitbook/assets/20_delegate_now_button.png)
 
-18. Enter your validator's title into the search field. If you would like to stake Mina with us, you are welcome to choose StakeTab \([https://staketab.com](https://staketab.com)\) provider.
+18. Enter your validator's title into the search field. If you would like to stake Mina with us, you are welcome to choose [Staketab](https://staketab.com) provider.
 
 ![](../../../.gitbook/assets/22_click_on_staketab_green_checkmark.png)
 
@@ -76,7 +76,7 @@
 
 ![](../../../.gitbook/assets/25_delegation_successful.png)
 
-21. When delegation is successful, notification window will appear. Your delegation will become active with the start of a new epoch in the Solana blockchain. You can check how much time is remaining until the new epoch on the main page of the [blockchain explorer](https://solanabeach.io).
+21. When delegation is successful, notification window will appear. Your delegation will become active with the start of a new epoch in the Solana blockchain. The epoch in Solana blockchain is approximately two days. You can check how much time is remaining until the new epoch on the main page of the [blockchain explorer](https://solanabeach.io).
 
 ![](../../../.gitbook/assets/26_time_to_next_epoch.png)
 
