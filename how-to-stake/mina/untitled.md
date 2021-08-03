@@ -133,9 +133,9 @@ sudo docker run --name mina -d \
 -p 127.0.0.1:3085:3085 \
 -v $(pwd)/keys:$HOME/keys:ro \
 -v $(pwd)/.mina-config:$HOME/.mina-config \
+--env CODA_PRIVKEY_PASS='YOUR_PASS' \
 minaprotocol/mina-daemon-baked:1.1.5-a42bdee daemon \
 -block-producer-key $KEYPATH \
--block-producer-password "YOUR_PASS" \
 --peer-list-url https://storage.googleapis.com/mina-seed-lists/mainnet_seeds.txt \
 --insecure-rest-server \
 --open-limited-graphql-port \
@@ -330,5 +330,5 @@ After delegation, you can stop your node running. There is no need for that afte
 
 ## Resources <a id="Resources"></a>
 
-There are much more options to stake Mina from your own node. For example, you can use Docker, set up TMUX and Snark stopper or update your node. For details, please see the [How to stake Mina using own delegating node detailed guide – ICOHigh Project](https://icohigh.gitbook.io/mina-node-testnet/english/generating-and-verifying-keys).
+There are much more options to stake Mina from your own node. For example, you can use Docker, set up TMUX and Snark stopper or update your node. For details, please see the [How to stake Mina using own delegating node detailed guide](https://icohigh.gitbook.io/mina-node-testnet/english/generating-and-verifying-keys).
 

@@ -2,10 +2,10 @@
 
 1. Download [python](https://www.python.org/ftp/python/3.9.1/python-3.9.1-amd64.exe)[.](https://www.python.org/ftp/python/3.9.1/python-3.9.1-amd64.exe%5D.)
 
-2. Launch the _python-3.9.1-amd64.exe_ file and install python. For fast installation, you can click on "Install now" button in a window after _.exe_ installer launch. Then python will be installed to the predefined directory on the system disk. For custom installation directory and options, click on "Customize installation".  
+2. Launch the `python-3.9.1-amd64.exe` file and install python. For fast installation, you can click on "Install now" button in a window after _.exe_ installer launch. Then python will be installed to the predefined directory on the system disk. For custom installation directory and options, click on "Customize installation".  
 Note: check "Add Python 3.9 to PATH" checkmark at the bottom of an installation welcome screen.
 
-3. Press "Windows + R" buttons combination, enter _powershell.exe_ into the field appeared, then press "Enter". Windows PowerShell window appears.
+3. Press "Windows + R" buttons combination, enter `powershell.exe` into the field appeared, then press "Enter". Windows PowerShell window appears.
 
 4. Paste the following command into the PowerShell command line to download necessary lib:
 
@@ -13,15 +13,15 @@ Note: check "Add Python 3.9 to PATH" checkmark at the bottom of an installation 
 pip3 install ledgerblue
 ```
 
-5. Go to a [Ledger App Mina page](https://github.com/jspada/ledger-app-mina/releases)[.](https://github.com/jspada/ledger-app-mina/releases%5D.) You will see a list of Ledger App Mina releases. The current newest version is Ledger App Mina 1.0.2. Click on it. Then scroll down this section to "Assets" subsection at the bottom. Click on _ledger-app-mina-1.0.2-0-g843e809c.zip_ button and download the archive.
+5. Go to a [Ledger App Mina page](https://github.com/jspada/ledger-app-mina/releases)[.](https://github.com/jspada/ledger-app-mina/releases%5D.) You will see a list of Ledger App Mina releases. The current newest version is Ledger App Mina 1.0.2. Click on it. Then scroll down this section to "Assets" subsection at the bottom. Click on `ledger-app-mina-1.0.2-0-g843e809c.zip` button and download the archive.
 
-6. In the PowerShell command line, go to the directory you just downloaded the archive. To do this, go to this directory using the File Explorer, right click on the _ledger-app-mina-1.0.2-0-g843e809c.zip_ file and click on the "Copy as path" option. Path is copied to the clipboard. Then go to the PowerShell window and paste the path with "cd" command before it \(that means "change directory"\) into the command line. For example, if you downloaded the archive into C:\Downloads directory, your command to enter is the following:
+6. In the PowerShell command line, go to the directory you just downloaded the archive. To do this, go to this directory using the File Explorer, right click on the `ledger-app-mina-1.0.2-0-g843e809c.zip` file and click on the "Copy as path" option. Path is copied to the clipboard. Then go to the PowerShell window and paste the path with "cd" command before it \(that means "change directory"\) into the command line. For example, if you downloaded the archive into C:\Downloads directory, your command to enter is the following:
 
 ```text
 cd C:\Downloads
 ```
 
-The PowerShell will show that you jumped to the _C:\Downloads_ directory from the directory you have been previously in.
+The PowerShell will show that you jumped to the `C:\Downloads` directory from the directory you have been previously in.
 
 For the basic Windows commands, please see this [guide](https://www.digitalcitizen.life/command-prompt-how-use-basic-commands/)[.](https://www.digitalcitizen.life/command-prompt-how-use-basic-commands/%5D.)
 
@@ -33,11 +33,11 @@ Get-FileHash -Path ledger-app-mina-1.0.2-0-g843e809c.zip
 
 PowerShell will show you a table. Copy a set of numbers and letters from the HASH column and paste it to a text file. It is your checksum to verify that you use correct app.
 
-8. Go to the [Ledger App Mina 1.0.2 page](https://github.com/jspada/ledger-app-mina/releases/tag/v1.0.2) or the release page you have downloaded in the step \#5, copy the SHA256 checksum from the bottom column \(corresponding to the _ledger-app-mina-1.0.2-0-g843e809c.zip_\) and also paste it to your text file to compare these checksums. If they are the same, you use the correct version of the app and feel free to proceed the next step.
+8. Go to the [Ledger App Mina 1.0.2 page](https://github.com/jspada/ledger-app-mina/releases/tag/v1.0.2) or the release page you have downloaded in the step \#5, copy the SHA256 checksum from the bottom column \(corresponding to the `ledger-app-mina-1.0.2-0-g843e809c.zip`\) and also paste it to your text file to compare these checksums. If they are the same, you use the correct version of the app and feel free to proceed the next step.
 
-9. Go to the directory you have downloaded _ledger-app-mina-1.0.2-0-g843e809c.zip_ and extract the archive. For ease, you can unzip the archive into the same directory as the _.zip_ file. After the extraction, you will see the _ledger-app-mina-1.0.2-0-g843e809c_ folder in the directory.
+9. Go to the directory you have downloaded `ledger-app-mina-1.0.2-0-g843e809c.zip` and extract the archive. For ease, you can unzip the archive into the same directory as the _.zip_ file. After the extraction, you will see the `ledger-app-mina-1.0.2-0-g843e809c` folder in the directory.
 
-10. Open the _ledger-app-mina-1.0.2-0-g843e809c_ directory in the PowerShell. To do this, copy the path to this directory and paste it into the PowerShell using "cd" command, for instance:
+10. Open the `ledger-app-mina-1.0.2-0-g843e809c` directory in the PowerShell. To do this, copy the path to this directory and paste it into the PowerShell using "cd" command, for instance:
 
 ```text
 cd C:\Downloads\ledger-app-mina-1.0.2-0-g843e809c

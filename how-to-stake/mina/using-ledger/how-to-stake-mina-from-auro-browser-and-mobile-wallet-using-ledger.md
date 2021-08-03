@@ -1,20 +1,18 @@
 # How to stake Mina from Auro browser and mobile wallet using Ledger
 
+1. Go to [aurowallet.com](http://aurowallet.com/).
 
+2. Click on “Chrome” or “Firefox” buttons. Alternatively, click on "Download apk", launch _.apk_ on your smartphone, install and open it. One more option is to install the wallet from [Google Play.](https://play.google.com/store/apps/details?id=com.aurowallet.www.aurowallet%5D) If you install the wallet on your smartphone or android emulator, you don't need the steps 3-4. All the steps below are similar for both Browser and Android versions of the wallet.
 
-Go to [aurowallet.com](http://aurowallet.com/).
+3. Click on "Add to Chrome" or "Add to Firefox" button.
 
-1. Click on “Chrome” or “Firefox” buttons. Alternatively, click on "Download apk", launch _.apk_ on your smartphone, install and open it. One more option is to install the wallet from [Google Play.](https://play.google.com/store/apps/details?id=com.aurowallet.www.aurowallet%5D) If you install the wallet on your smartphone or android emulator, you don't need the steps 3-4. All the steps below are similar for both Browser and Android versions of the wallet.
+4. Auro wallet icon will appear at the top right corner pane of a browser. Click on it.
 
-2. Click on "Add to Chrome" or "Add to Firefox" button.
+5. Click on "Create account". If you already have one, you can restore it with your mnemonic phrase clicking on "Restore account" \(in the Restore case you don't need the 6-12 steps\).
 
-3. Auro wallet icon will appear at the top right corner pane of a browser. Click on it.
+6. Agree with the Terms of Use to create account and use the wallet.
 
-4. Click on "Create account". If you already have one, you can restore it with your mnemonic phrase clicking on "Restore account" \(in the Restore case you don't need the 6-12 steps\).
-
-5. Agree with the Terms of Use to create account and use the wallet.
-
-6. Create the password.
+7. Create the password.
 
 ![](../../../.gitbook/assets/auro-1.png)
 
