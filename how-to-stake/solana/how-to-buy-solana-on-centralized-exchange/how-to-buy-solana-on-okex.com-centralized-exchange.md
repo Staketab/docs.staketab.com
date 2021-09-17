@@ -82,7 +82,7 @@ When transfer is successful, the balance of your Trading account will be reduced
 
 ![](../../../.gitbook/assets/23_sol_disappeared_from_trading_acc.png)
 
-3. Click on the three dots in the USDT section of your Funding account and select "Withdraw" option.
+3. Click on the three dots in the SOL section of your Funding account and select "Withdraw" option.
 
 ![](../../../.gitbook/assets/25_sol_withdraw_button.png)
 
