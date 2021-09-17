@@ -86,7 +86,7 @@ When transfer is successful, the balance of your Trading account will be reduced
 
 ![](../../../.gitbook/assets/25_sol_withdraw_button.png)
 
-4. Enter your [SolFlare](https://solflare.com) wallet address or another wallet address you want to stake from, enter a custom address title \(optional\) and amount of SOL you want to withdraw. You can enter small amount of SOL first to be ensured the withdraw operates fine, then to withdraw remaining major part of SOL.
+4. Enter your [SolFlare](https://solflare.com) wallet address or another wallet address you want to stake from, enter a custom address title \(optional\) and amount of SOL you want to withdraw. You can enter small amount of SOL first to be ensured that the withdrawal operates fine, then to withdraw remaining major part of SOL.
 
 ![](../../../.gitbook/assets/26_sol_withdrawal_screen.png)
 
