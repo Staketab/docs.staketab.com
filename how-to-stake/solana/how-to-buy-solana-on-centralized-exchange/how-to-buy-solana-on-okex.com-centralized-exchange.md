@@ -92,7 +92,7 @@ When transfer is successful, the balance of your Trading account will be reduced
 
 ![](../../../.gitbook/assets/27_withdrawal_screen_fullfilled.png)
 
-5. Enter your funds password, e-mail verification and sms code you set up at the time of registration, then click confirm button.
+5. Enter your funds password, e-mail verification and sms codes you set up at the time of registration, then click confirm button.
 
 ![](../../../.gitbook/assets/29_withdrawal_completed_screen.png)
 
