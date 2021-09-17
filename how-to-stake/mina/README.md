@@ -2,7 +2,7 @@
 
 ## How to stake Mina <a id="title-text"></a>
 
-You have just two options to stake your Mina funds: using own delegating node installed on Linux or using third-party wallet. The first option makes you the only person having access to your private key for your Mina funds, but requires a little bit of time and entering of Linux commands skill. The second option is very fast but one more entity will have access to your private key because you will have to enter one to a third-party wallet. Noone such a wallet has passed security check \(audit\) confirmed by the Mina team. That means that noone give you warranty or promises that your private key will not leak or be stolen and your Mina funds will be safe. So you are using the second option at your own risk.
+You have just two options to stake your Mina funds: using own delegating node installed on Linux or using third-party wallet. The first option makes you the only person having access to your private key for your Mina funds, but requires a little bit of time and entering of Linux commands skill. The second option is very fast but one more entity will have access to your private key because you will have to enter one to a third-party wallet. So you are using the second option at your own risk.
 
 After successful tokens delegation, no further actions is needed. Just wait for your rewards from now. Don't be scared that your tokens are still visible on your balance. Physically Mina tokens are not moved to the staking provider from your wallet.
 
