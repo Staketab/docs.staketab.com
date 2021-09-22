@@ -2,7 +2,7 @@
 
 
 
-1. Go to the [staking-power.com](http://staking-power.com/). If you want to buid the wallet yourself, go to[ crackerli/coda-mobile-wallet](http://github.com/crackerli/coda-mobile-wallet) and follow guidelines in "How to build” section. Then you don't need the steps 2-3.
+1. Go to [crackerli/coda-mobile-wallet](http://github.com/crackerli/coda-mobile-wallet) and follow guidelines in "How to build” section. Then you don't need the steps 2-3.
 2. Click on "Google Play" or "App Store" Button. Alternatively, go to [apkcombo.com](http://apkcombo.com/) downloader and paste a link to Staking-Power app in Google Play into a field, then click on "Generate Download Link". Beware: APKcombo is a third-party downloader, use at own risk.
 3. Install the wallet on your smartphone or android emulator on your PC. To install Staking-Power wallet on iOS, Chinese Mainland users should install TestFlight at first, then scan the QR-code from the "Install on iOS" section from the [page](https://github.com/crackerli/coda-mobile-wallet%5D) \(or find the code below\) and follow the guidelines.
 
