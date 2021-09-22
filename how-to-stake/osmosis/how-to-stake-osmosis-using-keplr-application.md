@@ -20,5 +20,3 @@
 
 ![](../../.gitbook/assets/04_keplr_app_delegation_entering.png)
 
-**!** Get bonus of 300 OSMO from Staketab for [delegation using command line]()! See details [here]().
-
