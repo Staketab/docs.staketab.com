@@ -10,5 +10,7 @@ The guide below shows how to do all of that using [Keplr](https://www.keplr.app/
 
 {% page-ref page="how-to-buy-osmosis-coins-on-osmosis-decentralized-exchange.md" %}
 
+{% page-ref page="how-to-stake-osmosis-using-keplr-application.md" %}
+
 
 
