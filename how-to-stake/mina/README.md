@@ -8,7 +8,7 @@ After successful tokens delegation, no further actions is needed. Just wait for 
 
 You will receive your first Mina rewards from staking in 2-4 weeks from your delegation.
 
-## Where is to find validator's address? <a id="Where-is-to-find-validator&apos;s-address?"></a>
+## Where is to find Mina validator's address? <a id="Where-is-to-find-validator&apos;s-address?"></a>
 
 You can find a list of validators at the [Validators page](https://mina.staketab.com/) of StakeTab block explorer.
 
