@@ -1,4 +1,4 @@
-# Using own Mina node
+# How to stake Mina using own Mina node
 
 ## How to install Linux? <a id="How-to-install-Linux?"></a>
 

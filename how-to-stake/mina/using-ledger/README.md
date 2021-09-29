@@ -1,4 +1,4 @@
-# Using Ledger
+# How to stake Mina using Ledger
 
 You can stake Mina stored on the Ledger Nano S wallet. Staking with Ledger Blue and Ledger Nano X models is not supported yet.
 

@@ -1,4 +1,4 @@
-# Using third party wallet
+# How to stake Mina using third party wallet
 
 You can stake Mina using third-party wallet on
 
