@@ -4,7 +4,7 @@
 2. Click on "Download" button.
 3. On the GitHub page opened, scroll down to the "Assets" section.
 4. Choose a Clorio wallet version for your OS \(_.AppImage_ is for Linux, _.dmg_ is for macOS, _.zip_ is for Windows; if you want to build the wallet yourself, use the Source code archives in the bottom of the section\). How to download and launch Clorio wallet for Windows, Mac OSX and Linux, see [here](https://docs.clor.io/desktop-application/download-clorio-wallet-for-windows-mac-osx-and-linux)[.](https://docs.clor.io/desktop-application/download-clorio-wallet-for-windows-mac-osx-and-linux%5D.)
-5. Launch Clorio.
+5. Launch Clorio wallet application.
 
 ![](../../../.gitbook/assets/clor-1.png)
 
