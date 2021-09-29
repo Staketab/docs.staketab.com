@@ -2,7 +2,7 @@
 
 ## How to install Linux? <a id="How-to-install-Linux?"></a>
 
-To stake Mina from your command  line without any intermediary entity, we recommend to install Ubuntu as one of the most user-friendly Linux distributions. You can find guides how to install Ubuntu here:
+To stake Mina from your command line without any intermediary entity, we recommend to install Ubuntu as one of the most user-friendly Linux distributions. You can find guides how to install Ubuntu here:
 
 * [How to install Ubuntu?](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
 * [How to install Ubuntu alongside Windows?](https://www.tecmint.com/install-ubuntu-alongside-with-windows-dual-boot/)
