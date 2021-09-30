@@ -5,7 +5,7 @@
 3. Click on "Add to Chrome" or "Add to Firefox" button.
 4. Auro wallet icon will appear at the top right corner pane of a browser. Click on it.
 5. Click on "Create account". If you already have one, you can restore it with your mnemonic phrase clicking on "Restore account" \(in the Restore case you don't need the 6-12 steps\).
-6. Agree with the Terms of Use to create account and use the wallet.
+6. Agree with the Terms of Use to create account and use the Auro wallet.
 7. Create the password.
 
 ![](../../../.gitbook/assets/auro-1.png)
