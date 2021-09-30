@@ -117,3 +117,8 @@ Please choose a wallet you would like to use and follow the corresponding guides
 
 To check a balance of your Mina account, transaction history, validators data, blocks mining data, time locks stats, rewards stats and calculation, and various charts introducing a comprehensive picture of Mina blockchain, enjoy [Mina block explorer](https://mina.staketab.com/) from Staketab.
 
+## Sources
+
+1. [Ledger Hardware wallet -- minaprotocol.com](https://docs.minaprotocol.com/en/advanced/ledger-app-mina#installing-on-windows)
+2. [Mina Ledger app setup & staking guide -- Piconbello](https://www.youtube.com/watch?v=ZezT6HHL9yk)
+
