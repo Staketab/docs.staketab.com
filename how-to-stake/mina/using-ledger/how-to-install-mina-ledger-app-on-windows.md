@@ -115,9 +115,5 @@ Please choose a wallet you would like to use and follow the corresponding guides
 
 {% page-ref page="how-to-stake-mina-from-auro-browser-and-mobile-wallet-using-ledger.md" %}
 
-
-
-
-
-
+To check a balance of your Mina account, transaction history, validators data, blocks mining data, time locks stats, rewards stats and calculation, and various charts introducing a comprehensive picture of Mina blockchain, enjoy [Mina block explorer](https://mina.staketab.com/) from Staketab.
 
