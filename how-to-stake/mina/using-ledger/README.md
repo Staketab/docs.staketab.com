@@ -13,6 +13,8 @@ To stake Mina with Ledger, you need to do three steps generally:
 
 You will find a description of all these steps in the guides below.
 
+To check a balance of your Mina account, transaction history, validators data, blocks mining data, time locks stats, rewards stats and calculation, and various charts introducing a comprehensive picture of Mina blockchain, enjoy [Mina block explorer](https://mina.staketab.com/) from Staketab.
+
 {% page-ref page="how-to-install-mina-ledger-app-on-ubuntu.md" %}
 
 {% page-ref page="how-to-install-mina-ledger-app-on-windows.md" %}
