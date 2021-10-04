@@ -20,7 +20,7 @@
   * [How to buy ATOM on centralized exchange](how-to-stake/osmosis/how-to-buy-atom-on-centralized-exchange/README.md)
     * [How to buy ATOM on OKEx centralized exchange](how-to-stake/osmosis/how-to-buy-atom-on-centralized-exchange/how-to-buy-atom-on-okex-centralized-exchange.md)
   * [How to buy Osmosis coins on Osmosis decentralized exchange](how-to-stake/osmosis/how-to-buy-osmosis-coins-on-osmosis-decentralized-exchange.md)
-  * [How to stake Osmosis using Keplr application](how-to-stake/osmosis/how-to-stake-osmosis-using-keplr-application.md)
+  * [How to stake Osmosis using Keplr wallet](how-to-stake/osmosis/how-to-stake-osmosis-using-keplr-application.md)
 * [SOLANA](how-to-stake/solana/README.md)
   * [How to buy Solana on centralized exchange](how-to-stake/solana/how-to-buy-solana-on-centralized-exchange/README.md)
     * [How to buy Solana on OKEx centralized exchange](how-to-stake/solana/how-to-buy-solana-on-centralized-exchange/how-to-buy-solana-on-okex.com-centralized-exchange.md)
