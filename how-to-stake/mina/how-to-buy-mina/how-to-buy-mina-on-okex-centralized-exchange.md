@@ -1,16 +1,16 @@
 # How to buy Mina on OKEx centralized exchange
 
-1\. Sign up to [OKEx website](https://www.okex.com/join/2995542).
+1\. Sign up or sign in to [OKEx website](https://www.okex.com/join/2995542).
 
-2\. Create an OKEx account. OKEx doesn't have mandatory KYC currently.
+OKEx doesn't have mandatory KYC currently.
 
 ## How to deposit funds to OKEx
 
-1\. Click on "Assets" tab.
+1\. Click on "Assets" tab, then click on "Deposit" blue button.
 
 ![](../../../.gitbook/assets/02\_assets\_section.png)
 
-2\. Click on "Deposit" blue button.
+
 
 ![](../../../.gitbook/assets/04\_deposit\_button.png)
 

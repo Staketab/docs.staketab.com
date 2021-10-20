@@ -6,7 +6,7 @@
 
 ![](<../../../.gitbook/assets/01\_welcome\_screen (1).png>)
 
-## How to deposit funds to CoinEx
+## How to deposit funds to BKEX
 
 1\. Click on "Assets" tab, then on "Assets overview" button.
 
