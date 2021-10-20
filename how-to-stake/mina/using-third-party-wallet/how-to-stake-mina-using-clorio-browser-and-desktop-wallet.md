@@ -1,10 +1,10 @@
 # How to stake Mina using Clorio browser and desktop wallet
 
-1. Go to [clor.io](https://clor.io/) if you want to use desktop app version of the wallet or go to [mainnet.clor.io](https://mainnet.clor.io/) if you prefer browser version. Clorio wallet does not require installation in the browser as an addon, you just open it in the browser tab. If you choose the browser version, you dont need the 2-5 steps.
+1. Go to [clor.io](https://clor.io/) if you want to use desktop app version of the Clorio wallet or go to [mainnet.clor.io](https://mainnet.clor.io/) if you prefer browser version. Clorio wallet does not require installation in the browser as an addon, you just open it in the browser tab. If you choose the browser version, you dont need the 2-5 steps.
 2. Click on "Download" button.
 3. On the GitHub page opened, scroll down to the "Assets" section.
-4. Choose a Clorio version for your OS \(_.AppImage_ is for Linux, _.dmg_ is for macOS, _.zip_ is for Windows; if you want to build the wallet yourself, use the Source code archives in the bottom of the section\). How to download and launch Clorio wallet for Windows, Mac OSX and Linux, see [here](https://docs.clor.io/desktop-application/download-clorio-wallet-for-windows-mac-osx-and-linux)[.](https://docs.clor.io/desktop-application/download-clorio-wallet-for-windows-mac-osx-and-linux%5D.)
-5. Launch Clorio.
+4. Choose a Clorio wallet version for your OS \(_.AppImage_ is for Linux, _.dmg_ is for macOS, _.zip_ is for Windows; if you want to build the wallet yourself, use the Source code archives in the bottom of the section\). How to download and launch Clorio wallet for Windows, Mac OSX and Linux, see [here](https://docs.clor.io/desktop-application/download-clorio-wallet-for-windows-mac-osx-and-linux)[.](https://docs.clor.io/desktop-application/download-clorio-wallet-for-windows-mac-osx-and-linux%5D.)
+5. Launch Clorio wallet application.
 
 ![](../../../.gitbook/assets/clor-1.png)
 
@@ -18,7 +18,7 @@
 
 9. Enter your private key into the "Verify your Private key" field and click on "Continue".
 
-10. Send Mina funds to your Clorio address. You have copied it at the step \#8 or you can copy it any time at the top of your Clorio account \("This is your address" field. If there is the first transaction into your Clorio wallet, 1 Mina will be charged from the input amount \("address activation" fee\).
+10. Send Mina funds to your Clorio wallet address. You have copied it at the step \#8 or you can copy it any time at the top of your Clorio account \("This is your address" field. If there is the first transaction into your Clorio wallet, 1 Mina will be charged from the input amount \("address activation" fee\).
 
 ![](../../../.gitbook/assets/clor-3.png)
 
@@ -32,11 +32,13 @@
 
 ![](../../../.gitbook/assets/clor-5.png)
 
-14. Enter a fee in the "Insert a Fee" window. You can enter it manually or select between "Average" and "Fast" options.
+14. Enter a Mina fee in the "Insert a Fee" window. You can enter it manually or select between "Average" and "Fast" options.
 
 15. Enter your private key to confirm the delegation.
 
-16. If your delegation was successful, you will see a "Delegation successfully broadcasted" notification in the bottom left corner of the Clorio wallet.
+16. If your Mina delegation was successful, you will see a "Delegation successfully broadcasted" notification in the bottom left corner of the Clorio wallet.
 
 ![](../../../.gitbook/assets/clor-6.png)
+
+To check a balance of your Mina account, transaction history, validators data, blocks mining data, time locks stats, rewards stats and calculation, and various charts introducing a comprehensive picture of Mina blockchain, enjoy [Mina block explorer](https://mina.staketab.com/) from Staketab.
 

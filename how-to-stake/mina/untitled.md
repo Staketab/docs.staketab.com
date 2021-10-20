@@ -1,14 +1,14 @@
-# Using own Mina node
+# How to stake Mina using own Mina node
 
 ## How to install Linux? <a id="How-to-install-Linux?"></a>
 
-We recommend to install Ubuntu as one of the most user-friendly Linux distributions. You can find guides how to install Ubuntu here:
+To stake Mina from your command line without any intermediary entity, we recommend to install Ubuntu as one of the most user-friendly Linux distributions. You can find guides how to install Ubuntu here:
 
 * [How to install Ubuntu?](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
 * [How to install Ubuntu alongside Windows?](https://www.tecmint.com/install-ubuntu-alongside-with-windows-dual-boot/)
 * [How to install Ubuntu on virtual machine?](https://www.lifewire.com/install-ubuntu-linux-windows-10-steps-2202108)
 
-If you prefer some another Linux distribution, the steps below are similar.
+If you prefer some another Linux distribution to use for Mina staking, the steps below are similar.
 
 ## How to stake Mina? <a id="How-to-stake-Mina?"></a>
 
@@ -239,7 +239,7 @@ journalctl --user-unit mina -n 1000 -f
 
 ## Importing keys
 
- We import an account with a key with the following command:
+We import an account with a key with the following command:
 
 With Service:
 
@@ -320,11 +320,11 @@ Specify the following Mina fee amount depending on transaction speed you want:
 * Fast speed is 0.05
 * Very fast speed is 0.1
 
-Tokens are on the journey to stake and will be used by the staking provider soon. Just wait for your rewards from now. Don't be scared that your tokens are still visible on your balance. Physically Mina tokens are not moved to the staking provider from your wallet.
+Tokens are on the journey to stake and will be used by the staking provider soon. Just wait for your Mina rewards from now. Don't be scared that your tokens are still visible on your balance. Physically Mina tokens are not moved to the staking provider from your wallet.
 
-The whole balance of your address will be delegated into stake to a validator.
+The whole balance of your address will be delegated into stake to a Mina validator.
 
-The command above sends your Mina funds to [StakeTab](https://staketab.com/) provider. If you want to stake Mina with another provider, you can select one on the [Validators Leaderboard](https://mina.staketab.com/).
+The command above sends your Mina funds to [StakeTab](https://staketab.com/) staking provider. If you want to stake Mina with another provider, you can select one on the [Mina block explorer](https://mina.staketab.com/).
 
 After delegation, you can stop your node running. There is no need for that after successful delegation.
 

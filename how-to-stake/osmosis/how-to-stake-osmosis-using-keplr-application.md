@@ -1,10 +1,10 @@
-# How to stake Osmosis using Keplr application
+# How to stake Osmosis using Keplr wallet
 
 1. Go to Keplr app website.
 
 ![](../../.gitbook/assets/00_keplr_app_website.png)
 
-2. Connect your Keplr wallet by entering password.
+2. Connect your Keplr wallet by entering a password.
 
 ![](../../.gitbook/assets/01_kepler_app_logged_in.png)
 

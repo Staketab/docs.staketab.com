@@ -18,7 +18,7 @@
 
 ![](../../.gitbook/assets/04_assets_section.png)
 
-5. Click on "Deposit" button in "Cosmos Hub - ATOM" row.
+5. Click on "Deposit" button in "Cosmos Hub - ATOM" row. How to buy ATOM and withdraw it to your Keplr wallet, please see [here](how-to-buy-atom-on-centralized-exchange/).
 
 ![](../../.gitbook/assets/05_atom_deposit_button.png)
 

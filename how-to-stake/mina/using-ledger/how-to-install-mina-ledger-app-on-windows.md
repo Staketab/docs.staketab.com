@@ -43,7 +43,7 @@ PowerShell will show you a table. Copy a set of numbers and letters from the HAS
 cd C:\Downloads\ledger-app-mina-1.0.2-0-g843e809c
 ```
 
-11. \(optional\) If you installed some version of Mina app before, remove it:
+11. _\(optional\)_ If you installed some version of Mina app before, remove it:
 
 ```text
 python3 -m ledgerblue.deleteApp "--targetId" "0x31100004" "--appName" "Mina"
@@ -70,27 +70,27 @@ Generated random root public key : b'04e95715d4813ab98c92833da9b169d3ff6ee11a4f9
 Using test master key b'04e95715d4813ab98c92833da9b169d3ff6ee11a4f94a465503cc91e77aaea688d45a0449f41bfaa2a1a789730e72d0ace759ca7c2b8a12e82c94cda61530cc363'
 ```
 
-your connected Ledger Nano S will show you
+your connected Ledger Nano S will show you:
 
 ```text
 < X Deny unsafe manager >
 ```
 
-Click left until you see an option
+Click left until you see an option:
 
 ```text
 < ✓ Allow unsafe manager >
 ```
 
-Select the option.
+Select this option.
 
-14. Ledger will show you
+14. Ledger will show you:
 
 ```text
 < M Install app Mina >
 ```
 
-Click left until you see an option
+Click left until you see an option:
 
 ```text
 < ✓ Perform installation >
@@ -115,9 +115,10 @@ Please choose a wallet you would like to use and follow the corresponding guides
 
 {% page-ref page="how-to-stake-mina-from-auro-browser-and-mobile-wallet-using-ledger.md" %}
 
+To check a balance of your Mina account, transaction history, validators data, blocks mining data, time locks stats, rewards stats and calculation, and various charts introducing a comprehensive picture of Mina blockchain, enjoy [Mina block explorer](https://mina.staketab.com/) from Staketab.
 
+## Sources
 
-
-
-
+1. [Ledger Hardware wallet -- minaprotocol.com](https://docs.minaprotocol.com/en/advanced/ledger-app-mina#installing-on-windows)
+2. [Mina Ledger app setup & staking guide -- Piconbello](https://www.youtube.com/watch?v=ZezT6HHL9yk)
 

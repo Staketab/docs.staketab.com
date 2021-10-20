@@ -6,7 +6,7 @@
 
 3. On the GitHub page opened, scroll down to the "Assets" section.
 
-4. Choose a Clorio version for your OS \(_.AppImage_ is for Linux, _.dmg_ is for macOS, _.zip_ is for Windows; if you want to build the wallet yourself, use the Source code archives in the bottom of the section\). How to download and launch Clorio wallet for Windows, Mac OSX and Linux, see [here](https://docs.clor.io/desktop-application/download-clorio-wallet-for-windows-mac-osx-and-linux)[.](https://docs.clor.io/desktop-application/download-clorio-wallet-for-windows-mac-osx-and-linux%5D)
+4. Choose a Clorio wallet version for your OS \(_.AppImage_ is for Linux, _.dmg_ is for macOS, _.zip_ is for Windows; if you want to build the wallet yourself, use the Source code archives in the bottom of the section of the GitHub page\). How to download and launch Clorio wallet for Windows, Mac OSX and Linux, see [here](https://docs.clor.io/desktop-application/download-clorio-wallet-for-windows-mac-osx-and-linux)[.](https://docs.clor.io/desktop-application/download-clorio-wallet-for-windows-mac-osx-and-linux%5D)
 
 5. Launch Clorio.
 
@@ -22,7 +22,7 @@
 
 10. "Get Address" window will appear on your Ledger screen. Select "Generate" option.
 
-11. Ledger account address will appear in your Auro wallet. Select "Generate" option on your Ledger screen.
+11. Ledger account address will appear in your Clorio wallet. Select "Generate" option on your Ledger screen.
 
 12. Click on "Access wallet" in your Clorio wallet.
 
@@ -45,4 +45,6 @@
 18. Sign transaction on your Ledger screen by selecting "Approve" option.
 
 19. If your delegation was successful, you will see a "Delegation successfully broadcasted" notification in the bottom left corner of the Clorio wallet.
+
+To check a balance of your Mina account, transaction history, validators data, blocks mining data, time locks stats, rewards stats and calculation, and various charts introducing a comprehensive picture of Mina blockchain, enjoy [Mina block explorer](https://mina.staketab.com/) from Staketab.
 

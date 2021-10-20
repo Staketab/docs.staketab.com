@@ -44,7 +44,7 @@ The Terminal will show that you jumped to the `/home/cryptain/Downloads/` direct
 sha256sum ledger-app-mina-1.0.2-0-g843e809c.tar.gz
 ```
 
-Terminal will show you a table. Copy a set of numbers and letters from the HASH column and paste it to a text file. It is your checksum to verify that you use correct app.
+Terminal will show you a table. Copy a set of numbers and letters from the HASH column and paste it to a text file. It is your checksum to verify later that you use correct app.
 
 9. Go to the Ledger App Mina 1.0.2 page or the release page you have downloaded in the step \#6, copy the SHA256 checksum from the bottom column \(corresponding to the `ledger-app-mina-1.0.2-0-g843e809c.tar.gz`\) and also paste it to your text file to compare these checksums. If they are the same, you use the correct version of the app and feel free to proceed the next step.
 
@@ -72,7 +72,7 @@ ledger-app-mina-1.0.2-0-g843e809c/bin/app.hex
 cd /home/cryptain/Downloads/ledger-app-mina-1.0.2-0-g843e809c
 ```
 
-12. \(optional\) If you installed some version of Mina app before, remove it:
+12. _\(optional\)_ If you installed some version of Mina app before, remove it:
 
 ```text
 ./uninstall.sh
@@ -92,25 +92,25 @@ Generated random root public key : b'04e95715d4813ab98c92833da9b169d3ff6ee11a4f9
 Using test master key b'04e95715d4813ab98c92833da9b169d3ff6ee11a4f94a465503cc91e77aaea688d45a0449f41bfaa2a1a789730e72d0ace759ca7c2b8a12e82c94cda61530cc363'
 ```
 
-Your connected Ledger Nano S will show you
+Your connected Ledger Nano S will show you:
 
 ```text
 < X Deny unsafe manager >
 ```
 
-Click left until you see an option
+Click left until you see an option:
 
 ```text
 < ✓ Allow unsafe manager >
 ```
 
-15. Ledger will show you
+15. Ledger will show you:
 
 ```text
 < M Install app Mina >
 ```
 
-Click left until you see an option
+Click left until you see an option:
 
 ```text
 < ✓ Perform installation >
@@ -120,7 +120,7 @@ and select it. Enter your Ledger PIN.
 
 16. If the installation was successful, you will see the Mina logo among your Ledger apps. Also, the execution in the Terminal will be finished and you will see the opened directory of your Mina app in the Terminal.
 
-17. Install the command-line wallet:
+17. Install the command-line Mina wallet:
 
 ```text
 sudo cp ./mina_ledger_wallet /usr/local/bin/
@@ -141,9 +141,12 @@ Please choose a wallet you would like to use and follow the corresponding guides
 
 {% page-ref page="how-to-stake-mina-from-auro-browser-and-mobile-wallet-using-ledger.md" %}
 
+To check a balance of your Mina account, transaction history, validators data, blocks mining data, time locks stats, rewards stats and calculation, and various charts introducing a comprehensive picture of Mina blockchain, enjoy [Mina block explorer](https://mina.staketab.com/) from Staketab.
 
+## Sources
 
-
+1. [Ledger Hardware wallet -- minaprotocol.com](https://docs.minaprotocol.com/en/advanced/ledger-app-mina#installing-on-windows)
+2. [Mina Ledger app setup & staking guide -- Piconbello](https://www.youtube.com/watch?v=ZezT6HHL9yk)
 
 
 
