@@ -1,26 +1,36 @@
 # MINA
 
-## How to stake Mina <a id="title-text"></a>
+## What is Mina coin? <a href="title-text" id="title-text"></a>
 
-You have just two options to stake your Mina funds: using own delegating node installed on Linux or using third-party wallet. The first option makes you the only person having access to your private key for your Mina funds, but requires a little bit of time and entering of Linux commands skill. The second option is very fast but one more entity will have access to your private key because you will have to enter one to a third-party wallet. So you are using the second option at your own risk.
+Mina is a coin of the world's lighest blockchain built on elegant recursive zk-SNARKs solution. The size of the blockchain is just 22 Kb.
 
-After successful tokens delegation, no further actions is needed. Just wait for your rewards from now. Don't be scared that your tokens are still visible on your balance. Physically Mina tokens are not moved to the staking provider from your wallet.
+## How to buy Mina? <a href="where-is-to-find-validators-address" id="where-is-to-find-validators-address"></a>
 
-You will receive your first Mina rewards from staking in 2-4 weeks from your delegation.
+You can find a list of exchanges where you can buy Mina and corresponding guides how to do this here:
 
-## Where is to find Mina validator's address? <a id="Where-is-to-find-validator&apos;s-address?"></a>
+{% content-ref url="how-to-buy-mina/" %}
+[how-to-buy-mina](how-to-buy-mina/)
+{% endcontent-ref %}
 
-You can find a list of validators at the [Validators page](https://mina.staketab.com/) of StakeTab block explorer.
+## How to stake Mina? <a href="detailed-guides-how-to-stake-mina" id="detailed-guides-how-to-stake-mina"></a>
 
-Keep in Mind that Mina validators participate in a lottery to win \(produce\) blocks and distribute rewards for wins to delegators manually in the Mina blockchain. To choose a lucky and trustworthy validator, enjoy [StakeTab Rewards Calculator](https://mina.staketab.com/validators/rewards) that provides a broad stats overview on validators so you can choose a staking option attractive to you.
+You can stake Mina coin to gain passive income. The current APR varies from 12% to 24%.&#x20;
 
-## Detailed guides how to stake Mina <a id="Detailed-guides-how-to-stake-Mina"></a>
+You can find guides how to stake Mina here:
 
-{% page-ref page="untitled.md" %}
+{% content-ref url="how-to-stake-mina/" %}
+[how-to-stake-mina](how-to-stake-mina/)
+{% endcontent-ref %}
 
-{% page-ref page="using-third-party-wallet/" %}
+Check more information regarding Mina staking and our staking FAQ at [staketab.com](https://staketab.com).
 
-{% page-ref page="using-ledger/" %}
+## What are the profits from staking Mina? <a href="what-are-the-profits-from-staking-mina-hardbreak" id="what-are-the-profits-from-staking-mina-hardbreak"></a>
 
+You can easily calculate your staking profits using [StakeTab Rewards Calculator](https://mina.staketab.com/validators/rewards) and even get a list with the most attractive staking providers for you. The list covers the most important parameters of staking providers which helps you to choose the most attractive provider which one your funds will definitely like.
 
+## Useful links <a href="what-are-the-profits-from-staking-mina-hardbreak" id="what-are-the-profits-from-staking-mina-hardbreak"></a>
 
+* [Staketab staking FAQ](https://staketab.com)
+* [Staketab Mina block explorer](https://staketab.com)
+* [Mina protocol price dynamics, market cap and other information](https://www.coingecko.com/en/coins/mina-protocol) -- Coingecko
+* [Mina protocol ICO review](https://cryptorank.io/ico/mina-protocol) -- Cryptorank
