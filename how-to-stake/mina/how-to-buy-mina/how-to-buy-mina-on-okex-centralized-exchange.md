@@ -14,27 +14,27 @@ OKEx doesn't have mandatory KYC currently.
 
 ![](../../../.gitbook/assets/04\_deposit\_button.png)
 
-3\. Click on "Select currency".
+2\. Click on "Select currency".
 
 ![](../../../.gitbook/assets/05\_select\_currency.png)
 
-4\. Select an asset you want to deposit by scrolling the list or typing into the field. ATOM is traded in a pair with the USDT stabelcoin (its price equal to the US dollar), so the fastest way to buy ATOM is to make a deposit in USDT. But if you have another asset, you can make a deposit with it. After deposit in this asset, just exchange it into USDT using the [OKEx](https://www.okex.com/join/2995542) terminal.&#x20;
+3\. Select an asset you want to deposit by scrolling the list or typing into the field. ATOM is traded in a pair with the USDT stabelcoin (its price equal to the US dollar), so the fastest way to buy ATOM is to make a deposit in USDT. But if you have another asset, you can make a deposit with it. After deposit in this asset, just exchange it into USDT using the [OKEx](https://www.okex.com/join/2995542) terminal.&#x20;
 
 So, there are two subguides below: how to buy ATOM with USDT and how to buy ATOM with another asset.
 
-6\. Select USDT as depositing asset and choose a network: Ethereum (ERC-20), TRON (TRC-20) or OKExChain. Make sure you choose the correct network of your stablecoin to deposit, otherwise the funds just won't come.
+4\. Select USDT as depositing asset and choose a network: Ethereum (ERC-20), TRON (TRC-20) or OKExChain. Make sure you choose the correct network of your stablecoin to deposit, otherwise the funds just won't come.
 
 ![](../../../.gitbook/assets/07\_usdt\_network\_selection.png)
 
-7\. Confirm [OKEx](https://www.okex.com/join/2995542) warning.
+5\. Confirm [OKEx](https://www.okex.com/join/2995542) warning.
 
 ![](../../../.gitbook/assets/08\_usdt\_warning.png)
 
-8\. Copy your USDT address and send your USDT funds to it.
+6\. Copy your USDT address and send your USDT funds to it.
 
 ![](../../../.gitbook/assets/09\_usdt\_address.png)
 
-9\. When the USDT funds arrive, click on the three dots in the USDT section of your Funding account, select "Transfer" and move the funds into the Trading account to buy ATOM for USDT.
+7\. When the USDT funds arrive, click on the three dots in the USDT section of your Funding account, select "Transfer" and move the funds into the Trading account to buy ATOM for USDT.
 
 ![](../../../.gitbook/assets/09\_usdt\_transfer\_from\_funding\_to\_trading\_acc.png)
 
@@ -42,29 +42,29 @@ So, there are two subguides below: how to buy ATOM with USDT and how to buy ATOM
 
 ## How to buy MINA with USDT
 
-2\. Go to the Trading account and check your USDT move. Click on "Trade" option, then select "Basic trading".
+1\. Go to the Trading account and check your USDT move. Click on "Trade" option, then select "Basic trading".
 
 ![](../../../.gitbook/assets/09\_trade\_basic\_trading\_option.png)
 
 ![](../../../.gitbook/assets/09\_terminal\_look.png)
 
-3\. Terminal is opened. Click on the "BTC/USDT" option and enter "MINA" into an asset search field.
+2\. Terminal is opened. Click on the "BTC/USDT" option and enter "MINA" into an asset search field.
 
 ![](../../../.gitbook/assets/17\_mina\_search\_tab.png)
 
 ![](../../../.gitbook/assets/18\_mina\_candles.png)
 
-4\. In the MINA/USDT window of the terminal, click on the "Market" option. This provides the option to buy MINA quickly and at the market price.
+3\. In the MINA/USDT window of the terminal, click on the "Market" option. This provides the option to buy MINA quickly and at the market price.
 
 ![](../../../.gitbook/assets/05\_atom\_market\_section.png)
 
-5\. When Market section is opened, enter an amount of USDT for which you want to buy MINA.
+4\. When Market section is opened, enter an amount of USDT for which you want to buy MINA.
 
 ![](../../../.gitbook/assets/19\_100\_usdt\_for\_mina.png)
 
-6\. Click "Buy" button.&#x20;
+5\. Click "Buy" button.&#x20;
 
-7\. Confirm your order. Check filling of your order in the Order history section at the bottom of the terminal.&#x20;
+6\. Confirm your order. Check filling of your order in the Order history section at the bottom of the terminal.&#x20;
 
 ![](../../../.gitbook/assets/20\_mina\_order\_history.png)
 
