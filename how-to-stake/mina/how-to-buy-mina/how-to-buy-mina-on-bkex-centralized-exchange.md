@@ -22,11 +22,11 @@
 
 4\. Choose a network: Tron (TRC20), Ethereum (ERC20), Binance Smart Chain (BEP20). Make sure you choose the correct network of your stablecoin to deposit, otherwise the funds just won't come.
 
-![](../../../.gitbook/assets/06\_usdt\_chain\_selection.png)
+![](<../../../.gitbook/assets/06\_usdt\_chain\_selection (1).png>)
 
 5\. Copy your USDT address and send your USDT funds to it. In our case we copied BEP20 address, it is suitable to deposit BKEX account from Binance Smart Chain section of the Metamask wallet.
 
-![](../../../.gitbook/assets/07\_usdt\_bep20\_chain\_address.png)
+![](<../../../.gitbook/assets/07\_usdt\_bep20\_chain\_address (1).png>)
 
 When USDT funds arrive to the BKEX, they will be shown at the "Assets" section.
 
@@ -49,10 +49,6 @@ When USDT funds arrive to the BKEX, they will be shown at the "Assets" section.
 3\. In the MINA/USDT window of the terminal, click on the "Market" option. This provides the option to buy MINA quickly and at the market price. When Market section is opened, enter an amount of USDT for wich you want to buy MINA. Click "Buy" button.
 
 ![](../../../.gitbook/assets/06\_buy\_45\_mina.png)
-
-
-
-![](../../../.gitbook/assets/14\_buy\_mina\_for\_100\_usdt.png)
 
 ## How to buy MINA depositing another asset
 
