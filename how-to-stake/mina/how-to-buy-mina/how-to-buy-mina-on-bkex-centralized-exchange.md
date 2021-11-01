@@ -54,7 +54,7 @@ When USDT funds arrive to the BKEX, they will be shown at the "Assets" section.
 
 To buy MINA with another asset (e. g. BTC, ETH, XRP, MATIC), you need to deposit this asset first the same way you deposit USDT, then exchange the asset to the USDT and then exchange USDT for MINA.
 
-## How to withdraw MINA from CoinEx
+## How to withdraw MINA from BKEX
 
 Get back to your "Assets overview" section and check the MiINA balance. Renew the page in browser if necessary.&#x20;
 
