@@ -14,15 +14,15 @@
 
 ![](../../.gitbook/assets/07\_connect\_button\_and\_metadata\_update.PNG)
 
-5\. Click on "Connect Metamask" button or altenatively enter your Ethereum network address where you store your xHDX tokens. This is a good option if you don't wan't to allow HydraDX claim app to access your Metamask wallet.
+5\. Click on "Connect Metamask" button on the app website or altenatively enter your Ethereum network address where you store your xHDX tokens. This is a good option if you don't wan't to allow HydraDX claim app to access your Metamask wallet.
 
 ![](../../.gitbook/assets/08\_connect\_metamask\_button.png)
 
-6\. Check the amount of your xHDX tokens that HydraDX Claim App shows to you. If everything is fine, click "Next". Note that HydraDX compensate you gas spendings in Ethereum network during xHDX sale. The compensation is done in HDX tokens.
+6\. Check the amount of your xHDX tokens that HydraDX Claim App shows to you. If everything is fine, click "Next". Note that HydraDX compensate you gas spendings in Ethereum network during [xHDX sale](how-to-buy-hydradx-hdx.md). The compensation is done in HDX tokens.
 
 7\. Click on "Connect HydraDX account" and confirm your connection.
 
-8\. Check ETH wallet address from which you claim HDX tokens and HDX wallet address to which will be credited with your HDX tokens. If everything is fine, click "Next".&#x20;
+8\. Check ETH wallet address from which you claim HDX tokens and HDX wallet address which will be credited with your HDX tokens. If everything is fine, click "Next".&#x20;
 
 9\. Sign your claiming clicking on "Sign".
 

@@ -4,7 +4,7 @@
 
 ![](../../.gitbook/assets/09\_polladot\_wallet\_frontpage.PNG)
 
-2\. Select a version of polkadot app you want to use. There are two versions of the app: hosted and IPFS one. The first one is more frequoently updated, but the second one is loaded in more decentralized way. If one of them is not loaded or not operate properly, you may use the other one. We select IPFS version of the app because we like decentralization.
+2\. Select a version of polkadot app you want to use. There are two versions of the app: hosted and IPFS one. The first one is more frequoently updated, but the second one is loaded in more decentralized way. If one of them is not loaded or doesn't operate properly, you may use the other one. We select IPFS version of the app because we like decentralization.
 
 3\. Confirm access of the Polkadot.js wallet extension to the Polkadot.js app.
 
@@ -66,7 +66,7 @@
 
 14\. In "Bonding preferences" window enter the amount you want to stake into the "value bonded" field. Leave \~100 HDX unstaked for future transaction fees.
 
-15\. In "Payment destination" field specify a account to which you will receive your rewards. If "Stash account (increase the amount of stake)" selected, your rewards will be compounded automatically. You can specify any accountto receive the rewards as well as to compound them manually.
+15\. In "Payment destination" field specify an account to which you will receive your rewards. If "Stash account (increase the amount of stake)" selected, your rewards will be compounded automatically. You can specify any account to receive the rewards as well as to compound them manually.
 
 16\. Click on "Bond" at the bottom right corner.
 
@@ -74,7 +74,7 @@
 
 18\. Go to "Account actions" subtab again and click on "Nominate" button left of three dots.
 
-19\. Enter validator's name or address into the field. If you would like to stake HydraDXwith us, you are welcome to enter `Staketab` validator or `7MMDs2zwE1TqBf395zgiAiz8fw9xk9CXjHRhAsvyjdLG6VfP` address.
+19\. Enter validator's name or address into the field. If you would like to stake HydraDX with us, you are welcome to enter `Staketab` validator or `7MMDs2zwE1TqBf395zgiAiz8fw9xk9CXjHRhAsvyjdLG6VfP` address.
 
 ![](../../.gitbook/assets/28\_nominate\_validators.PNG)
 
@@ -88,7 +88,7 @@ Almost all validators in the HDX network has more than 64 delegations. This set 
 
 ![](../../.gitbook/assets/31\_staketab\_red\_zone.PNG)
 
-In order to delegate tokens to the Staketab validator, there must be more than 675.4950 HDX HDX tokens in the delegation. You can check the latest number of required tokens in the Overview tab of the Staking section by selecting any validator from there.
+In order to delegate tokens to the Staketab validator, there must be more than 675.4950 HDX tokens in the delegation. You can check the latest number of required tokens in the Overview tab of the Staking section by selecting any validator from there.
 
 ![](../../.gitbook/assets/32\_staketab\_lower\_boundary.PNG)
 
@@ -96,6 +96,6 @@ In order to delegate tokens to the Staketab validator, there must be more than 6
 
 21\. Click on "Nominate" button at the bottom right corner.
 
-22\. Click on "Sign" at the bottom right corner. Then Sign transaction in your Polka.js wallet window appeared.
+22\. Click on "Sign" at the bottom right corner. Then sign transaction in your Polkadot.js wallet window appeared.
 
-23\. Your delegation will become active with the start of a new epoch in the HydraDX network.
+23\. Your delegation will become active with the start of a new epoch in the HydraDX network and you will receive your first rewards in HDX tokens.
