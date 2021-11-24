@@ -9,6 +9,8 @@
   * [How to install Polkadot.js wallet](how-to-stake/hydradx/how-to-install-polkadot.js-wallet.md)
   * [How to claim HydraDX (HDX) coins](how-to-stake/hydradx/how-to-claim-hydradx-hdx-coins.md)
   * [How to stake HydraDX (HDX)](how-to-stake/hydradx/how-to-stake-hydradx-hdx.md)
+* [MEDIBLOC](how-to-stake/medibloc/README.md)
+  * [How to stake Medibloc](how-to-stake/medibloc/how-to-stake-medibloc.md)
 * [MINA](how-to-stake/mina/README.md)
   * [How to buy Mina](how-to-stake/mina/how-to-buy-mina/README.md)
     * [How to buy Mina on OKEx centralized exchange](how-to-stake/mina/how-to-buy-mina/how-to-buy-mina-on-okex-centralized-exchange.md)
