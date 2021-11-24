@@ -12,7 +12,7 @@ If you launch your Cosmostation app first time, follow these steps:
 
 ![](../../.gitbook/assets/01\_cs\_create\_wallet.png)
 
-1.2. Tap _Show mnemonic_, write down your mnemonic (it is recommended to store one in a private place only you have access to as well as to use several places and storages, e. g. passworded usb and paper ones), enter your mnemonic into a fields in sequential order to confirm you have written down it successfully.
+1.2. Tap _Show mnemonic_, write down your mnemonic (it is recommended to store one in a private place only you have access to as well as to use several places and storages, e. g. passworded USB and paper ones), enter your mnemonic into the fields in sequential order to confirm you have written down it successfully.
 
 1.3. Set up your PIN (the PIN is the only one for the Cosmostation app, so you set up this once and will use it for creation of wallets for other coins in the Cosmostation app) and get your personal Medibloc (MED) wallet.
 
@@ -22,7 +22,7 @@ If you launch your Cosmostation app first time, follow these steps:
 
 ![Bottom section of the Medibloc wallet in Cosmostation app](../../.gitbook/assets/05\_bottom\_section.png)
 
-2\. If you already have a wallet for some another coin in Cosmostation app and want to add th wallet fot Medibloc (MED) coin, then follow these steps:
+2\. If you already have a wallet for some another coin in Cosmostation app and want to add the wallet for Medibloc (MED) coin, then follow these steps:
 
 2.1. Go to _Settings _at the bottom right_._
 
@@ -40,7 +40,7 @@ __![](../../.gitbook/assets/07\_add\_new\_wallet.png)__
 
 ![](../../.gitbook/assets/08\_create\_button.png)
 
-2.5. Tap _Show mnemonic_, write down your mnemonic (it is recommended to store one in a private place only you have access to as well as to use several places and storages, e. g. passworded usb and paper ones), enter your mnemonic into a fields in sequential order to confirm you have written down it successfully.
+2.5. Tap _Show mnemonic_, write down your mnemonic (it is recommended to store one in a private place only you have access to as well as to use several places and storages, e. g. passworded USB and paper ones), enter your mnemonic into the fields in sequential order to confirm you have written down it successfully.
 
 2.6. Enter your PIN to confirm wallet creation (the PIN is the only one for the Cosmostation app, so you set up this once and will use it for creation of wallets for other coins in the Cosmostation app) and get your personal Medibloc (MED) wallet.
 
