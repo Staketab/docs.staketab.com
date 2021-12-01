@@ -24,7 +24,7 @@ If you launch your Cosmostation app first time, follow these steps:
 
 2\. If you already have a wallet for some another coin in Cosmostation app and want to add the wallet for Medibloc (MED) coin, then follow these steps:
 
-2.1. Go to _Settings _at the bottom right_._
+2.1. Go to _Settings_ at the bottom right_._
 
 2.2. Tap _Add new wallet._
 
