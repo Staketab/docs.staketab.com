@@ -6,7 +6,7 @@ Stargaze coin (STARS) is a native coin of a Stargaze blockchain. The purpose of 
 
 ## How to buy STARS? <a href="#where-is-to-find-validators-address" id="where-is-to-find-validators-address"></a>
 
-There is no opportunity to buy STARS on centralized eschanges at the current moment. STARS are distributed between Cosmos ecosystem participants, community members and Stargaze validators. More details about Stargaze diand project roadmap you can find here:
+There is no opportunity to buy STARS on centralized eschanges at the current moment. STARS are distributed between Cosmos ecosystem participants, community members and Stargaze validators. More details about Stargaze project roadmap you can find here:
 
 * [STARS Token Distribution and Airdrop](https://mirror.xyz/stargazezone.eth/h9Bc7jODUrYB1Jw4mve3QEGVkBwBsyVebN6NP7tRl\_Y)
 
