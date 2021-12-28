@@ -16,7 +16,7 @@ If you launch your Cosmostation app first time, follow these steps:
 
 ![](../../.gitbook/assets/02\_stars.png)
 
-![Bottom section of the Medibloc wallet in Cosmostation app](../../.gitbook/assets/03\_stars\_bottom\_sec.png)
+![Bottom section of the Stargaze (STARS) wallet in Cosmostation app](../../.gitbook/assets/03\_stars\_bottom\_sec.png)
 
 2\. If you already have a wallet for some another coin in Cosmostation app and want to add the wallet for Stargaze (STARS) coin, then follow these steps:
 
