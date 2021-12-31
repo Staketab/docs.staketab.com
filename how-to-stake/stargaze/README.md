@@ -1,3 +1,7 @@
+---
+description: Coin overview
+---
+
 # STARGAZE
 
 ## What is Stargaze? <a href="#title-text" id="title-text"></a>

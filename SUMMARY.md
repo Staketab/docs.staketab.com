@@ -4,6 +4,8 @@
 
 ## HOW TO STAKE
 
+* [BITCANNA](how-to-stake/bitcanna/README.md)
+  * [How to stake BitCanna](how-to-stake/bitcanna/how-to-stake-bitcanna.md)
 * [HYDRADX](how-to-stake/hydradx/README.md)
   * [How to buy HydraDX (HDX)](how-to-stake/hydradx/how-to-buy-hydradx-hdx.md)
   * [How to install Polkadot.js wallet](how-to-stake/hydradx/how-to-install-polkadot.js-wallet.md)

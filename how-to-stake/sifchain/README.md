@@ -1,3 +1,7 @@
+---
+description: Coin overview
+---
+
 # SIFCHAIN
 
 ## What is Sifchain coin? <a href="#title-text" id="title-text"></a>
@@ -6,7 +10,7 @@ Sifchain coin (ROWAN) is a native coin of a Sifchain blockchain. Sifchain is a c
 
 ## What is the difference between EROWAN and ROWAN tokens? <a href="#where-is-to-find-validators-address" id="where-is-to-find-validators-address"></a>
 
-These tokens are both Sifchain with equal price but EROWAN is an Sifchain token equivalent in Ethereum ecosystem whereas ROWAN is a native token of Sifchain blockchain belonging to the Cosmos ecosystem. EROWAN was created because Sifchain blockchain was unde design and development during firs token distribution among early Sifchain investors.
+These tokens are both Sifchain with equal price but EROWAN is a Sifchain token equivalent in Ethereum ecosystem whereas ROWAN is a native token of Sifchain blockchain belonging to the Cosmos ecosystem. EROWAN was created because Sifchain blockchain was unde design and development during firs token distribution among early Sifchain investors.
 
 In order to stake Sifchain, you need to buy it on Sifchain DEX or Ascendex centralized exchange. Alternative way to get it is to buy EROWAN on Uniswap or some centralized exchange and then convert it to ROWAN token of Sifchain blockchain.
 
@@ -39,7 +43,7 @@ Note that you need to convert your EROWAN ERC20 token to ROWAN token of Cosmos e
 
 ## How to stake Sifchain (ROWAN)? <a href="#detailed-guides-how-to-stake-mina" id="detailed-guides-how-to-stake-mina"></a>
 
-To stake ROWAN, you need to install Cosmostation wallet ([Google Play](https://play.google.com/store/apps/details?id=wannabit.io.cosmostaion), [AppStore](https://apps.apple.com/kr/app/cosmostation/id1459830339), [APKCombo downloader](https://apkcombo.com/cosmostation-wallet-for-cosmos/wannabit.io.cosmostaion/)) or Keplr wallet, deposit one with ROWAN coins and delegate it to a validator using the wallet. How to do this using Cosmostation wallet, please see in the guide below:
+To stake ROWAN, you need to install Cosmostation wallet ([Google Play](https://play.google.com/store/apps/details?id=wannabit.io.cosmostaion), [AppStore](https://apps.apple.com/kr/app/cosmostation/id1459830339), [APKCombo downloader](https://apkcombo.com/cosmostation-wallet-for-cosmos/wannabit.io.cosmostaion/)) or Keplr wallet ([Browser wallet](https://www.keplr.app)), deposit one with ROWAN coins and delegate it to a validator using the wallet. How to do this using Cosmostation wallet, please see in the guide below:
 
 {% content-ref url="how-to-stake-sifchain.md" %}
 [how-to-stake-sifchain.md](how-to-stake-sifchain.md)
