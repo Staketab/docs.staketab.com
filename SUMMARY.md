@@ -45,3 +45,8 @@
     * [How to stake Solana using Ledger and SolFlare browser wallet](how-to-stake/solana/how-to-stake-solana/how-to-stake-solana-using-ledger-and-solflare-browser-wallet.md)
 * [STARGAZE](how-to-stake/stargaze/README.md)
   * [How to stake Stargaze](how-to-stake/stargaze/how-to-stake-stargaze.md)
+
+## ACADEMY
+
+* [AXELAR](academy/axelar/README.md)
+  * [What is Axelar project?](academy/axelar/what-is-axelar-project.md)
