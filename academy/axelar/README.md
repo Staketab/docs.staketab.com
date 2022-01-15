@@ -2,7 +2,7 @@
 
 ## What is Axelar?
 
-Axelar is a platform offering fast and convenient solution for decentralized applications launch and using on various blockchains. The network is in the testnet phase now. For more detailes, please see the article below.
+Axelar is a platform offering fast and convenient solution for decentralized applications launch and using on various blockchains. The network is in the testnet phase now. For more details, please see the article below.
 
 {% content-ref url="what-is-axelar-project.md" %}
 [what-is-axelar-project.md](what-is-axelar-project.md)

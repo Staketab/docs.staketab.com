@@ -8,19 +8,18 @@ description: >-
 
 ## Our projects:
 
-[https://staketab.com/](https://staketab.com/) - Staking provider website
+[staketab.com](https://staketab.com) -- Staking provider website
 
-[https://mina.staketab.com/](https://mina.staketab.com/) - Mina Explorer
+[mina.staketab.com](https://mina.staketab.com) -- Mina Block Explorer & Analitycs Tools
 
 ## Social media and contacts:
 
-[Twitter](https://twitter.com/staketab) - Staketab announcement channel
+[Twitter](https://twitter.com/staketab) -- Staketab announcement channel
 
-[Discord](https://discord.com/invite/6QUayW3ykD) - Staketab community support channel for all our projects
+[Discord](https://discord.com/invite/6QUayW3ykD) -- Staketab community support channel for all our projects
 
-[Telegram channel](https://t.me/staketab_ann) - Staketab announcement channel
+[Telegram channel](https://t.me/staketab\_ann) -- Staketab announcement channel
 
-[Telegram chat](https://t.me/mina_staketab) - Mina support chat
+[Telegram chat](https://t.me/mina\_staketab) -- Mina support chat
 
-support@staketab.com - Staketab contact email
-
+support@staketab.com -- Staketab contact email
