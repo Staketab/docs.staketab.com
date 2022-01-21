@@ -6,9 +6,9 @@ description: Project review
 
 **Axelar** is a platform offering fast and convenient solution for decentralized applications launch and using on various blockchains. Axelar reduces developer's efforts and time spendings when some application intended to be run on different blockchains is developed. Also Axelar allows any crypto user to operate with his crypto without using centralized services due to embedded crosschain and dApp development solutions into Axelar toolkit.
 
-![What do dvelopers do if they don't use Axelar](../../.gitbook/assets/without\_axelar\_04.png)
+![What do developers do if they don't use Axelar](../../.gitbook/assets/without\_axelar\_04.png)
 
-![What do dvelopers do if they use Axelar](../../.gitbook/assets/axelar\_api\_03.png)
+![What do developers do if they use Axelar](../../.gitbook/assets/axelar\_api\_03.png)
 
 Imagine that you develop some decentalized application. To do this, you need to choose a network in which your app will operate. For example you chose Ethereum blockchain as such network. However, decentralized world is progressing very fast, and you need to keep upgrading your product and make it more flexible and usable. Therefore you can face with necessity to make your app accessible on other networks, e. g. Bitcoin, Cosmos, Polkadot, Avalanche etc. How to resolve this issue? The most obvious solution is to redevelop the application in order to run it on another blockchain. But such redevelopmnet requires knowledge of another programing language and redesign of the app's architecture to fit new blockchain. So that is expensive work requiring a lot of resources.
 

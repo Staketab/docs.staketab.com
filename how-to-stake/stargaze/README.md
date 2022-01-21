@@ -14,12 +14,28 @@ There is no opportunity to buy STARS on centralized eschanges at the current mom
 
 * [STARS Token Distribution and Airdrop](https://mirror.xyz/stargazezone.eth/h9Bc7jODUrYB1Jw4mve3QEGVkBwBsyVebN6NP7tRl\_Y)
 
+## How to claim Stargaze airdrop? <a href="#detailed-guides-how-to-stake-mina" id="detailed-guides-how-to-stake-mina"></a>
+
+{% content-ref url="how-to-claim-stargaze-airdrop.md" %}
+[how-to-claim-stargaze-airdrop.md](how-to-claim-stargaze-airdrop.md)
+{% endcontent-ref %}
+
 ## How to stake Stargaze? <a href="#detailed-guides-how-to-stake-mina" id="detailed-guides-how-to-stake-mina"></a>
 
-To stake STARS, you need to install Cosmostation wallet ([Google Play](https://play.google.com/store/apps/details?id=wannabit.io.cosmostaion), [AppStore](https://apps.apple.com/kr/app/cosmostation/id1459830339), [APKCombo downloader](https://apkcombo.com/cosmostation-wallet-for-cosmos/wannabit.io.cosmostaion/)), deposit one with STARS coins and delegate it to a validator using the wallet. How to do this, please see in the guide below.
+To stake STARS, you need to install [Keplr](https://www.keplr.app) or Cosmostation wallet ([Google Play](https://play.google.com/store/apps/details?id=wannabit.io.cosmostaion), [AppStore](https://apps.apple.com/kr/app/cosmostation/id1459830339), [APKCombo downloader](https://apkcombo.com/cosmostation-wallet-for-cosmos/wannabit.io.cosmostaion/)), deposit one with STARS coins and delegate it to a validator using the wallet. How to do this, please see in the guide below.
 
-{% content-ref url="how-to-stake-stargaze.md" %}
-[how-to-stake-stargaze.md](how-to-stake-stargaze.md)
+{% content-ref url="how-to-stake-stargaze-using-keplr.md" %}
+[how-to-stake-stargaze-using-keplr.md](how-to-stake-stargaze-using-keplr.md)
+{% endcontent-ref %}
+
+{% content-ref url="how-to-stake-stargaze-using-cosmostation.md" %}
+[how-to-stake-stargaze-using-cosmostation.md](how-to-stake-stargaze-using-cosmostation.md)
+{% endcontent-ref %}
+
+## How to vote on stargaze.zone? <a href="#what-are-the-profits-from-staking-mina-hardbreak" id="what-are-the-profits-from-staking-mina-hardbreak"></a>
+
+{% content-ref url="how-to-vote-on-stargaze.zone.md" %}
+[how-to-vote-on-stargaze.zone.md](how-to-vote-on-stargaze.zone.md)
 {% endcontent-ref %}
 
 ## Useful links <a href="#what-are-the-profits-from-staking-mina-hardbreak" id="what-are-the-profits-from-staking-mina-hardbreak"></a>

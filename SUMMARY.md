@@ -44,7 +44,10 @@
     * [How to stake Solana using SolFlare browser wallet](how-to-stake/solana/how-to-stake-solana/how-to-stake-solana-using-solflare-browser-wallet.md)
     * [How to stake Solana using Ledger and SolFlare browser wallet](how-to-stake/solana/how-to-stake-solana/how-to-stake-solana-using-ledger-and-solflare-browser-wallet.md)
 * [STARGAZE](how-to-stake/stargaze/README.md)
-  * [How to stake Stargaze](how-to-stake/stargaze/how-to-stake-stargaze.md)
+  * [How to claim Stargaze airdrop](how-to-stake/stargaze/how-to-claim-stargaze-airdrop.md)
+  * [How to stake Stargaze using Keplr](how-to-stake/stargaze/how-to-stake-stargaze-using-keplr.md)
+  * [How to stake Stargaze using Cosmostation](how-to-stake/stargaze/how-to-stake-stargaze-using-cosmostation.md)
+  * [How to vote on stargaze.zone](how-to-stake/stargaze/how-to-vote-on-stargaze.zone.md)
 
 ## ACADEMY
 
