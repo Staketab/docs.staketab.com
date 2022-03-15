@@ -8,11 +8,29 @@ description: Coin overview
 
 Stargaze coin (STARS) is a native coin of a Stargaze blockchain. The purpose of the project is to launch one of the first NFT marketplaces in the Cosmos ecosystem.
 
-## How to buy STARS? <a href="#where-is-to-find-validators-address" id="where-is-to-find-validators-address"></a>
+## How to buy Stargaze? <a href="#where-is-to-find-validators-address" id="where-is-to-find-validators-address"></a>
 
-There is no opportunity to buy STARS on centralized eschanges at the current moment. STARS are distributed between Cosmos ecosystem participants, community members and Stargaze validators. More details about Stargaze project roadmap you can find here:
+STARS are distributed between Cosmos ecosystem participants, community members and Stargaze validators. More details about Stargaze project roadmap you can find here:
 
 * [STARS Token Distribution and Airdrop](https://mirror.xyz/stargazezone.eth/h9Bc7jODUrYB1Jw4mve3QEGVkBwBsyVebN6NP7tRl\_Y)
+
+To buy STARS, go to Osmosis decentralized exchange, and swap some Cosmos ecosystem coin (e. g. OSMO coin or UST stablecoin) for STARS.
+
+![Swap OSMO for STARS](../../.gitbook/assets/07\_swap\_osmo\_to\_stars.PNG)
+
+How to use Osmosis decentralized exchange, please follow these guides:
+
+{% content-ref url="../osmosis/how-to-install-keplr-wallet.md" %}
+[how-to-install-keplr-wallet.md](../osmosis/how-to-install-keplr-wallet.md)
+{% endcontent-ref %}
+
+{% content-ref url="../osmosis/how-to-buy-osmosis-coins-on-osmosis-decentralized-exchange.md" %}
+[how-to-buy-osmosis-coins-on-osmosis-decentralized-exchange.md](../osmosis/how-to-buy-osmosis-coins-on-osmosis-decentralized-exchange.md)
+{% endcontent-ref %}
+
+{% content-ref url="../osmosis/how-to-buy-atom-on-centralized-exchange/how-to-buy-atom-on-okex-centralized-exchange.md" %}
+[how-to-buy-atom-on-okex-centralized-exchange.md](../osmosis/how-to-buy-atom-on-centralized-exchange/how-to-buy-atom-on-okex-centralized-exchange.md)
+{% endcontent-ref %}
 
 ## How to claim Stargaze airdrop? <a href="#detailed-guides-how-to-stake-mina" id="detailed-guides-how-to-stake-mina"></a>
 

@@ -1,14 +1,14 @@
-# How to buy Solana on OKEx centralized exchange
+# How to buy Solana on OKX centralized exchange
 
-## How to create OKEx account
+## How to create OKX account
 
-1\. Sign up to [OKEx website](https://www.okex.com/join/2995542).&#x20;
+1\. Sign up to [OKX website](https://www.okex.com/join/2995542).&#x20;
 
-2\. Create an OKEx account. OKEx doesn't have mandatory KYC at the moment.
+2\. Create an OKX account. OKX (formerely OKEx) doesn't have mandatory KYC at the moment.
 
 ![](../../../.gitbook/assets/01\_welcome\_screen.png)
 
-## How to deposit funds to OKEx
+## How to deposit funds to OKX
 
 1\. Click on "Assets" tab.
 
@@ -22,7 +22,7 @@
 
 ![](../../../.gitbook/assets/05\_select\_currency.png)
 
-4\. Select an asset you want to deposit by scrolling the list or typing into the field. Solana is traded in a pair with the stabelcoin USDT, so the fastest way to buy it is to make a deposit in USDT. But if you have another asset, you can make a deposit with it, then exchange it into USDT using the [OKEx](https://www.okex.com/join/2995542) terminal. There are two subguides below: how to buy SOL with USDT and how to buy SOL with another asset.
+4\. Select an asset you want to deposit by scrolling the list or typing into the field. Solana is traded in a pair with the stabelcoin USDT, so the fastest way to buy it is to make a deposit in USDT. But if you have another asset, you can make a deposit with it, then exchange it into USDT using the [OKX](https://www.okex.com/join/2995542) terminal. There are two subguides below: how to buy SOL with USDT and how to buy SOL with another asset.
 
 ## How to buy SOL with USDT
 
@@ -30,7 +30,7 @@
 
 ![](../../../.gitbook/assets/07\_usdt\_network\_selection.png)
 
-2\. Confirm [OKEx](https://www.okex.com/join/2995542) warning.
+2\. Confirm [OKX](https://www.okex.com/join/2995542) warning.
 
 ![](../../../.gitbook/assets/08\_usdt\_warning.png)
 
@@ -66,7 +66,7 @@ To buy SOL with another asset (e. g. BTC, ETH, XRP, MATIC), you need to deposit 
 
 ![](../../../.gitbook/assets/06\_matic\_deposit.png)
 
-## How to withdraw SOL from OKEx
+## How to withdraw SOL from OKX
 
 1\. Get back to your trading account and check the SOL balance. To withdraw SOL to the external wallet, click on the three dots in the "Action" column of your Trading account, select "Transfer" and move the funds into the Funding account to withdraw Solana to the external wallet and then stake.&#x20;
 
@@ -94,7 +94,7 @@ When transfer is successful, the balance of your Trading account will be reduced
 
 ![](../../../.gitbook/assets/29\_withdrawal\_completed\_screen.png)
 
-6\. When your withdrawal request is approved by [OKEx](https://www.okex.com/join/2995542), you will receive your SOL to your external wallet.
+6\. When your withdrawal request is approved by [OKX](https://www.okex.com/join/2995542), you will receive your SOL to your external wallet.
 
 {% content-ref url="../how-to-stake-solana/" %}
 [how-to-stake-solana](../how-to-stake-solana/)

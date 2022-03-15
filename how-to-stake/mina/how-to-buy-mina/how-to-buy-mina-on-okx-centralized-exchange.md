@@ -1,10 +1,10 @@
-# How to buy Mina on OKEx centralized exchange
+# How to buy Mina on OKX centralized exchange
 
-1\. Sign up or sign in to [OKEx website](https://www.okex.com/join/2995542).
+1\. Sign up or sign in to [OKX website](https://www.okex.com/join/2995542).
 
-OKEx doesn't have mandatory KYC currently.
+OKX (formerly OKEx) doesn't have mandatory KYC currently.
 
-## How to deposit funds to OKEx
+## How to deposit funds to OKX
 
 1\. Click on "Assets" tab, then click on "Deposit" blue button.
 
@@ -18,7 +18,7 @@ OKEx doesn't have mandatory KYC currently.
 
 ![](../../../.gitbook/assets/05\_select\_currency.png)
 
-3\. Select an asset you want to deposit by scrolling the list or typing into the field. ATOM is traded in a pair with the USDT stabelcoin (its price equal to the US dollar), so the fastest way to buy ATOM is to make a deposit in USDT. But if you have another asset, you can make a deposit with it. After deposit in this asset, just exchange it into USDT using the [OKEx](https://www.okex.com/join/2995542) terminal.&#x20;
+3\. Select an asset you want to deposit by scrolling the list or typing into the field. ATOM is traded in a pair with the USDT stabelcoin (its price equal to the US dollar), so the fastest way to buy ATOM is to make a deposit in USDT. But if you have another asset, you can make a deposit with it. After deposit in this asset, just exchange it into USDT using the [OKX](https://www.okex.com/join/2995542) terminal.&#x20;
 
 So, there are two subguides below: how to buy ATOM with USDT and how to buy ATOM with another asset.
 
@@ -26,7 +26,7 @@ So, there are two subguides below: how to buy ATOM with USDT and how to buy ATOM
 
 ![](../../../.gitbook/assets/07\_usdt\_network\_selection.png)
 
-5\. Confirm [OKEx](https://www.okex.com/join/2995542) warning.
+5\. Confirm [OKX](https://www.okex.com/join/2995542) warning.
 
 ![](../../../.gitbook/assets/08\_usdt\_warning.png)
 
@@ -74,7 +74,7 @@ To buy MINA with another asset (e. g. BTC, ETH, XRP, MATIC), you need to deposit
 
 ![](../../../.gitbook/assets/06\_matic\_deposit.png)
 
-## How to withdraw MINA from OKEx
+## How to withdraw MINA from OKX
 
 1\. Get back to your trading account and check the MINA balance. To withdraw MINA to the external wallet, click on the three dots in the "Action" column of your Trading account, select "Transfer" and move the MINA funds into your Funding account.&#x20;
 
@@ -96,7 +96,7 @@ When transfer is successful, the balance of your Trading account will be reduced
 
 5\. Enter your funds password, e-mail verification and sms code you set up at the time of registration, then click confirm button.
 
-6\. When your withdrawal request is approved by [OKEx](https://www.okex.com/join/2995542), you will receive your MINA to your external wallet.
+6\. When your withdrawal request is approved by [OKX](https://www.okex.com/join/2995542), you will receive your MINA to your external wallet.
 
 ![](<../../../.gitbook/assets/29\_withdrawal\_completed\_screen (1).png>)
 
