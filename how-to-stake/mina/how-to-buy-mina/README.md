@@ -12,8 +12,8 @@ To stake Mina and gain profits additionally to its price growth, you first need 
 
 How to buy Mina on [OKEx](https://www.okex.com/join/2995542), [BKEX](https://www.bkex.com/register/TIUUYZG8) and [CoinEx](https://www.coinex.com/register?refer\_code=dxskr), please see the guides below. All of this three exchanges don't require mandatory KYC for deposit, purchase and withdrawal.
 
-{% content-ref url="how-to-buy-mina-on-okx-centralized-exchange.md" %}
-[how-to-buy-mina-on-okx-centralized-exchange.md](how-to-buy-mina-on-okx-centralized-exchange.md)
+{% content-ref url="how-to-buy-mina-on-okex-centralized-exchange.md" %}
+[how-to-buy-mina-on-okex-centralized-exchange.md](how-to-buy-mina-on-okex-centralized-exchange.md)
 {% endcontent-ref %}
 
 {% content-ref url="how-to-buy-mina-on-coinex-centralized-exchange.md" %}
