@@ -6,6 +6,9 @@
 
 * [BITCANNA](how-to-stake/bitcanna/README.md)
   * [How to stake BitCanna](how-to-stake/bitcanna/how-to-stake-bitcanna.md)
+* [DESMOS](how-to-stake/desmos/README.md)
+  * [How to stake Desmos using Keplr](how-to-stake/desmos/how-to-stake-desmos-using-keplr.md)
+  * [How to stake Desmos using Cosmostation](how-to-stake/desmos/how-to-stake-desmos-using-cosmostation.md)
 * [HYDRADX](how-to-stake/hydradx/README.md)
   * [How to buy HydraDX (HDX)](how-to-stake/hydradx/how-to-buy-hydradx-hdx.md)
   * [How to install Polkadot.js wallet](how-to-stake/hydradx/how-to-install-polkadot.js-wallet.md)
