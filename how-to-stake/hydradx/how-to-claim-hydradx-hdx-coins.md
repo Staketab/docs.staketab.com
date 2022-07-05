@@ -1,6 +1,6 @@
 # How to claim HydraDX (HDX) coins
 
-1\. Go to [HydraDX Claim App website](https://claim.hydradx.io).
+1\. Go to [HydraDX Claim App website](https://claim.hydradx.io/).
 
 2\. Polkadot js wallet window appears. Click on "Understood" button in the window.
 

@@ -1,6 +1,6 @@
 # How to stake HydraDX (HDX)
 
-1\. Go to the [polkadot.js wallet webpage](https://polkadot.js.org).
+1\. Go to the [polkadot.js wallet webpage](https://polkadot.js.org/).
 
 ![](../../.gitbook/assets/09\_polladot\_wallet\_frontpage.PNG)
 

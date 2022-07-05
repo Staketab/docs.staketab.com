@@ -1,6 +1,6 @@
 # How to stake Mina from Clorio browser and desktop wallet using Ledger
 
-1\. Go to [clor.io](https://clor.io) if you want to use desktop app version of the wallet or go to [mainnet.clor.io](https://mainnet.clor.io) if you prefer browser version. Clorio wallet does not require installation in the browser as an addon, you just open it in the browser tab. If you choose the browser version, you dont need the 2-5 steps.
+1\. Go to [clor.io](https://clor.io/) if you want to use desktop app version of the wallet or go to [mainnet.clor.io](https://mainnet.clor.io/) if you prefer browser version. Clorio wallet does not require installation in the browser as an addon, you just open it in the browser tab. If you choose the browser version, you dont need the 2-5 steps.
 
 2\. Click on "Download" button.
 
@@ -30,7 +30,7 @@
 
 ![](../../../../.gitbook/assets/clor-4.png)
 
-14\. Choose a staking provider and click on "Delegate" button. If you would like to stake Mina with us, you are welcome to choose [Ducca | StakeTab](http://staketab.com) provider.
+14\. Choose a staking provider and click on "Delegate" button. If you would like to stake Mina with us, you are welcome to choose [Ducca | StakeTab](http://staketab.com/) provider.
 
 15\. Click on "Confirm" in the Confirm delegation window.
 
@@ -46,4 +46,4 @@
 
 19\. If your delegation was successful, you will see a "Delegation successfully broadcasted" notification in the bottom left corner of the Clorio wallet.
 
-To check a balance of your Mina account, transaction history, validators data, blocks mining data, time locks stats, rewards stats and calculation, and various charts introducing a comprehensive picture of Mina blockchain, enjoy [Mina block explorer](https://mina.staketab.com) from Staketab.
+To check a balance of your Mina account, transaction history, validators data, blocks mining data, time locks stats, rewards stats and calculation, and various charts introducing a comprehensive picture of Mina blockchain, enjoy [Mina block explorer](https://mina.staketab.com/) from Staketab.

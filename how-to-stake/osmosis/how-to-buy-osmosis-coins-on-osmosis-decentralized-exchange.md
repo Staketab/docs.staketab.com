@@ -1,6 +1,6 @@
 # How to buy Osmosis coins on Osmosis decentralized exchange
 
-1\. Go to the [Osmosis decentralized exchange website](https://app.osmosis.zone).
+1\. Go to the [Osmosis decentralized exchange website](https://app.osmosis.zone/).
 
 2\. Accept Osmosis disclaimer.
 
@@ -8,7 +8,7 @@
 
 ![](../../.gitbook/assets/01\_osmosis\_homepage.png)
 
-3\. Connect your [Keplr](https://www.keplr.app) wallet to the exchange. If [Keplr](https://www.keplr.app) wallet window doesn't appear automatically, click on the Keplr button in the Chrome's top right corner and enter your password. How to install Keplr wallet, please see [here](how-to-install-keplr-wallet.md).
+3\. Connect your [Keplr](https://www.keplr.app/) wallet to the exchange. If [Keplr](https://www.keplr.app/) wallet window doesn't appear automatically, click on the Keplr button in the Chrome's top right corner and enter your password. How to install Keplr wallet, please see [here](how-to-install-keplr-wallet.md).
 
 ![](<../../.gitbook/assets/02\_keplr\_login\_to\_osmosis\_exchange (1).png>)
 

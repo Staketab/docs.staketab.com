@@ -1,6 +1,6 @@
 # How to install Keplr wallet
 
-1\. Go to [Keplr wallet website](https://www.keplr.app) using Chrome browser. Unfortunately, other browsers are not supported by Keplr currently.
+1\. Go to [Keplr wallet website](https://www.keplr.app/) using Chrome browser. Unfortunately, other browsers are not supported by Keplr currently.
 
 ![](../../.gitbook/assets/00\_keplr\_website.png)
 

@@ -26,7 +26,7 @@ You can find guides how to stake Mina here:
 [how-to-stake-mina](how-to-stake-mina/)
 {% endcontent-ref %}
 
-Check more information regarding Mina staking and our staking FAQ at [staketab.com](https://staketab.com).
+Check more information regarding Mina staking and our staking FAQ at [staketab.com](https://staketab.com/).
 
 ## What are the profits from staking Mina? <a href="#what-are-the-profits-from-staking-mina-hardbreak" id="what-are-the-profits-from-staking-mina-hardbreak"></a>
 
@@ -34,7 +34,7 @@ You can easily calculate your staking profits using [StakeTab Rewards Calculator
 
 ## Useful links <a href="#what-are-the-profits-from-staking-mina-hardbreak" id="what-are-the-profits-from-staking-mina-hardbreak"></a>
 
-* [Staketab staking FAQ](https://staketab.com)
-* [Staketab Mina block explorer](https://staketab.com)
+* [Staketab staking FAQ](https://staketab.com/)
+* [Staketab Mina block explorer](https://staketab.com/)
 * [Mina protocol price dynamics, market cap and other information](https://www.coingecko.com/en/coins/mina-protocol) -- Coingecko
 * [Mina protocol ICO review](https://cryptorank.io/ico/mina-protocol) -- Cryptorank

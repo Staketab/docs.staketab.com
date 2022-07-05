@@ -1,4 +1,4 @@
-# How to stake Stargaze
+# How to stake Stargaze using Cosmostation
 
 ## How to create Stargaze (STARS) wallet in the Cosmostation app
 
@@ -30,9 +30,9 @@ If you launch your Cosmostation app first time, follow these steps:
 
 ![](../../.gitbook/assets/03\_stars.png)
 
-2.5. Tap _Show mnemonic_, write down your mnemonic (it is recommended to store one in a private place only you have access to as well as to use several places and storages, e. g. passworded USB and paper ones), enter your mnemonic into the fields in sequential order to confirm you have written down it successfully.
+2.4. Tap _Show mnemonic_, write down your mnemonic (it is recommended to store one in a private place only you have access to as well as to use several places and storages, e. g. passworded USB and paper ones), enter your mnemonic into the fields in sequential order to confirm you have written down it successfully.
 
-2.6. Enter your PIN to confirm wallet creation (the PIN is the only one for the Cosmostation app, so you set up this once and will use it for creation of wallets for other coins in the Cosmostation app) and get your personal Stargaze (STARS) wallet.
+2.5. Enter your PIN to confirm wallet creation (the PIN is the only one for the Cosmostation app, so you set up this once and will use it for creation of wallets for other coins in the Cosmostation app) and get your personal Stargaze (STARS) wallet.
 
 ![](../../.gitbook/assets/02\_stars.png)
 
@@ -42,7 +42,7 @@ If you launch your Cosmostation app first time, follow these steps:
 
 ![](../../.gitbook/assets/05\_stars.png)
 
-3\. Choose a staking provider and tap on it. If you would like to stake Stargaze with us, you are welcome to choose [Staketab](https://staketab.com) provider. Tap on _Delegate._
+3\. Choose a staking provider and tap on it. If you would like to stake Stargaze with us, you are welcome to choose [Staketab](https://staketab.com/) provider. Tap on _Delegate._
 
 ![](../../.gitbook/assets/06\_stars.png)
 
@@ -50,6 +50,8 @@ If you launch your Cosmostation app first time, follow these steps:
 
 ![](../../.gitbook/assets/07\_stars\_amount.png)
 
-**Tip:** You can switch between your wallets by tapping _Switch_ button at the top right and selecting desired wallet.
+{% hint style="info" %}
+You can switch between your wallets by tapping _Switch_ button at the top right and selecting desired wallet.
+{% endhint %}
 
 ![](../../.gitbook/assets/08\_stars\_tip.png)

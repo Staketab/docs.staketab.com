@@ -26,7 +26,7 @@ To stake MED, you need to install Cosmostation wallet ([Google Play](https://pla
 
 ## Useful links <a href="#what-are-the-profits-from-staking-mina-hardbreak" id="what-are-the-profits-from-staking-mina-hardbreak"></a>
 
-* [Staketab staking FAQ](https://staketab.com)
+* [Staketab staking FAQ](https://staketab.com/)
 * [Medibloc website](./#title-text)
 * [Medibloc Telegram channel](https://t.me/mediblocannouncement)
 * [Medibloc Twitter](https://twitter.com/\_medibloc)

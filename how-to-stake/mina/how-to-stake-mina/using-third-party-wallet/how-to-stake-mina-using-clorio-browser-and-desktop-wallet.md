@@ -1,6 +1,6 @@
 # How to stake Mina using Clorio browser and desktop wallet
 
-1. Go to [clor.io](https://clor.io) if you want to use desktop app version of the Clorio wallet or go to [mainnet.clor.io](https://mainnet.clor.io) if you prefer browser version. Clorio wallet does not require installation in the browser as an addon, you just open it in the browser tab. If you choose the browser version, you dont need the 2-5 steps.
+1. Go to [clor.io](https://clor.io/) if you want to use desktop app version of the Clorio wallet or go to [mainnet.clor.io](https://mainnet.clor.io/) if you prefer browser version. Clorio wallet does not require installation in the browser as an addon, you just open it in the browser tab. If you choose the browser version, you dont need the 2-5 steps.
 2. Click on "Download" button.
 3. On the GitHub page opened, scroll down to the "Assets" section.
 4. Choose a Clorio wallet version for your OS (_.AppImage_ is for Linux, _.dmg_ is for macOS, _.zip_ is for Windows; if you want to build the wallet yourself, use the Source code archives in the bottom of the section). How to download and launch Clorio wallet for Windows, Mac OSX and Linux, see [here](https://docs.clor.io/desktop-application/download-clorio-wallet-for-windows-mac-osx-and-linux)[.](https://docs.clor.io/desktop-application/download-clorio-wallet-for-windows-mac-osx-and-linux].)
@@ -26,7 +26,7 @@
 
 ![](../../../../.gitbook/assets/clor-4.png)
 
-12\. Choose a staking provider and click on "Delegate" button. If you would like to stake Mina with us, you are welcome to choose [Ducca | StakeTab](http://staketab.com) provider.
+12\. Choose a staking provider and click on "Delegate" button. If you would like to stake Mina with us, you are welcome to choose [Ducca | StakeTab](http://staketab.com/) provider.
 
 13\. Click on "Confirm" in the Confirm delegation window.
 
@@ -40,4 +40,4 @@
 
 ![](../../../../.gitbook/assets/clor-6.png)
 
-To check a balance of your Mina account, transaction history, validators data, blocks mining data, time locks stats, rewards stats and calculation, and various charts introducing a comprehensive picture of Mina blockchain, enjoy [Mina block explorer](https://mina.staketab.com) from Staketab.
+To check a balance of your Mina account, transaction history, validators data, blocks mining data, time locks stats, rewards stats and calculation, and various charts introducing a comprehensive picture of Mina blockchain, enjoy [Mina block explorer](https://mina.staketab.com/) from Staketab.

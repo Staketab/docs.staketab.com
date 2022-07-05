@@ -50,7 +50,7 @@
 
 ![](../../../.gitbook/assets/16\_view\_details\_button.png)
 
-14\. To check the transaction details in the [block explorer](https://solanabeach.io), click on "View Details". Or just click on "Finish" to get back into your wallet.
+14\. To check the transaction details in the [block explorer](https://solanabeach.io/), click on "View Details". Or just click on "Finish" to get back into your wallet.
 
 ![](../../../.gitbook/assets/17\_finish\_button\_and\_balance\_of\_wallet.png)
 

@@ -42,7 +42,7 @@ If you launch your Cosmostation app first time, follow these steps:
 
 ![](../../.gitbook/assets/04\_med.png)
 
-2\. Choose a staking provider and tap on it. If you would like to stake Medibloc with us, you are welcome to choose [Staketab](https://staketab.com) provider, tap on _Delegate_.
+2\. Choose a staking provider and tap on it. If you would like to stake Medibloc with us, you are welcome to choose [Staketab](https://staketab.com/) provider, tap on _Delegate_.
 
 ![](../../.gitbook/assets/05\_med.png)
 

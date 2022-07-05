@@ -18,7 +18,7 @@ In order to stake Sifchain, you need to buy it on Sifchain DEX or Ascendex centr
 
 You can buy Sifchain (ROWAN) coin on the following decentralized exchange:
 
-* [Sifchain](https://dex.sifchain.finance)
+* [Sifchain](https://dex.sifchain.finance/)
 
 Alternative way is to use Ascendex centralized exchange:
 
@@ -43,7 +43,7 @@ Note that you need to convert your EROWAN ERC20 token to ROWAN token of Cosmos e
 
 ## How to stake Sifchain (ROWAN)? <a href="#detailed-guides-how-to-stake-mina" id="detailed-guides-how-to-stake-mina"></a>
 
-To stake ROWAN, you need to install Cosmostation wallet ([Google Play](https://play.google.com/store/apps/details?id=wannabit.io.cosmostaion), [AppStore](https://apps.apple.com/kr/app/cosmostation/id1459830339), [APKCombo downloader](https://apkcombo.com/cosmostation-wallet-for-cosmos/wannabit.io.cosmostaion/)) or Keplr wallet ([Browser wallet](https://www.keplr.app)), deposit one with ROWAN coins and delegate it to a validator using the wallet. How to do this using Cosmostation wallet, please see in the guide below:
+To stake ROWAN, you need to install Cosmostation wallet ([Google Play](https://play.google.com/store/apps/details?id=wannabit.io.cosmostaion), [AppStore](https://apps.apple.com/kr/app/cosmostation/id1459830339), [APKCombo downloader](https://apkcombo.com/cosmostation-wallet-for-cosmos/wannabit.io.cosmostaion/)) or Keplr wallet ([Browser wallet](https://www.keplr.app/)), deposit one with ROWAN coins and delegate it to a validator using the wallet. How to do this using Cosmostation wallet, please see in the guide below:
 
 {% content-ref url="how-to-stake-sifchain.md" %}
 [how-to-stake-sifchain.md](how-to-stake-sifchain.md)
@@ -57,8 +57,8 @@ How to install Keplr wallet, please see the guide below:
 
 ## Useful links <a href="#what-are-the-profits-from-staking-mina-hardbreak" id="what-are-the-profits-from-staking-mina-hardbreak"></a>
 
-* [Staketab staking FAQ](https://staketab.com)
-* [Sifchain website](https://sifchain.finance)
+* [Staketab staking FAQ](https://staketab.com/)
+* [Sifchain website](https://sifchain.finance/)
 * [Sifchain Telegram channel](https://t.me/sifchainann)
 * [Sifchain Telegram Chat](https://t.me/sifchain)
 * [Sifchain Twitter](https://twitter.com/sifchain)

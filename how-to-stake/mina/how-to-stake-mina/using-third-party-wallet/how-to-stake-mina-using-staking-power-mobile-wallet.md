@@ -3,7 +3,7 @@
 
 
 1. Go to [crackerli/coda-mobile-wallet](http://github.com/crackerli/coda-mobile-wallet) web page and follow guidelines in "How to build” section. Then you don't need the steps 2-3.
-2. Or click on "Google Play" or "App Store" Button on that page. Alternatively, go to [apkcombo.com](http://apkcombo.com) downloader and paste a link to Staking-Power app in Google Play into a field, then click on "Generate Download Link". Beware: APKcombo is a third-party downloader, use at own risk.
+2. Or click on "Google Play" or "App Store" Button on that page. Alternatively, go to [apkcombo.com](http://apkcombo.com/) downloader and paste a link to Staking-Power app in Google Play into a field, then click on "Generate Download Link". Beware: APKcombo is a third-party downloader, use at own risk.
 3. Install the wallet on your smartphone or android emulator on your PC.\
    To install Staking-Power wallet on iOS, Chinese Mainland users should install TestFlight at first, then scan the QR-code from the "Install on iOS" section from the [page](https://github.com/crackerli/coda-mobile-wallet]) (or find the code below) and follow the guidelines.
 
@@ -35,7 +35,7 @@
 
 ![](../../../../.gitbook/assets/staking-5.png)
 
-13\. Click on a staking provider you would like to delegate your Mina funds. If you would like to stake Mina with us, you are welcome to choose [Ducca | StakeTab](http://staketab.com) provider.
+13\. Click on a staking provider you would like to delegate your Mina funds. If you would like to stake Mina with us, you are welcome to choose [Ducca | StakeTab](http://staketab.com/) provider.
 
 14\. Check transaction data. If it is correct, click on desired transaction fee, then click on "Send".
 
@@ -47,4 +47,4 @@
 
 16\. See transaction details in the Mina block explorer clicking on "View in block explorer" or close "Transaction Summary" window. When the transaction is confirmed in the Mina blockchain, your tokens are delegated to the provider.
 
-To check a balance of your Mina account, transaction history, validators data, blocks mining data, time locks stats, rewards stats and calculation, and various charts introducing a comprehensive picture of Mina blockchain, enjoy [Mina block explorer](https://mina.staketab.com) from Staketab.
+To check a balance of your Mina account, transaction history, validators data, blocks mining data, time locks stats, rewards stats and calculation, and various charts introducing a comprehensive picture of Mina blockchain, enjoy [Mina block explorer](https://mina.staketab.com/) from Staketab.

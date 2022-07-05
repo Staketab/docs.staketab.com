@@ -36,8 +36,8 @@ To stake HDX, you need to [install Polkadot.js wallet](how-to-install-polkadot.j
 
 ## Useful links <a href="#what-are-the-profits-from-staking-mina-hardbreak" id="what-are-the-profits-from-staking-mina-hardbreak"></a>
 
-* [Staketab staking FAQ](https://staketab.com)
-* [HydraDX website](https://hydradx.io)
+* [Staketab staking FAQ](https://staketab.com/)
+* [HydraDX website](https://hydradx.io/)
 * [HydraDX Telegram channel](https://t.me/hydradxnews)
 * [HydraDX Telegram chat](https://t.me/hydradx)
 * [HydraDX Twitter](https://twitter.com/hydra\_dx)

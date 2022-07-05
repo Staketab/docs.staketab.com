@@ -8,9 +8,9 @@ description: >-
 
 ## Our projects:
 
-[staketab.com](https://staketab.com) -- Staking provider website
+[staketab.com](https://staketab.com/) -- Staking provider website
 
-[mina.staketab.com](https://mina.staketab.com) -- Mina Block Explorer & Analitycs Tools
+[mina.staketab.com](https://mina.staketab.com/) -- Mina Block Explorer & Analitycs Tools
 
 ## Social media and contacts:
 
