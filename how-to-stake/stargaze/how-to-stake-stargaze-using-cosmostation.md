@@ -42,7 +42,7 @@ If you launch your Cosmostation app first time, follow these steps:
 
 ![](../../.gitbook/assets/05\_stars.png)
 
-3\. Choose a staking provider and tap on it. If you would like to stake Stargaze with us, you are welcome to choose [Staketab](https://staketab.com) provider. Tap on _Delegate._
+3\. Choose a staking provider and tap on it. If you would like to stake Stargaze with us, you are welcome to choose [Staketab](https://staketab.com/) provider. Tap on _Delegate._
 
 ![](../../.gitbook/assets/06\_stars.png)
 

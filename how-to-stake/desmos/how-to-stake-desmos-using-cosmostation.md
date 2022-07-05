@@ -50,7 +50,7 @@ If you launch your Cosmostation app first time, follow these steps:
 
 ![](../../.gitbook/assets/08\_stake\_dsm.png)
 
-3\. Choose a staking provider and tap on it. If you would like to stake Desmos with us, you are welcome to choose [Staketab](https://staketab.com) provider. Tap on _Delegate._
+3\. Choose a staking provider and tap on it. If you would like to stake Desmos with us, you are welcome to choose [Staketab](https://staketab.com/) provider. Tap on _Delegate._
 
 ![](../../.gitbook/assets/09\_delegate\_to\_staketab.png)
 

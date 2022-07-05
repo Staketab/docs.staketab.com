@@ -4,7 +4,7 @@ description: Stake Desmos with Keplr
 
 # How to stake Desmos using Keplr
 
-1\. Go to [go-find.me](https://go-find.me) platform.
+1\. Go to [go-find.me](https://go-find.me/) platform.
 
 ![Go-find.me fromt page](../../.gitbook/assets/01\_go-find\_platform.PNG)
 

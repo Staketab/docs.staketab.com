@@ -54,7 +54,18 @@
 
 ## ACADEMY
 
-* [MINA](academy/mina.md)
+* [MINA](academy/mina/README.md)
+  * [Mina Glossary](academy/mina/mina-glossary.md)
+  * [Articles](academy/mina/articles/README.md)
+    * [Mina Domain Model](academy/mina/articles/mina-domain-model.md)
+    * [Mina Block Production](academy/mina/articles/mina-block-production.md)
+    * [Mina Accounts](academy/mina/articles/mina-accounts.md)
+    * [Reward Calculation](academy/mina/articles/reward-calculation.md)
+    * [Transaction and Delegation Statuses and Delegation Mechanism in the Mina Blockchain](academy/mina/articles/transaction-and-delegation-statuses-and-delegation-mechanism-in-the-mina-blockchain.md)
+    * [Account Balance: Locked and Unlocked Tokens](academy/mina/articles/account-balance-locked-and-unlocked-tokens.md)
+    * [ZK-proof mechanism and ZK-snarks](academy/mina/articles/zk-proof-mechanism-and-zk-snarks.md)
+    * [ZKapps](academy/mina/articles/zkapps.md)
+    * [Scan State](academy/mina/articles/scan-state.md)
 * [AXELAR](academy/axelar/README.md)
   * [What is Axelar project?](academy/axelar/what-is-axelar-project.md)
 

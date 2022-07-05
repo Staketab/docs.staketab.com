@@ -1,6 +1,6 @@
 # How to stake Mina using Auro browser and mobile wallet
 
-1. Go to [aurowallet.com](http://aurowallet.com).
+1. Go to [aurowallet.com](http://aurowallet.com/).
 2. Click on “Chrome” or “Firefox” buttons. Alternatively, click on "Download apk", launch _.apk_ on your smartphone, install and open it. One more option is to install the wallet from [Google Play](https://play.google.com/store/apps/details?id=com.aurowallet.www.aurowallet%5D)[.](https://play.google.com/store/apps/details?id=com.aurowallet.www.aurowallet%5D.) If you install the wallet on your smartphone or android emulator, you don't need the steps 3-4. All the steps below are similar for both Browser and Android versions of the wallet.
 3. Click on "Add to Chrome" or "Add to Firefox" button.
 4. Auro wallet icon will appear at the top right corner pane of a browser. Click on it.
@@ -30,7 +30,7 @@
 
 ![](../../../../.gitbook/assets/auro-4.png)
 
-14\. Enter your Mina staking provider's name or address into the search field. For example, if you want to delegate Mina funds to [StakeTab](https://staketab.com) provider, enter "StakeTab" or the following validator's address:
+14\. Enter your Mina staking provider's name or address into the search field. For example, if you want to delegate Mina funds to [StakeTab](https://staketab.com/) provider, enter "StakeTab" or the following validator's address:
 
 ```
 B62qqV16g8s744GHM6Dph1uhW4fggYwyvtDnVSoRUyYqNvTir3Rqqzx
@@ -46,4 +46,4 @@ B62qqV16g8s744GHM6Dph1uhW4fggYwyvtDnVSoRUyYqNvTir3Rqqzx
 
 17\. When the transaction is confirmed in the Mina blockchain, your tokens are delegated to the staking provider.
 
-To check a balance of your Mina account, transaction history, validators data, blocks mining data, time locks stats, rewards stats and calculation, and various charts introducing a comprehensive picture of Mina blockchain, enjoy [Mina block explorer](https://mina.staketab.com) from Staketab.
+To check a balance of your Mina account, transaction history, validators data, blocks mining data, time locks stats, rewards stats and calculation, and various charts introducing a comprehensive picture of Mina blockchain, enjoy [Mina block explorer](https://mina.staketab.com/) from Staketab.

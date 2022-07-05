@@ -1,6 +1,6 @@
 # How to stake Mina from Auro browser and mobile wallet using Ledger
 
-1\. Go to [aurowallet.com](http://aurowallet.com).
+1\. Go to [aurowallet.com](http://aurowallet.com/).
 
 2\. Click on “Chrome” or “Firefox” buttons. Alternatively, click on "Download apk", launch _.apk_ on your smartphone, install and open it. One more option is to install the wallet from [Google Play.](https://play.google.com/store/apps/details?id=com.aurowallet.www.aurowallet%5D) If you install the Auro wallet on your smartphone or android emulator, you don't need the steps 3-4. All the steps below are similar for both Browser and Android versions of the wallet.
 
@@ -38,7 +38,7 @@
 
 ![](../../../../.gitbook/assets/07\_staking\_section.png)
 
-17\. Enter your Mina staking provider's name or address into the search field. For example, if you want to delegate Mina funds to [StakeTab](https://staketab.com) provider, enter "StakeTab" or `B62qqV16g8s744GHM6Dph1uhW4fggYwyvtDnVSoRUyYqNvTir3Rqqzx` into the field.
+17\. Enter your Mina staking provider's name or address into the search field. For example, if you want to delegate Mina funds to [StakeTab](https://staketab.com/) provider, enter "StakeTab" or `B62qqV16g8s744GHM6Dph1uhW4fggYwyvtDnVSoRUyYqNvTir3Rqqzx` into the field.
 
 ![](../../../../.gitbook/assets/auro-5.png)
 
@@ -52,4 +52,4 @@
 
 21\. When the transaction is confirmed in the Mina blockchain, your tokens are delegated to the Mina validator.
 
-To check a balance of your Mina account, transaction history, validators data, blocks mining data, time locks stats, rewards stats and calculation, and various charts introducing a comprehensive picture of Mina blockchain, enjoy [Mina block explorer](https://mina.staketab.com) from Staketab.
+To check a balance of your Mina account, transaction history, validators data, blocks mining data, time locks stats, rewards stats and calculation, and various charts introducing a comprehensive picture of Mina blockchain, enjoy [Mina block explorer](https://mina.staketab.com/) from Staketab.

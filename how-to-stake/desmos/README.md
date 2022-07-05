@@ -42,7 +42,7 @@ How to use Osmosis decentralized exchange, please follow these guides:
 
 ## How to stake Desmos? <a href="#detailed-guides-how-to-stake-mina" id="detailed-guides-how-to-stake-mina"></a>
 
-To stake DSM, you need to install [Keplr](https://www.keplr.app) or Cosmostation wallet ([Google Play](https://play.google.com/store/apps/details?id=wannabit.io.cosmostaion), [AppStore](https://apps.apple.com/kr/app/cosmostation/id1459830339), [APKCombo downloader](https://apkcombo.com/cosmostation-wallet-for-cosmos/wannabit.io.cosmostaion/)), deposit one with STARS coins and delegate it to a validator using the wallet. How to do this, please see in the guide below.
+To stake DSM, you need to install [Keplr](https://www.keplr.app/) or Cosmostation wallet ([Google Play](https://play.google.com/store/apps/details?id=wannabit.io.cosmostaion), [AppStore](https://apps.apple.com/kr/app/cosmostation/id1459830339), [APKCombo downloader](https://apkcombo.com/cosmostation-wallet-for-cosmos/wannabit.io.cosmostaion/)), deposit one with STARS coins and delegate it to a validator using the wallet. How to do this, please see in the guide below.
 
 {% content-ref url="how-to-stake-desmos-using-keplr.md" %}
 [how-to-stake-desmos-using-keplr.md](how-to-stake-desmos-using-keplr.md)
@@ -54,8 +54,8 @@ To stake DSM, you need to install [Keplr](https://www.keplr.app) or Cosmostation
 
 ## Useful links <a href="#what-are-the-profits-from-staking-mina-hardbreak" id="what-are-the-profits-from-staking-mina-hardbreak"></a>
 
-* [Staketab staking FAQ](https://staketab.com)
-* [Desmos website](https://www.desmos.network)
+* [Staketab staking FAQ](https://staketab.com/)
+* [Desmos website](https://www.desmos.network/)
 * [Desmos Block Explorer](https://www.mintscan.io/desmos) -- Mintscan
 * [Desmos Telegram Channel](https://t.me/desmosnetwork)
 * [Desmos Twitter](https://twitter.com/desmosnetwork?lang=en)

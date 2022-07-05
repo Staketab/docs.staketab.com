@@ -90,7 +90,7 @@ When transfer is successful, the balance of your Trading account will be reduced
 
 ![](../../../.gitbook/assets/13\_atom\_withdraw\_button.png)
 
-4\. Enter your [Keplr](https://www.keplr.app) wallet address or another wallet address you want to stake from, enter a custom address title (optional) and amount of ATOM you want to withdraw. You can enter small amount of ATOM first to be ensured that the withdrawal operates fine, then to withdraw remaining major part of your ATOM.
+4\. Enter your [Keplr](https://www.keplr.app/) wallet address or another wallet address you want to stake from, enter a custom address title (optional) and amount of ATOM you want to withdraw. You can enter small amount of ATOM first to be ensured that the withdrawal operates fine, then to withdraw remaining major part of your ATOM.
 
 ![](../../../.gitbook/assets/14\_atom\_withdrawal\_fullfilled.png)
 

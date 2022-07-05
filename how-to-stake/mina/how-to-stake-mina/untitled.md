@@ -1,6 +1,6 @@
 # How to stake Mina from own Mina node (using command line)
 
-## How to install Linux? <a href="how-to-install-linux" id="how-to-install-linux"></a>
+## How to install Linux? <a href="#how-to-install-linux" id="how-to-install-linux"></a>
 
 To stake Mina from your command line without any intermediary entity, we recommend to install Ubuntu as one of the most user-friendly Linux distributions. You can find guides how to install Ubuntu here:
 
@@ -10,15 +10,15 @@ To stake Mina from your command line without any intermediary entity, we recomme
 
 If you prefer some another Linux distribution to use for Mina staking, the steps below are similar.
 
-## How to stake Mina? <a href="how-to-stake-mina" id="how-to-stake-mina"></a>
+## How to stake Mina? <a href="#how-to-stake-mina" id="how-to-stake-mina"></a>
 
-### Launch terminal <a href="launch-terminal" id="launch-terminal"></a>
+### Launch terminal <a href="#launch-terminal" id="launch-terminal"></a>
 
 Click _Ctrl+Alt+T._
 
 Linux terminal is opened. You can find a short guide of terminal commands for beginners [here](https://ubuntu.com/tutorials/command-line-for-beginners#3-opening-a-terminal%5D.).
 
-### Create private key <a href="create-private-key" id="create-private-key"></a>
+### Create private key <a href="#create-private-key" id="create-private-key"></a>
 
 At first, enter the following commands to install necessary packages:
 
@@ -57,7 +57,7 @@ chmod 700 $HOME/keys
 chmod 600 $HOME/keys/my-wallet
 ```
 
-### Check private key <a href="check-private-key" id="check-private-key"></a>
+### Check private key <a href="#check-private-key" id="check-private-key"></a>
 
 When checking the key, you will be asked to enter the password from it.
 
@@ -324,10 +324,10 @@ Tokens are on the journey to stake and will be used by the staking provider soon
 
 The whole balance of your address will be delegated into stake to a Mina validator.
 
-The command above sends your Mina funds to [StakeTab](https://staketab.com) staking provider. If you want to stake Mina with another provider, you can select one on the [Mina block explorer](https://mina.staketab.com).
+The command above sends your Mina funds to [StakeTab](https://staketab.com/) staking provider. If you want to stake Mina with another provider, you can select one on the [Mina block explorer](https://mina.staketab.com/).
 
 After delegation, you can stop your node running. There is no need for that after successful delegation.
 
-## Resources <a href="resources" id="resources"></a>
+## Resources <a href="#resources" id="resources"></a>
 
 There are much more options to stake Mina from your own node. For example, you can use Docker, set up TMUX and Snark stopper or update your node. For details, please see the [How to stake Mina using own delegating node detailed guide](https://icohigh.gitbook.io/mina-node-testnet/english/generating-and-verifying-keys).
