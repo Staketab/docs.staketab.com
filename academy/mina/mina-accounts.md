@@ -15,12 +15,12 @@ Officially there are no **accounts** in Mina, and all users operate in Mina bloc
 
 **Public key** - a cryptographic code that allows users to receive cryptocurrency into their accounts - the open part of an account address.
 
-See [Mina glossary](../mina-glossary.md).
+See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
 ### Figure 1 - Accounts and Addresses
 
-![](<../../../.gitbook/assets/Mina Accounts and Addresses (1).png>)
+![](<../../.gitbook/assets/Mina Accounts and Addresses (1).png>)
 
 ## How to make a profit in the Mina blockchain <a href="#how-to-make-a-profit-in-the-mina-blockchain" id="how-to-make-a-profit-in-the-mina-blockchain"></a>
 
@@ -44,7 +44,7 @@ Basically, there are 4 ways you can make a profit in the Mina blockchain:
 
 **ZK snark work** - a cryptographic method by which one party (a prover) can prove to another party (a verifier) that a given statement is true while the prover avoids conveying any additional information apart from the fact that the statement is indeed true.
 
-See [Mina glossary](../mina-glossary.md).
+See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
 ## Types of Accounts and Addresses <a href="#types-of-accounts-and-addresses" id="types-of-accounts-and-addresses"></a>
@@ -70,18 +70,18 @@ Depending on how accounts make a profit and how they operate in Mina, all accoun
 
 **Validator** - a node that maintains the integrity of the blockchain by constantly calculating the link from the first block to the last one and by approving new blocks created by block producers.
 
-See [Mina glossary](../mina-glossary.md).
+See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
 ### Figure 2 - Mina account
 
-![](<../../../.gitbook/assets/Mina Accounts.png>)
+![](<../../.gitbook/assets/Mina Accounts.png>)
 
 A validator as an account can have two addresses: a node address, through which it operates, and a coinbase address, to which rewards are transferred (see **Figure 3**).
 
 ### Figure 3 - Validator Account
 
-![](<../../../.gitbook/assets/Mina Validator Account.png>)
+![](<../../.gitbook/assets/Mina Validator Account.png>)
 
 ## How to create an account in the Mina blockchain <a href="#how-to-create-an-account-in-the-mina-blockchain" id="how-to-create-an-account-in-the-mina-blockchain"></a>
 
@@ -107,11 +107,11 @@ An account is created via **Mina SDK** or by a node through **CLI**. and activat
 
 **Staking ledger** - the Ledger used to determine block producers for a slot, as the probability of winning a slot is proportional to the amount of stake (Epoch x+2).
 
-See [Mina glossary](../mina-glossary.md)
+See [Mina glossary](mina-glossary.md)
 {% endhint %}
 
 ### Figure 4 - Account Creation
 
-![](<../../../.gitbook/assets/Mina Account Creation.png>)
+![](<../../.gitbook/assets/Mina Account Creation.png>)
 
 For more information on the ledgers please go to [Account Balance: Locked and Unlocked Tokens](account-balance-locked-and-unlocked-tokens.md).

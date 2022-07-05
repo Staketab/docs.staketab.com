@@ -21,7 +21,7 @@ Mina blockchain offers a reward for **block production** to encourage **nodes** 
 
 **Validator** - a node that maintains the integrity of the blockchain by constantly calculating the link from the first block to the last one and by approving new blocks created by block producers.
 
-See [Mina glossary](../mina-glossary.md).
+See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
 <details>
@@ -51,7 +51,7 @@ Winning a reward for block creation is a lottery and the chances depend on the v
 
 **Supercharged block** - a block, for which a supercharged reward is paid; a supercharged reward for block production in the amount of 1440 Mina paid when a certain condition is met, i.e. when the token holder has fully unlocked tokens.
 
-See [Mina glossary](../mina-glossary.md).
+See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
 Delegators can win a reward in the result of a delegation, and its size depends on their stake (share) in the **validator pool**: the bigger stake a delegator has in the validator pool, the bigger share of the reward it can receive. Delegation is beneficial for both validators and delegators: the first charge a fee for a delegation from delegators, the latter get a chance to participate in staking without having to run a node. The amount of the reward paid to a delegator is calculated as specified by **Formula 2**.
@@ -61,7 +61,7 @@ Delegators can win a reward in the result of a delegation, and its size depends 
 {% hint style="info" %}
 **Validator pool** - a pool which consists of the stake of elected validators.
 
-See [Mina glossary](../mina-glossary.md).
+See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
 <details>

@@ -31,7 +31,7 @@
 
 **ZK-snarker** (**snark producer**) - a network node that provides ZK-proof (snark-work).
 
-See [Mina glossary](../mina-glossary.md).
+See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
 <details>
@@ -81,7 +81,7 @@ In reality, most blockchains rarely follow these extreme cases and find their ow
 
 ### Figure 1 - Blockchain Trilemma
 
-![](<../../../.gitbook/assets/Blockchain Trilemma.png>)
+![](<../../.gitbook/assets/Blockchain Trilemma.png>)
 
 The blockchain embraces **nodes**, connected to each other in the **Mina Protocol**, which come as either **validators (block producers) **_****_ or **ZK-snarkers (snark workers)**, and **delegators**. ZK-snarkers are nodes that provide the proof of the validity of the previous transactions for the validators to add them to a new block so that the validators don’t have to find proof of the validity of the previous transactions. It means that making a new block no more requires a great deal of CPU, and the whole distributed ledger may fit in a single I-phone. For producing **ZK-snarks (snark works)** ZK-snarkers take a **fee**. A node can be simultaneously a validator and a ZK-snarker.
 
@@ -100,7 +100,7 @@ The blockchain embraces **nodes**, connected to each other in the **Mina Protoco
 
 **ZK-snark (snark work)** - a cryptographic method by which one party (a prover) can prove to another party (a verifier) that a given statement is true while the prover avoids conveying any additional information apart from the fact that the statement is indeed true.
 
-See [Mina glossary](../mina-glossary.md).
+See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
 Validators, in their turn, are nodes that create blocks, therefore they’re also called block producers. To do so, they pick out transactions from the **mempool **_****_ which are of the highest **amount** and match them with a ZK-snark from the **snarketplace**, for which the ZK-snarker takes the smallest **fee**. When a certain set of transaction-ZK-snark matches has accumulated, a new block is produced. Later nodes vote for the new block. If they validate it, it is then a **canonical block**, and it is added to the canonical chain, otherwise, this block is deemed **orphaned** and doesn’t enter the chain. The Mina Protocol is designed in a way that no forks are possible and the canonical chain is, in theory, infinite. For producing a block a validator receives a **reward**, which has a **coinbase**. The reward is paid in **tokens **_****_ - Mina. In usual blocks a coinbase is 720 mina, in **supercharged blocks** - 1440 Mina. In case the account of the validator is unlocked, the validator creates a supercharged block, for which it is granted a double reward. The process of getting a reward for block production is called **staking**. Staking is an incentive for blockchain participants to be involved in maintaining blockchain integrity. Staked tokens are locked for an **epoch** plus a period before the validator distributes rewards. This time is specified in the terms, and, combined with an epoch it makes up 1 calendar month. An epoch consists of 7140 **slots** and lasts roughly for roughly 2 weeks (almost 15 days, to be more exact).
@@ -134,7 +134,7 @@ Validators, in their turn, are nodes that create blocks, therefore they’re als
 
 **Transaction amount** - the amount of Mina funds that is being transacted.
 
-See [Mina glossary](../mina-glossary.md).
+See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
 In Mina, there are nodes that produced at least one block in the last epoch and there's nodes that are just connected to the network but are now engaged in block production and **Consensus**. Nodes that produced at least one block in the last epoch are called “**active validators**“. So a node (a validator) does not necessarily need to produce blocks to be part of Mina Blockchain: it’s possible that a user runs a node but is not involved in block production.
@@ -160,11 +160,11 @@ We develop an **explorer** that accumulates analytical data about nodes, blocks,
 
 **Public key** - a cryptographic code that allows users to receive cryptocurrency into their accounts - the open part of an account address.
 
-See [Mina glossary](../mina-glossary.md).
+See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
 The diagram in **Figure 2** shows the main entities in Mina Protocol and their associations.
 
 ### **Figure 2. Mina Domain Diagram**
 
-![](<../../../.gitbook/assets/Mina Domain Diagram.png>)
+![](<../../.gitbook/assets/Mina Domain Diagram.png>)

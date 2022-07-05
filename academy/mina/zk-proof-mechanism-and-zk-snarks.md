@@ -23,12 +23,12 @@ Mina is a succinct and lightweight **PoS** blockchain that weighs only 22 kBytes
 
 **ZK-Snarker (snark worker)** - a network node that provides ZK proof (snark work).
 
-See [Mina glossary](../mina-glossary.md).
+See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
 ### Figure 1 - Separation of roles in Mina
 
-![](<../../../.gitbook/assets/Separation Roles in Mina.png>)
+![](<../../.gitbook/assets/Separation Roles in Mina.png>)
 
 Validators are **full nodes** that broadcast transactions and produce blocks. ZK-snarkers, on the other hand, are not full nodes, but they aren’t **light clients** either. ZK-snarkers are seen as a special type of nodes - **non-consensus nodes**, which are designed to have access to full historical information in the Mina blockchain and process these data for validators. To operate ZK-snarkers need 5 types of data in store:
 
@@ -57,12 +57,12 @@ Validators are **full nodes** that broadcast transactions and produce blocks. ZK
 
 **Verification key** - a piece of encryption that is used for the execution of a smart contract.
 
-See [Mina glossary](../mina-glossary.md).
+See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
 ### Figure 2 - Merkle Tree
 
-![](<../../../.gitbook/assets/Merkle Tree.png>)
+![](<../../.gitbook/assets/Merkle Tree.png>)
 
 What allows decoupling the production of transaction SNARKs from block producers to snark workers is a specific data structure - the **scan state**. For more information on the scan state please go to [Scan State.](scan-state.md)
 
@@ -81,12 +81,12 @@ In Mina, those are ZK-snarkers that do snark works. What snarkers actually do is
 
 **Transaction** - a transfer of data from one block to another in a cryptographic manner that launches state transition.
 
-See [Mina glossary](../mina-glossary.md).
+See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
 ### Figure 3 - ZK-Proof Mechanism
 
-![](<../../../.gitbook/assets/ZK-Proof Mechanism.png>)
+![](<../../.gitbook/assets/ZK-Proof Mechanism.png>)
 
 ## Snarketplace <a href="#snarketplace" id="snarketplace"></a>
 
@@ -105,9 +105,9 @@ A **snark coordinator** coordinates snark jobs among many snark workers. The coo
 
 **Snarketplace** - a buffer marketplace where nodes: validators and snarkers - exchange services.
 
-See [Mina glossary](../mina-glossary.md).
+See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
 ### Figure 4 - Snarketplace
 
-![](../../../.gitbook/assets/Snarketplace.png)
+![](../../.gitbook/assets/Snarketplace.png)

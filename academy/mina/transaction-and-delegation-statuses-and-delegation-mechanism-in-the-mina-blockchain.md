@@ -33,7 +33,7 @@ A **delegation** is a **transaction**, when a **delegator**, i.e. an **account**
 
 **Transaction** - a transfer of data from one block to another in a cryptographic manner that launches state transition.
 
-See [Mina glossary](../mina-glossary.md).
+See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
 A delegator may delegate or undelegate its tokens. A delegation is not a **transfer** of tokens from one account to another - in fact, a transfer is another type of transaction. With a delegation delegator’s tokens remain on its account, but they are **locked** for the delegation period. A delegator may redelegate its fund to another validator or to the same validator again. After re-delegating, there is a latency period of 2-4 weeks before your new stake delegation comes into effect. A delegator can receive its reward 1 **epoch** (2 weeks) after its validator wins block production and produces its **block** (for more information on reward calculation please go to [Reward Calculation](reward-calculation.md)).
@@ -49,7 +49,7 @@ A delegator may delegate or undelegate its tokens. A delegation is not a **trans
 
 **Transfer** - a transaction when tokens are sent from one account to another account (payment).
 
-See [Mina glossary](../mina-glossary.md).
+See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
 ## Transaction Statuses <a href="#transaction-statuses" id="transaction-statuses"></a>
@@ -62,7 +62,7 @@ In Mina blockchain transactions come in 3 statuses: **applied**, **pending,** an
 
 ### Figure 1 - Transaction Statuses State-Machine Diagram
 
-![](<../../../.gitbook/assets/Mina Transaction State Machine Diagram.png>)
+![](<../../.gitbook/assets/Mina Transaction State Machine Diagram.png>)
 
 ## Delegation Ledgers <a href="#delegation-ledgers" id="delegation-ledgers"></a>
 
@@ -78,7 +78,7 @@ At any point of the delegation lifecycle, the delegator may delegate its funds t
 
 ### Figure 2 - Delegation Lifecycle
 
-![](<../../../.gitbook/assets/Delegation Lifecycle.png>)
+![](<../../.gitbook/assets/Delegation Lifecycle.png>)
 
 ## Delegation Statuses <a href="#delegation-statuses" id="delegation-statuses"></a>
 
@@ -95,7 +95,7 @@ namely: **waiting (amount changeable)**, **waiting (amount fixed)**, **active**,
 
 ### Figure 3 - Delegation Statuses State Machine Diagram
 
-![](<../../../.gitbook/assets/Mina Delegation State Machine Diagram.png>)
+![](<../../.gitbook/assets/Mina Delegation State Machine Diagram.png>)
 
 Delegation data is entered in 4 ledgers: the snarked ledger, the staking ledger, the **next epoch ledger,** and the staged ledger. A ledger is an electronic book that shows data on the account balance and delegation state. Each ledger extracts data from node databases. A delegation enters the snarked ledger once the delegation is made in Epoch x. On the 290th of Epoch x+1, the delegation enters the next epoch ledger. On the 1st block of Epoch x+2, the delegation enters the staking ledger and the staged ledger. The staged ledger has the same information as the staking ledger, but in the staged ledger the **receipt chain hash** updates every hour (see **Figure 4**).
 
@@ -116,10 +116,10 @@ Delegation data is entered in 4 ledgers: the snarked ledger, the staking ledger,
 
 **Staged ledger** - most recent staged ledger (from the best tip of that node). A staged ledger can be regarded as a "Pending accounts database" that has transactions(payments, coinbase, and proof-fees) applied for which there are no snarks available yet (Epoch x+2).
 
-See [Mina glossary](../mina-glossary.md).
+See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
 ### Figure 4 - Ledgers
 
-![](<../../../.gitbook/assets/Mina Ledgers.png>)
+![](<../../.gitbook/assets/Mina Ledgers.png>)
 

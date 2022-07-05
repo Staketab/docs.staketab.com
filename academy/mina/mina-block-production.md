@@ -23,7 +23,7 @@ In the Mina blockchain **validators** are **nodes** that produce **blocks** in t
 
 **VRF (Verifiable Random Function)** - a function used to select a block producer for a slot and takes as input a random seed obtained from the output of the previous epoch's VRF, in addition to the public key and the current rate registry, and is deterministic.
 
-See [Mina glossary](../mina-glossary.md).
+See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
 When a block is added to the blockchain, the winning block producer generates a hash, which contains a part of the previous block hash. In the course of the Consensus validators sign the block, and if it receives the majority of signatures (51% and over), it enters the blockchain. In Mina, unlike other blockchains, it’s OK if there are multiple signatures with one public key, meaning that one account can sign a block twice or more.
@@ -62,12 +62,12 @@ The diagram in **Figure 1** shows the process of block production in Mina (**Fig
 
 **ZK-snarker** **(snark producer)** - a network node that provides ZK-proof (snark-work).
 
-See [Mina glossary](../mina-glossary.md).
+See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
 ### Figure 1. Block production process in Mina
 
-![](<../../../.gitbook/assets/Mina Block Production.png>)
+![](<../../.gitbook/assets/Mina Block Production.png>)
 
 ## Canonical and Orphaned Blocks <a href="#canonical-and-orphaned-blocks" id="canonical-and-orphaned-blocks"></a>
 
@@ -82,9 +82,9 @@ When added to the blockchain, a new block then becomes a **canonical**, or an **
 
 **Slot** - a basic unit of time in the blockchain. One epoch contains 7140 slots. 1 slot equals approximately 3 minutes.
 
-See [Mina glossary](../mina-glossary.md).
+See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
 ### Figure 2. Canonical Chain
 
-![](<../../../.gitbook/assets/Canonical Chain.png>)
+![](<../../.gitbook/assets/Canonical Chain.png>)

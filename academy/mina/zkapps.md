@@ -17,12 +17,12 @@ Today all cryptocurrency services function exclusively on-chain. The division of
 
 **ZKapp** - a web application that is based on smart contracts and provides ZK-proof for the market.
 
-For more information see [Mina Glossary](../mina-glossary.md).
+For more information see [Mina Glossary](mina-glossary.md).
 {% endhint %}
 
 ### **Figure 1 - ZKapps**
 
-****![](<../../../.gitbook/assets/image (20).png>)****
+****![](<../../.gitbook/assets/image (20).png>)****
 
 ZKapps are web applications like **Daemons**, written in **TypeScript** using the Mina zkApp **CLI** that allow to use ZK-snarks to validate the input data in various applications. ZKapps are used off-chain, and they allow to sell ZK-proof services to external users anywhere where some data needs approval without disclosure of details.
 
@@ -35,7 +35,7 @@ ZKapps are web applications like **Daemons**, written in **TypeScript** using th
 
 **CLI** - a text-based user interface that connects a user to a computer program or operating system. Through the CLI, users interact with a system or application by typing in the text (commands).
 
-See [Mina glossary](../mina-glossary.md).
+See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
 <details>
@@ -69,7 +69,7 @@ A ZKapp consists of a **smart contract** and a user interface. Because ZKapps ar
 
 **Verifier function** - the function that validates whether a zero-knowledge proof successfully passes all the constraints defined in the prover function.
 
-See [Mina glossary](../mina-glossary.md).
+See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
 A ZKapp runs simultaneously on-chain, or within Mina, and off-chain, in an external system. Within the Mina network, Mina acts as the verifier and runs the verifier function. A ZKapp performs data verification via a smart contract. Literally, a ZKapp **deploys** a smart contract on Mina. To do this, the developer uses Mina zkApp CLI. The deployment process sends a transaction containing the **verification key** to an **address** on the Mina blockchain. When a Mina address contains a verification key, it acts as a **ZKapp account**. Whereas a regular Mina account can receive any transactions, a ZKapp account can only successfully receive transactions containing proof that satisfies the verifier function. Any transactions that do not pass the verifier function will be rejected by the Mina network (see **Figure 2**).
@@ -81,12 +81,12 @@ A ZKapp runs simultaneously on-chain, or within Mina, and off-chain, in an exter
 
 **Verification key** - The public address of a private key that serves as an identity of the subject of an account.
 
-See [Mina glossary](../mina-glossary.md).
+See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
 ### **Figure 2 - ZKapps as smart contracts**
 
-****![](<../../../.gitbook/assets/image (16).png>)****
+****![](<../../.gitbook/assets/image (16).png>)****
 
 When a smart contract is executed and a ZK-proof is done, the new state has to be stored. Two different types of state exist on Mina: an **on-chain state** and an **off-chain state**. If the new state is stored on-chain, it can be used as a snark for block production. Each ZKapp account provides 8 fields of 32 bytes each of arbitrary storage. If a state requires more memory, an off-chain option then is in place. For larger data, it’s possible to store the root of a Merkle tree (or similar data structure) within the ZKapp’s on-chain storage that references additional off-chain state stored elsewhere, in any external data storage, e.g. IPFS. When a ZKapp runs in a user’s web browser, it may insert a state to an external storage.
 
@@ -101,7 +101,7 @@ When a ZKapp runs in a user’s web browser, it may insert a state to an externa
 
 **Off-chain state** - describes a state stored anywhere else.
 
-See [Mina glossary](../mina-glossary.md).
+See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
 ## ZK-proof-based smart contracts and their properties. <a href="#zk-proof-based-smart-contracts-and-their-properties." id="zk-proof-based-smart-contracts-and-their-properties."></a>
@@ -121,7 +121,7 @@ ZK-proof-based smart contracts, aka ZKapps, have the following properties:
 
 **SnarkyJS** - describes a state that lives on the Mina blockchain and is stored within a ZK-app account.
 
-For more information see [Mina Glossary](../mina-glossary.md).
+For more information see [Mina Glossary](mina-glossary.md).
 {% endhint %}
 
 ## ZKapp use cases. <a href="#zkapp-use-cases." id="zkapp-use-cases."></a>
@@ -157,6 +157,6 @@ There is a number of real-life use cases where ZKapps may be applied, where it�
 
 ### Figure 3 - ZKapps Use Cases
 
-![](<../../../.gitbook/assets/image (7).png>)\
+![](<../../.gitbook/assets/image (7).png>)\
 
 

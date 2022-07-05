@@ -24,12 +24,12 @@ An **account balance** consists of three types of funds: free funds, **current l
 
 **Staking** - the process of holding tokens locked on the blockchain as a proof of stake to mint new blockchain coins and thus maintain the inflation of the system. The blockchain participants that are engaged in staking, gain reward for it as an incentive.
 
-See [Mina glossary](../mina-glossary.md).
+See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
 ### Figure 1 - Account Balance
 
-![](<../../../.gitbook/assets/Account Balance.png>)
+![](<../../.gitbook/assets/Account Balance.png>)
 
 ## **Unlock mechanism in Mina protocol** <a href="#unlock-mechanism-in-mina-protocol" id="unlock-mechanism-in-mina-protocol"></a>
 
@@ -45,7 +45,7 @@ There are 2 mechanisms of unlocking funds the Mina protocol: **cliff** and **ves
 **Vesting increment** - the amount of Mina funds that are unlocked whenever the next vesting time interval is over.\
 **Vesting time**- number of slots through which vesting\_increment tokens will be unlocked.
 
-See [Mina glossary](../mina-glossary.md).
+See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
 Let’s see how the unlock mechanism works in mina on a simple example (**Table 1**).
@@ -68,7 +68,7 @@ and on slot 15 all initial minimum balance will be unlocked (see **Figure 2**)**
 
 ### Figure 2. Unlock mechanisms
 
-![](<../../../.gitbook/assets/Unlock Mechanism.png>)
+![](<../../.gitbook/assets/Unlock Mechanism.png>)
 
 ## Genesis and sponsor award <a href="#genesis-and-sponsor-award" id="genesis-and-sponsor-award"></a>
 
@@ -83,7 +83,7 @@ At **Genesis** each member receives 66,000 Mina tokens at launch. They are all l
 
 **Testnet** - an alternative blockchain to be used for testing.
 
-See [Mina glossary](../mina-glossary.md).
+See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
 The Genesis program prepares participants to become the first Mina block producers and ensures high decentralization when the mainnet launches. In addition to node operators, the Genesis program also consists of community developers and creators with a variety of skills and experiences. Their contributions include creating tools and applications, creating documentation, organizing community events, and reporting critical bugs.
