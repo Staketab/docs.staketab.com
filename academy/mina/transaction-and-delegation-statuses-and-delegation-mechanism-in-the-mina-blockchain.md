@@ -60,7 +60,7 @@ In Mina blockchain transactions come in 3 statuses: **applied**, **pending,** an
 * <mark style="background-color:yellow;"><mark style="color:yellow;">**PENDING**<mark style="color:yellow;"></mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;"></mark> is a status when a transaction is being processed;
 * <mark style="color:red;background-color:red;">**FAILED**</mark> is a status when a transaction was not processed for some reason.
 
-### Figure 1 - Transaction Statuses State-Machine Diagram
+### Figure 1. Transaction Statuses State-Machine Diagram
 
 ![](<../../.gitbook/assets/Mina Transaction State Machine Diagram.png>)
 
@@ -76,7 +76,7 @@ The reward can be paid in Epoch x+3. The reward payment frequency is different f
 
 At any point of the delegation lifecycle, the delegator may delegate its funds to another validator or to the same validator again. As a result of another delegation, a new delegation appears. However, if a delegator delegates its funds to the same validator again in Epoch x, this is deemed as the same delegation. A delegation receives the replaced status only if the delegator delegated tokens in the same epoch when the delegation was made. If the delegator delegated funds later, this transaction is deemed as a new delegation with the waiting (amount changeable) status and the previously made delegation has the active status. **Figure 2** shows the lifecycle of a delegation in the Mina blockchain.
 
-### Figure 2 - Delegation Lifecycle
+### Figure 2. Delegation Lifecycle
 
 ![](<../../.gitbook/assets/Delegation Lifecycle.png>)
 
@@ -84,7 +84,7 @@ At any point of the delegation lifecycle, the delegator may delegate its funds t
 
 In the Mina blockchain, there are no **statuses for delegations**. We find it reasonable to introduce delegation statuses since it appears that delegations may come in different states. To do so it’s critical to understand how delegation data are processed within Mina Protocol.
 
-**Figure 2** shows delegation statuses. In the Mina blockchain, there are no statuses of delegations, so we suggest our own statuses:
+**Figure 3** shows delegation statuses. In the Mina blockchain, there are no statuses of delegations, so we suggest our own statuses:
 
 namely: **waiting (amount changeable)**, **waiting (amount fixed)**, **active**, **replaced**, **ended** (see **Figure 3**):
 
@@ -93,9 +93,9 @@ namely: **waiting (amount changeable)**, **waiting (amount fixed)**, **active**,
 * <mark style="background-color:purple;"><mark style="color:purple;">REPLACED<mark style="color:purple;"></mark> is a status when a new delegation was made, and in the same epoch another delegation was made to the same delegator again;
 * <mark style="background-color:red;">ENDED</mark> is a status when a new delegation was made and more than 2 epochs have passed or when a delegator undelegated its stake.
 
-### Figure 3 - Delegation Statuses State Machine Diagram
+### Figure 3. Delegation Statuses State Machine Diagram
 
-![](<../../.gitbook/assets/Mina Delegation State Machine Diagram.png>)
+![](<../../.gitbook/assets/Mina Delegation State Machine Diagram (1).png>)
 
 Delegation data is entered in 4 ledgers: the snarked ledger, the staking ledger, the **next epoch ledger,** and the staged ledger. A ledger is an electronic book that shows data on the account balance and delegation state. Each ledger extracts data from node databases. A delegation enters the snarked ledger once the delegation is made in Epoch x. On the 290th of Epoch x+1, the delegation enters the next epoch ledger. On the 1st block of Epoch x+2, the delegation enters the staking ledger and the staged ledger. The staged ledger has the same information as the staking ledger, but in the staged ledger the **receipt chain hash** updates every hour (see **Figure 4**).
 
@@ -119,7 +119,6 @@ Delegation data is entered in 4 ledgers: the snarked ledger, the staking ledger,
 See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
-### Figure 4 - Ledgers
+### Figure 4. Ledgers
 
-![](<../../.gitbook/assets/Mina Ledgers.png>)
-
+![](<../../.gitbook/assets/Mina ledgers.png>)

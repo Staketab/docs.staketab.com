@@ -20,9 +20,9 @@ Today all cryptocurrency services function exclusively on-chain. The division of
 For more information see [Mina Glossary](mina-glossary.md).
 {% endhint %}
 
-### **Figure 1 - ZKapps**
+### **Figure 1. ZKapps**
 
-****![](<../../.gitbook/assets/image (22).png>)****
+![](../../.gitbook/assets/ZKapps.png)
 
 ZKapps are web applications like **Daemons**, written in **TypeScript** using the Mina zkApp **CLI** that allow to use ZK-snarks to validate the input data in various applications. ZKapps are used off-chain, and they allow to sell ZK-proof services to external users anywhere where some data needs approval without disclosure of details.
 
@@ -84,9 +84,9 @@ A ZKapp runs simultaneously on-chain, or within Mina, and off-chain, in an exter
 See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
-### **Figure 2 - ZKapps as smart contracts**
+### **Figure 2. ZKapps as smart contracts**
 
-****![](<../../.gitbook/assets/image (18).png>)****
+![](<../../.gitbook/assets/ZKapps as smart contracts.png>)
 
 When a smart contract is executed and a ZK-proof is done, the new state has to be stored. Two different types of state exist on Mina: an **on-chain state** and an **off-chain state**. If the new state is stored on-chain, it can be used as a snark for block production. Each ZKapp account provides 8 fields of 32 bytes each of arbitrary storage. If a state requires more memory, an off-chain option then is in place. For larger data, it’s possible to store the root of a Merkle tree (or similar data structure) within the ZKapp’s on-chain storage that references additional off-chain state stored elsewhere, in any external data storage, e.g. IPFS. When a ZKapp runs in a user’s web browser, it may insert a state to an external storage.
 
@@ -155,8 +155,7 @@ There is a number of real-life use cases where ZKapps may be applied, where it�
 19. Testing and examinations.
 20. Notary services.
 
-### Figure 3 - ZKapps Use Cases
+### Figure 3. ZKapps Use Cases
 
-![](<../../.gitbook/assets/image (8).png>)\
-
+![](<../../.gitbook/assets/ZKapps Use Cases.png>)
 

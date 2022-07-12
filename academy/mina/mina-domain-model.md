@@ -36,7 +36,7 @@ See [Mina glossary](mina-glossary.md).
 
 <details>
 
-<summary><strong>Appendix 1 - Blockchain Trilemma</strong></summary>
+<summary>Appendix 1. Blockchain Trilemma</summary>
 
 The fact that blockchain as computer technology is novel, it’s exposed to a number of developmental diseases that hinder its adoption. Vitalik Buterin, the co-founder of Ethereum, a blockchain investor, enthusiast and end evangelist, thus formulated the notorious “blockchain trilemma“, the cornerstone issue that needs to be addressed by any blockchain aiming to be a success.
 
@@ -79,11 +79,9 @@ In reality, most blockchains rarely follow these extreme cases and find their ow
 
 </details>
 
-### Figure 1 - Blockchain Trilemma
+### Figure 1. Blockchain Trilemma
 
 ![](<../../.gitbook/assets/Blockchain Trilemma.png>)
-
-The blockchain embraces **nodes**, connected to each other in the **Mina Protocol**, which come as either **validators (block producers) **_****_ or **ZK-snarkers (snark workers)**, and **delegators**. ZK-snarkers are nodes that provide the proof of the validity of the previous transactions for the validators to add them to a new block so that the validators don’t have to find proof of the validity of the previous transactions. It means that making a new block no more requires a great deal of CPU, and the whole distributed ledger may fit in a single I-phone. For producing **ZK-snarks (snark works)** ZK-snarkers take a **fee**. A node can be simultaneously a validator and a ZK-snarker.
 
 ### Glossary Reference 2
 
@@ -167,4 +165,4 @@ The diagram in **Figure 2** shows the main entities in Mina Protocol and their a
 
 ### **Figure 2. Mina Domain Diagram**
 
-![](<../../.gitbook/assets/Mina Domain Diagram.png>)
+![](<../../.gitbook/assets/Mina Domain Model.png>)

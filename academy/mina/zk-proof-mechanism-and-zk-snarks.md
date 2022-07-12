@@ -26,9 +26,9 @@ Mina is a succinct and lightweight **PoS** blockchain that weighs only 22 kBytes
 See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
-### Figure 1 - Separation of roles in Mina
+### Figure 1. Separation of roles in Mina
 
-![](<../../.gitbook/assets/Separation Roles in Mina.png>)
+![](<../../.gitbook/assets/Separation of Roles in Mina.png>)
 
 Validators are **full nodes** that broadcast transactions and produce blocks. ZK-snarkers, on the other hand, are not full nodes, but they aren’t **light clients** either. ZK-snarkers are seen as a special type of nodes - **non-consensus nodes**, which are designed to have access to full historical information in the Mina blockchain and process these data for validators. To operate ZK-snarkers need 5 types of data in store:
 
@@ -60,7 +60,7 @@ Validators are **full nodes** that broadcast transactions and produce blocks. ZK
 See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
-### Figure 2 - Merkle Tree
+### Figure 2. Merkle Tree
 
 ![](<../../.gitbook/assets/Merkle Tree.png>)
 
@@ -84,7 +84,7 @@ In Mina, those are ZK-snarkers that do snark works. What snarkers actually do is
 See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
-### Figure 3 - ZK-Proof Mechanism
+### Figure 3. ZK-Proof Mechanism
 
 ![](<../../.gitbook/assets/ZK-Proof Mechanism.png>)
 
@@ -108,6 +108,6 @@ A **snark coordinator** coordinates snark jobs among many snark workers. The coo
 See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
-### Figure 4 - Snarketplace
+### Figure 4. Snarketplace
 
-![](../../.gitbook/assets/Snarketplace.png)
+![](<../../.gitbook/assets/Snarketplace (1).png>)

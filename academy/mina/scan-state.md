@@ -26,11 +26,11 @@ See [Mina glossary](mina-glossary.md).
 
 The scan state has 2 basic constants that define its behavior: _**transaction\_capacity\_log\_2**_ that defines the maximum number of transactions that can be included in a block: and _**work\_delay**_ that ensures there is enough time for the snark work to be completed by the snark workers. If there are no completed proofs available, the block producer cannot include any transactions.
 
-The maximum number of transactions in a block is defined by the following formula:
+The maximum number of transactions in a block is defined by **Formula 1**:
 
 <details>
 
-<summary><strong>Formula 1: Maximum Number of Transactions</strong></summary>
+<summary>Formula 1: Maximum Number of Transactions</summary>
 
 **Tmax=2^(TCL)**
 
@@ -40,7 +40,7 @@ where **Tmax** = maximum number of trees,
 
 </details>
 
-The maximum number of trees is calculated by the following formula:
+The maximum number of trees is calculated by **Formula 2**:
 
 <details>
 
@@ -56,7 +56,7 @@ where **Tmax** = maximum number of trees,
 
 </details>
 
-The maximum number of proofs that may be included per block is defined by the following formula:
+The maximum number of proofs that may be included per block is defined by **Formula 3**:
 
 <details>
 
@@ -76,49 +76,49 @@ Here below is an example that helps to understand how the scan state works.
 
 Let’s take a state scan with max\_no\_of\_transactions = 4 and work\_delay = 1. At **Genesis,** the scan state is empty and looks like in **Figure 1**.
 
-### Figure 1 - Genesis
+### Figure 1. Genesis
 
-![](../../.gitbook/assets/Genesis.png)
+![](<../../.gitbook/assets/Genesis (1).png>)
 
 **Block 1**: A block producer includes four transactions into the scan state labeled (B1). These transactions fill the base of the first tree (see **Figure 2**).
 
-### Figure 2 - Block 1
+### Figure 2. Block 1
 
 ![](<../../.gitbook/assets/Block 1.png>)
 
 **Block 2**: At the second block, a block producer adds another four transactions (B2). These are added to a second tree, once again filling the base. There are no proofs required due to the work delay of 1 block (see **Figure 3**).
 
-### Figure 3 - Block 2
+### Figure 3. Block 2
 
 ![](<../../.gitbook/assets/Block 2.png>)
 
 **Block 3**: At the third block, a block producer adds four (B3) transactions to the third tree but must include four proofs for the first tree. As a result of including these completed base proofs, two new (M3) merge jobs are created (see **Figure 4**).
 
-### Figure 4 - Block 3
+### Figure 4. Block 3
 
-![](<../../.gitbook/assets/Block 3.png>)
+![](<../../.gitbook/assets/Block 3 (1).png>)
 
-For the fourth block, a block producer adds another four transactions (see **Figure 5**) to the base of the fourth tree. They must include four proofs corresponding to the work added in block 2. Again, two `M4` merge jobs are created as a result.
+For the fourth block, a block producer adds another four transactions (see **Figure 5**) to the base of the fourth tree. They must include four proofs corresponding to the work added in block 2. Again, two M4 merge jobs are created as a result.
 
-### Figure 5 - Block 4
+### Figure 5. Block 4
 
-![](<../../.gitbook/assets/Block 4.png>)
+![](<../../.gitbook/assets/Block 4 (2).png>)
 
 **Block 5**: In the fifth block, another four transactions are included to fill the base of tree five (B5), and six proofs must be included (B3s and M3s). The M3 merge jobs result in a final pending merge job for the first tree (M5) (see **Figure 6**).
 
-### Figure 6 - Block 5
+### Figure 6. Block 5
 
 ![](<../../.gitbook/assets/Block 5.png>)
 
 **Block 6**: In the sixth block, another four transactions (B6) are added, filling the base of the sixth tree. Six proofs are included (B4 and M4), and three new merge jobs are created (M6) (see **Figure 7**).
 
-### Figure 7 - Block 6
+### Figure 7. Block 6
 
 ![](<../../.gitbook/assets/Block 6.png>)
 
 **Block 7**: In the seventh block, a further four transactions (B7) are added by the block producer filling the base of the seventh tree. Seven trees are the maximum number of trees according to the specified scan state constants. The maximum number of proofs (7) are included (B5 and M5). These included proofs create three new merge jobs (M7), and additionally, the top (M5) proof is emitted from the scan state. The proof that is emitted from the first tree is the ledger proof corresponding to the transactions added in block 1. The contents of the tree are then removed to create space for additional transactions, so the next tree will be empty (**Figure 8**).
 
-### Figure 8 - Block 7
+### Figure 8. Block 7
 
 ![](<../../.gitbook/assets/Block 7.png>)
 

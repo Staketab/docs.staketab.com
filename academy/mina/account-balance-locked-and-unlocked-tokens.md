@@ -2,7 +2,7 @@
 
 ## Account Balance in Mina <a href="#account-balance-in-mina" id="account-balance-in-mina"></a>
 
-An **account balance** consists of three types of funds: free funds, **current locked balance** and **current unlocked balance**. Free funds and currently unlocked funds make up **movable balance**. An account can stake, delegate or send only the funds in the movable balance (see **Figure 1** and **Appendix 1**).
+An **account balance** consists of three types of funds: free funds, **current locked balance** and **current unlocked balance**. Free funds and currently unlocked funds make up **movable balance**. An account can stake, delegate or send only the funds in the movable balance (see **Figure 1**).
 
 ### Glossary Reference 1
 
@@ -27,9 +27,9 @@ An **account balance** consists of three types of funds: free funds, **current l
 See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
-### Figure 1 - Account Balance
+### Figure 1. Account Balance
 
-![](<../../.gitbook/assets/Account Balance.png>)
+![](<../../.gitbook/assets/Mina Account Balance.png>)
 
 ## **Unlock mechanism in Mina protocol** <a href="#unlock-mechanism-in-mina-protocol" id="unlock-mechanism-in-mina-protocol"></a>
 
@@ -52,9 +52,6 @@ Let’s see how the unlock mechanism works in mina on a simple example (**Table 
 
 ### Table 1. Example of funds unlock in Mina
 
-\
-
-
 | **Parameter**           | **Value** |
 | ----------------------- | --------- |
 | Initial minimum balance | 1000 Mina |
@@ -66,9 +63,9 @@ Let’s see how the unlock mechanism works in mina on a simple example (**Table 
 From slot 1 to slot 9 all tokens (initial minimum balance) are locked. Then unlocked on slot 10 (cliff amount) 500 Mina. 11, 12, 13, 14 and 15 slots will be unlocked (vesting increment) by 100 tokens\
 and on slot 15 all initial minimum balance will be unlocked (see **Figure 2**)**.**
 
-### Figure 2. Unlock mechanisms
+### Figure 2. Unlock mechanism
 
-![](<../../.gitbook/assets/Unlock Mechanism.png>)
+![](<../../.gitbook/assets/Mina Unlock Mechanism.png>)
 
 ## Genesis and sponsor award <a href="#genesis-and-sponsor-award" id="genesis-and-sponsor-award"></a>
 

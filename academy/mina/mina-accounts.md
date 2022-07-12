@@ -18,7 +18,7 @@ Officially there are no **accounts** in Mina, and all users operate in Mina bloc
 See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
-### Figure 1 - Accounts and Addresses
+### Figure 1. Accounts and Addresses
 
 ![](<../../.gitbook/assets/Mina Accounts and Addresses (1).png>)
 
@@ -73,15 +73,15 @@ Depending on how accounts make a profit and how they operate in Mina, all accoun
 See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
-### Figure 2 - Mina account
+### Figure 2. Mina accounts
 
-![](<../../.gitbook/assets/Mina Accounts.png>)
+![](<../../.gitbook/assets/Mina Accounts (2).png>)
 
 A validator as an account can have two addresses: a node address, through which it operates, and a coinbase address, to which rewards are transferred (see **Figure 3**).
 
-### Figure 3 - Validator Account
+### Figure 3. Validator Account
 
-![](<../../.gitbook/assets/Mina Validator Account.png>)
+![](<../../.gitbook/assets/Mina Validator Account (1).png>)
 
 ## How to create an account in the Mina blockchain <a href="#how-to-create-an-account-in-the-mina-blockchain" id="how-to-create-an-account-in-the-mina-blockchain"></a>
 
@@ -110,8 +110,8 @@ An account is created via **Mina SDK** or by a node through **CLI**. and activat
 See [Mina glossary](mina-glossary.md)
 {% endhint %}
 
-### Figure 4 - Account Creation
+### Figure 4. Account Creation
 
-![](<../../.gitbook/assets/Mina Account Creation.png>)
+![](<../../.gitbook/assets/Mina Account Creation (1).png>)
 
 For more information on the ledgers please go to [Account Balance: Locked and Unlocked Tokens](account-balance-locked-and-unlocked-tokens.md).
