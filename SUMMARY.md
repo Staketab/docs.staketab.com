@@ -67,7 +67,3 @@
   * [Scan State](academy/mina/scan-state.md)
 * [AXELAR](academy/axelar/README.md)
   * [What is Axelar project?](academy/axelar/what-is-axelar-project.md)
-
-## explorer
-
-* [MINA](explorer/mina.md)
