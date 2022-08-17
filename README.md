@@ -4,9 +4,9 @@ description: >-
   topics.
 ---
 
-# Welcome to Staketab.com
+# Welcome to Staketab Academy
 
-## Our projects:
+## Our projects:S
 
 [staketab.com](https://staketab.com/) -- Staking provider website
 

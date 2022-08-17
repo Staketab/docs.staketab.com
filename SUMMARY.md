@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to Staketab.com](README.md)
+* [Welcome to Staketab Academy](README.md)
 
 ## HOW TO STAKE
 
