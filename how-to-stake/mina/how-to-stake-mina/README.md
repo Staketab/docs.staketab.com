@@ -18,8 +18,8 @@ Keep in Mind that Mina validators participate in a lottery to win (produce) bloc
 
 ## Detailed guides how to stake Mina <a href="#detailed-guides-how-to-stake-mina" id="detailed-guides-how-to-stake-mina"></a>
 
-{% content-ref url="untitled.md" %}
-[untitled.md](untitled.md)
+{% content-ref url="using-command-line.md" %}
+[using-command-line.md](using-command-line.md)
 {% endcontent-ref %}
 
 {% content-ref url="using-third-party-wallet/" %}

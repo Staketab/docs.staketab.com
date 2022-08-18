@@ -22,7 +22,7 @@
     * [How to buy Mina on CoinEx centralized exchange](how-to-stake/mina/how-to-buy-mina/how-to-buy-mina-on-coinex-centralized-exchange.md)
     * [How to buy Mina on BKEX centralized exchange](how-to-stake/mina/how-to-buy-mina/how-to-buy-mina-on-bkex-centralized-exchange.md)
   * [How to stake Mina](how-to-stake/mina/how-to-stake-mina/README.md)
-    * [How to stake Mina from own Mina node (using command line)](how-to-stake/mina/how-to-stake-mina/untitled.md)
+    * [How to stake Mina from own Mina node (using command line)](how-to-stake/mina/how-to-stake-mina/using-command-line.md)
     * [How to stake Mina using third party wallet](how-to-stake/mina/how-to-stake-mina/using-third-party-wallet/README.md)
       * [How to stake Mina using Clorio browser and desktop wallet](how-to-stake/mina/how-to-stake-mina/using-third-party-wallet/how-to-stake-mina-using-clorio-browser-and-desktop-wallet.md)
       * [How to stake Mina using Auro browser and mobile wallet](how-to-stake/mina/how-to-stake-mina/using-third-party-wallet/how-to-stake-mina-using-auro-browser-and-mobile-wallet.md)
