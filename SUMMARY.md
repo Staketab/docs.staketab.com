@@ -2,6 +2,22 @@
 
 * [Welcome to Staketab Docs](README.md)
 
+## ACADEMY
+
+* [MINA](academy/mina/README.md)
+  * [Mina Glossary](academy/mina/mina-glossary.md)
+  * [Mina Domain Model](academy/mina/mina-domain-model.md)
+  * [Mina Block Production](academy/mina/mina-block-production.md)
+  * [Mina Accounts](academy/mina/mina-accounts.md)
+  * [Reward Calculation](academy/mina/reward-calculation.md)
+  * [Transaction and Delegation Statuses and Delegation Mechanism in the Mina Blockchain](academy/mina/transaction-and-delegation-statuses-and-delegation-mechanism-in-the-mina-blockchain.md)
+  * [Account Balance: Locked and Unlocked Tokens](academy/mina/account-balance-locked-and-unlocked-tokens.md)
+  * [ZK-proof mechanism and ZK-snarks](academy/mina/zk-proof-mechanism-and-zk-snarks.md)
+  * [ZKapps](academy/mina/zkapps.md)
+  * [Scan State](academy/mina/scan-state.md)
+* [AXELAR](academy/axelar/README.md)
+  * [What is Axelar project?](academy/axelar/what-is-axelar-project.md)
+
 ## HOW TO STAKE
 
 * [BITCANNA](how-to-stake/bitcanna/README.md)
@@ -51,19 +67,3 @@
   * [How to stake Stargaze using Keplr](how-to-stake/stargaze/how-to-stake-stargaze-using-keplr.md)
   * [How to stake Stargaze using Cosmostation](how-to-stake/stargaze/how-to-stake-stargaze-using-cosmostation.md)
   * [How to vote on stargaze.zone](how-to-stake/stargaze/how-to-vote-on-stargaze.zone.md)
-
-## ACADEMY
-
-* [MINA](academy/mina/README.md)
-  * [Mina Glossary](academy/mina/mina-glossary.md)
-  * [Mina Domain Model](academy/mina/mina-domain-model.md)
-  * [Mina Block Production](academy/mina/mina-block-production.md)
-  * [Mina Accounts](academy/mina/mina-accounts.md)
-  * [Reward Calculation](academy/mina/reward-calculation.md)
-  * [Transaction and Delegation Statuses and Delegation Mechanism in the Mina Blockchain](academy/mina/transaction-and-delegation-statuses-and-delegation-mechanism-in-the-mina-blockchain.md)
-  * [Account Balance: Locked and Unlocked Tokens](academy/mina/account-balance-locked-and-unlocked-tokens.md)
-  * [ZK-proof mechanism and ZK-snarks](academy/mina/zk-proof-mechanism-and-zk-snarks.md)
-  * [ZKapps](academy/mina/zkapps.md)
-  * [Scan State](academy/mina/scan-state.md)
-* [AXELAR](academy/axelar/README.md)
-  * [What is Axelar project?](academy/axelar/what-is-axelar-project.md)
