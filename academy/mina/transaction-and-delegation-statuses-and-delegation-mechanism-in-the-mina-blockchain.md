@@ -2,7 +2,7 @@
 
 ## Delegation in the Mina Blockchain <a href="#delegation-in-the-mina-blockchain" id="delegation-in-the-mina-blockchain"></a>
 
-A **delegation** is a **transaction**, when a **delegator**, i.e. an **account** that doesn’t run a **node** and can’t **stake Mina** itself, delegates its **tokens** to a **validator**, i.e. an account that runs a node and can stake Mina, hoping to get its part of the **reward** from the **coinbase** (720 - for a regular block, 1440 - for a **supercharged block**) according to its share in the validator’s **stake** in the event the said validator wins **block production** (for more information please go to [Mina Domain Model](mina-domain-model.md)).
+A **delegation** is a **transaction**, when a **delegator**, i.e. an **account** that doesn’t run a **node** and can’t **stake Mina** itself, delegates its **tokens** to a **validator**, i.e. an account that runs a node and can stake Mina, hoping to get its part of the **reward** from the **coinbase** (720 - for a regular block, 1440 - for a **supercharged block**) according to its share in the validator’s **stake** in the event the said validator wins **block production** (for more information please go to [Mina Block Production](mina-block-production.md)).
 
 ### Glossary Reference 1
 
@@ -36,7 +36,7 @@ A **delegation** is a **transaction**, when a **delegator**, i.e. an **account**
 See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
-A delegator may delegate or undelegate its tokens. A delegation is not a **transfer** of tokens from one account to another - in fact, a transfer is another type of transaction. With a delegation delegator’s tokens remain on its account, but they are **locked** for the delegation period. A delegator may redelegate its fund to another validator or to the same validator again. After re-delegating, there is a latency period of 2-4 weeks before your new stake delegation comes into effect. A delegator can receive its reward 1 **epoch** (2 weeks) after its validator wins block production and produces its **block** (for more information on reward calculation please go to [Reward Calculation](reward-calculation.md)).
+A delegation is not a **transfer** of tokens from one account to another - in fact, a transfer is another type of transaction. With a delegation delegator’s tokens remain on its account, but they are **locked** for the delegation period. A delegator may redelegate its fund to another validator or to the same validator again. After re-delegating, there is a latency period of 2-4 weeks before your new stake delegation comes into effect. A delegator can receive its reward 1 **epoch** (2 weeks) after its validator wins block production and produces its **block** (for more information on reward calculation please go to [Reward Calculation](reward-calculation.md)).
 
 ### Glossary Reference 2
 
