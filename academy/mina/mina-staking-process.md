@@ -17,8 +17,6 @@ If you don't run a node but want to stake, you can delegate your tokens to a val
 
 A delegation is not a transfer of tokens from one account to another - in fact, a transfer is another type of transaction. With a delegation delegator’s tokens **remain on its account**.&#x20;
 
-A delegator may redelegate its funds to another validator.&#x20;
-
 After delegation, there is a **latency period of 2-4 weeks** before your new stake delegation comes into effect.&#x20;
 
 ## Delegation Lifecycle <a href="#delegation-lifecycle" id="delegation-lifecycle"></a>
