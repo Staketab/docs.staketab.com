@@ -30,7 +30,7 @@ We have illustrated this process in the [**Mina Explorer**](https://mina.staketa
 
 ## Ledger Stages <a href="#delegation-ledgers" id="delegation-ledgers"></a>
 
-Delegation data is entered in 4 ledgers: the **snarked ledger**, the **staking ledger**, the **next epoch ledger,** and the **staged ledger**. Each ledger extracts data from node databases.
+Delegation data are entered in 4 ledgers: the **snarked ledger**, the **staking ledger**, the **next epoch ledger,** and the **staged ledger**. Each ledger extracts data from node databases.
 
 {% hint style="info" %}
 **Next epoch ledger** - the staking ledger for the next epoch (Epoch X+1).
