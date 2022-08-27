@@ -13,9 +13,13 @@ The delegation process in Mina is explained here. If you need a guide to staking
 
 ## Delegation Transaction <a href="#delegation-transaction" id="delegation-transaction"></a>
 
-If you don't run a node but want to stake, you can delegate your tokens to a validator. A **** delegation is a transaction, when a delegator, i.e. an account that doesn’t run a node and can’t stake Mina itself, delegates its tokens to a validator.
+If you don't run a node but want to stake, you can delegate your tokens to a validator. A **** delegation is a transaction, when a delegator (i.e. an account that doesn’t run a node and can’t stake Mina itself), delegates its tokens to a validator.
 
-A delegation is not a transfer of tokens from one account to another - in fact, a transfer is another type of transaction. With a delegation delegator’s tokens remain on its account, but they are locked for the delegation period. A delegator may redelegate its funds to another validator or to the same validator again. After this there is a latency period of 2-4 weeks before your new stake delegation comes into effect.&#x20;
+A delegation is not a transfer of tokens from one account to another - in fact, a transfer is another type of transaction. With a delegation delegator’s tokens **remain on its account**.&#x20;
+
+A delegator may redelegate its funds to another validator.&#x20;
+
+After delegation, there is a **latency period of 2-4 weeks** before your new stake delegation comes into effect.&#x20;
 
 ## Delegation Lifecycle <a href="#delegation-lifecycle" id="delegation-lifecycle"></a>
 
@@ -27,9 +31,21 @@ You don’t get your reward once you made your delegation. Overall, it takes ove
 
 <figure><img src="../../.gitbook/assets/10153248-0087-4082-87c0-8e406aa8c8ec.png" alt=""><figcaption></figcaption></figure>
 
-## Delegation Specifics
+## Delegation Rules
 
-At any point of the delegation lifecycle, a delegator may delegate funds to another validator. In Mina all account balance is delegated to only one validator. **You can’t delegate part of your balance and you can’t delegate to multiple validators.** If you’re a validator, you can validate to yourself.
+At any point of the delegation lifecycle, a delegator may delegate funds to another validator. In Mina all account balance is delegated to only one validator.
+
+{% hint style="success" %}
+In Mina, your **funds are** **never locked**!
+{% endhint %}
+
+Yes, and it's very convenient. You can safely dispose of your funds after sending the delegation. The thing is that the balance snapshot, which is taken into account when staking, is done at the end of the epoch.&#x20;
+
+{% hint style="success" %}
+How much tokens you have on your **balance sheet at the end of the epoch**, that much will be taken into account for staking.
+{% endhint %}
+
+**You can’t delegate part of your balance and you can’t delegate to multiple validators.** If you’re a validator, you can validate to yourself.
 
 {% hint style="info" %}
 Please note that if you did not stake to anyone, then after 2 epochs the **protocol will automatically stake your tokens** (starting from the moment when there is more than 1 Mina on the balance)
