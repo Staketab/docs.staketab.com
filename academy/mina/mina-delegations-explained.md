@@ -48,9 +48,9 @@ See [Mina glossary](mina-glossary.md).
 
 When a delegation is made (**Epoch X**), it enters the <mark style="background-color:purple;"></mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">**staged ledger**</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;"></mark> . The delegation transaction enters the scan state for snark workers to generate a **snark proof** of the transaction - the amount of time this takes is dependent on the transaction throughput of the network. Once a proof containing the delegation transaction is generated a new <mark style="background-color:purple;"></mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">**snarked ledger**</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;"></mark> is produced.&#x20;
 
-{% content-ref url="scan-state.md" %}
-[scan-state.md](scan-state.md)
-{% endcontent-ref %}
+{% hint style="info" %}
+For more details see the [**Scan state**](https://docs.staketab.com/academy/mina/scan-state) **** article
+{% endhint %}
 
 By the end of Epoch X, the delegation amount can change with the changes in the account balance. On the last block of the epoch when the delegation was made the account balance gets fixed, and this becomes the delegation amount that moves on to the next epoch.
 
