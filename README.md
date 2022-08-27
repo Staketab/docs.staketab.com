@@ -4,7 +4,7 @@ description: >-
   topics.
 ---
 
-# Welcome to Staketab.com
+# Welcome to Staketab Docs
 
 ## Our projects:
 

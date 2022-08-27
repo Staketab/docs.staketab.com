@@ -2,15 +2,15 @@
 
 1\. Go to [Keplr wallet website](https://www.keplr.app/) using Chrome browser. Unfortunately, other browsers are not supported by Keplr currently.
 
-![](../../.gitbook/assets/00\_keplr\_website.png)
+![](../../.gitbook/assets/00\_keplr\_website.PNG)
 
 2\. Click on "Install Keplr" button.
 
-![](../../.gitbook/assets/02\_install\_to\_chrome\_button.png)
+![](../../.gitbook/assets/02\_install\_to\_chrome\_button.PNG)
 
 3\. Click on "Add to Chrome" button. Confirm adding to Chrome.
 
-![](../../.gitbook/assets/03\_add\_keplr.png)
+![](../../.gitbook/assets/03\_add\_keplr.PNG)
 
 4\. Click on "Extensions" button at the top right corner of Chrome browser and select Keplr.
 
@@ -18,17 +18,17 @@
 
 5\. Copy your mnemonic seed to a safe place. Several backups are recommended, e. g. paper and digital (screenshot or file on private passworded USB) ones.
 
-![](../../.gitbook/assets/05\_mnemonic\_seed\_warning.png)
+![](../../.gitbook/assets/05\_mnemonic\_seed\_warning.PNG)
 
 6\. Set account name and password.
 
-![](../../.gitbook/assets/06\_set\_account\_name\_and\_pswd.png)
+![](../../.gitbook/assets/06\_set\_account\_name\_and\_pswd.PNG)
 
 7\. Enter your mnemonic seed.
 
 8\. Keplr account is created successfully.
 
-![](../../.gitbook/assets/07\_successful\_creation\_of\_account.png)
+![](../../.gitbook/assets/07\_successful\_creation\_of\_account.PNG)
 
 9\. Pin Keplr to your Chrome browser to make it visible at the Crome panel.
 
