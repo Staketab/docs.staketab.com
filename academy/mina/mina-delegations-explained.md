@@ -6,7 +6,9 @@ description: >-
 
 # Mina Delegations Explained
 
-Before you read this article, you can learn the basics: [**Mina Staking**](https://docs.staketab.com/academy/mina/mina-delegations-beginners).
+{% hint style="info" %}
+Before you read this article, you can learn the basics: [**Mina Staking Process**](https://docs.staketab.com/academy/mina/mina-delegations-beginners).
+{% endhint %}
 
 ## Delegation Statuses <a href="#delegation-statuses-explained" id="delegation-statuses-explained"></a>
 
