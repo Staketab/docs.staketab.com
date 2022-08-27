@@ -7,6 +7,10 @@ description: >-
 
 # Mina Staking Process
 
+{% hint style="info" %}
+The delegation process in Mina is explained here. If you need a guide to staking, then follow the link: [**How to stake Mina**](https://docs.staketab.com/how-to-stake/mina/how-to-stake-mina)&#x20;
+{% endhint %}
+
 ## Delegation Transaction <a href="#delegation-transaction" id="delegation-transaction"></a>
 
 If you don't run a node but want to stake, you can delegate your tokens to a validator. A **** delegation is a transaction, when a delegator, i.e. an account that doesn’t run a node and can’t stake Mina itself, delegates its tokens to a validator.
