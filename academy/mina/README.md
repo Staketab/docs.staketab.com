@@ -16,12 +16,12 @@
 [mina-accounts.md](mina-accounts.md)
 {% endcontent-ref %}
 
-{% content-ref url="reward-calculation.md" %}
-[reward-calculation.md](reward-calculation.md)
+{% content-ref url="mina-reward-calculation.md" %}
+[mina-reward-calculation.md](mina-reward-calculation.md)
 {% endcontent-ref %}
 
-{% content-ref url="transaction-and-delegation-statuses-and-delegation-mechanism-in-the-mina-blockchain.md" %}
-[transaction-and-delegation-statuses-and-delegation-mechanism-in-the-mina-blockchain.md](transaction-and-delegation-statuses-and-delegation-mechanism-in-the-mina-blockchain.md)
+{% content-ref url="mina-delegations-advanced.md" %}
+[mina-delegations-advanced.md](mina-delegations-advanced.md)
 {% endcontent-ref %}
 
 {% content-ref url="account-balance-locked-and-unlocked-tokens.md" %}

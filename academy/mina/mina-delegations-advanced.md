@@ -1,0 +1,53 @@
+# Mina Delegations (Advanced)
+
+## Delegation Statuses Explained <a href="#delegation-statuses-explained" id="delegation-statuses-explained"></a>
+
+Before you read this article, you can learn the basics about delegation in Mina [here](https://vhorba.atlassian.net/wiki/spaces/SE/pages/2300542977/Mina+Delegations+Beginners).
+
+In the Mina blockchain, there are no statuses for delegations. We find it reasonable to introduce delegation statuses since it appears that delegations may come in different states. To do so it’s critical to understand how delegations are processed within the Mina Protocol.
+
+At any point of the delegation lifecycle, a delegator may delegate funds to another validator or to the same validator. In Mina all account balance is delegated to only one validator. You can’t delegate part of your balance and you can’t delegate to multiple validators. If you’re a validator, you can validate to yourself.
+
+<figure><img src="../../.gitbook/assets/SMD Delegation Lifecycle.png" alt=""><figcaption><p><strong>State Machine Diagram - Delegation Statuses (Lifecycle)</strong></p></figcaption></figure>
+
+We suggest the following statuses for a delegation: **Waiting**, **Active**, **Replaced**, **Skipped**, **Ended**:
+
+* &#x20;<mark style="background-color:orange;">WAITING</mark> is a status when a new delegation was made until it becomes active. It takes 2 epochs.
+* &#x20;<mark style="background-color:green;">ACTIVE</mark> is a status when a delegation is currently active and produces rewards.
+* &#x20;<mark style="background-color:red;">REPLACED</mark> is a status when a delegation was replaced by another delegation to another validator before rewards were produced since in the Mina blockchain there can currently be only one delegation, which fixes the account balance at the end of each epoch.
+* &#x20;<mark style="background-color:blue;">SKIPPED</mark> is a status when a new delegation was made to the same validator again before rewards were produced; such a transaction makes no sense, since the account balance will be fixed at the end of the epoch as it is, and the validator remains the same.
+* &#x20;<mark style="background-color:purple;">ENDED</mark> is a status when a delegation cycle comes to an end with rewards being produced, which was triggered by changing the validator 2 epochs before.
+
+## Lifecycle Stages & Ledgers <a href="#delegation-ledgers" id="delegation-ledgers"></a>
+
+Delegation data is entered in 4 ledgers: the **snarked ledger**, the **staking ledger**, the **next epoch ledger,** and the **staged ledger**. Each ledger extracts data from node databases.
+
+{% hint style="info" %}
+**Next epoch ledger** - the staking ledger for the next epoch (Epoch X+1).
+
+**Snarked ledger** - the ledger containing only transactions that have an associated proof (Epoch X).
+
+**Staking ledger** - the ledger used to determine block producers for a slot, as the probability of winning a slot is proportional to the amount of stake (Epoch X+2).
+
+**Staged ledger** - most recent staged ledger (from the best tip of that node). A staged ledger can be regarded as a "Pending accounts database" that has transactions(payments, coinbase, and proof-fees) applied for which there are no snarks available yet (Epoch X+2).
+
+See [Mina glossary](mina-glossary.md).
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/AD Delegation Lifecycle.png" alt=""><figcaption><p><strong>Activity Diagram - Delegation Tx made in epoch X</strong></p></figcaption></figure>
+
+When a delegation is made (**Epoch X**), it enters the <mark style="background-color:purple;"></mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">**snarked ledger**</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;"></mark> . By the end of Epoch X, the delegation amount can change with the changes in the account balance. On the last block of the epoch when the delegation was made the account balance gets fixed, and this becomes the delegation amount that moves on to the next epoch.
+
+In the next epoch (**Epoch X+1**) the delegation **amount is fixed** starting with the first block of Epoch X+1. From now on the delegation amount will not change whatever changes may come with the account balance. At the 290th block of Epoch X+1, the delegation amount enters the <mark style="background-color:purple;"></mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">**next epoch ledger**</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;"></mark> . However, the delegation is not active yet.
+
+<figure><img src="../../.gitbook/assets/Ledgers.png" alt=""><figcaption><p><strong>Mina Ledgers</strong></p></figcaption></figure>
+
+In the next epoch (**Epoch X+2**) starting from the first block of the epoch the delegation becomes active and enters the <mark style="background-color:purple;">**staking ledger**</mark> and the <mark style="background-color:purple;">**staged ledger**</mark> . It remains active until the last block of Epoch X+2.
+
+{% hint style="warning" %}
+The reward can be paid in **Epoch X+2, Epoch X+3 or later**. Mina does not regulate the validator-delegator relationship, so each validator sets its own payout schedule. You can see the **reward payment terms** [**here**](https://mina.staketab.com/mainnet/validators/terms?epoch=35\&isFullyUnlocked=false\&isNotAnonymous=true\&isVerifOnly=false\&isWithFee=true\&orderBy=DESC\&page=0\&searchStr=\&size=100\&sortBy=amount\_staked\&stake=1000\&type=active).
+{% endhint %}
+
+{% hint style="info" %}
+For more information on the **reward payment** please see **** [**mina reward calculation**](https://docs.staketab.com/academy/mina/mina-reward-calculation).
+{% endhint %}
