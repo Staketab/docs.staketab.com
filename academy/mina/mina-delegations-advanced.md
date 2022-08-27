@@ -8,8 +8,6 @@ description: >-
 
 Before you read this article, you can learn the basics: [**Mina Delegations for beginners**](https://docs.staketab.com/academy/mina/mina-delegations-beginners).
 
-##
-
 ## Delegation Statuses Explained <a href="#delegation-statuses-explained" id="delegation-statuses-explained"></a>
 
 In the Mina blockchain, there are no statuses for delegations. We find it reasonable to introduce delegation statuses since it appears that delegations may come in different states. To do so it’s critical to understand how delegations are processed within the Mina Protocol.
