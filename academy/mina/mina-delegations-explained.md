@@ -33,13 +33,13 @@ We have illustrated this process in the [**Mina Explorer**](https://mina.staketa
 Delegation data are entered in 4 ledgers: the **snarked ledger**, the **staking ledger**, the **next epoch ledger,** and the **staged ledger**. Each ledger extracts data from node databases.
 
 {% hint style="info" %}
+**Staking ledger** - the ledger used to determine block producers for a slot, as the probability of winning a slot is proportional to the amount of stake (Epoch X).
+
 **Next epoch ledger** - the staking ledger for the next epoch (Epoch X+1).
 
-**Snarked ledger** - the ledger containing only transactions that have an associated proof (Epoch X).
+**Snarked ledger** - the ledger containing only transactions that have an associated proof (Epoch X+2).
 
-**Staking ledger** - the ledger used to determine block producers for a slot, as the probability of winning a slot is proportional to the amount of stake (Epoch X+2).
-
-**Staged ledger** - most recent staged ledger (from the best tip of that node). A staged ledger can be regarded as a "Pending accounts database" that has transactions(payments, coinbase, and proof-fees) applied for which there are no snarks available yet (Epoch X+2).
+**Staged ledger** - most recent staged ledger (from the best tip of that node). A staged ledger can be regarded as a "Pending accounts database" that has transactions (payments, coinbase, and proof-fees) applied for which there are no snarks available yet (Epoch X+2).
 
 See [Mina glossary](mina-glossary.md).
 {% endhint %}
