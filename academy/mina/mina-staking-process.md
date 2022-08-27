@@ -5,7 +5,7 @@ description: >-
   starts to produce rewards" and more.
 ---
 
-# Mina Staking
+# Mina Staking Process
 
 ## Delegation Transaction <a href="#delegation-transaction" id="delegation-transaction"></a>
 
@@ -13,7 +13,7 @@ If you don't run a node but want to stake, you can delegate your tokens to a val
 
 A delegation is not a transfer of tokens from one account to another - in fact, a transfer is another type of transaction. With a delegation delegator’s tokens remain on its account, but they are locked for the delegation period. A delegator may redelegate its funds to another validator or to the same validator again. After this there is a latency period of 2-4 weeks before your new stake delegation comes into effect.&#x20;
 
-## Staking Lifecycle <a href="#delegation-lifecycle" id="delegation-lifecycle"></a>
+## Delegation Lifecycle <a href="#delegation-lifecycle" id="delegation-lifecycle"></a>
 
 You don’t get your reward once you made your delegation. Overall, it takes over 2 or 3 epochs. This period includes:
 
@@ -48,3 +48,14 @@ Mina does not regulate the validator-delegator relationship, so each validator s
 {% hint style="info" %}
 For more information on the reward accrual **** please see **** [**Mina Reward Calculation**](https://docs.staketab.com/academy/mina/mina-reward-calculation).
 {% endhint %}
+
+## Delegation Tracking&#x20;
+
+We have carefully illustrated the delegation process in explorer. You can see a list of all your previous delegations and their current status, as well as the number of rewards earned after they are credited.&#x20;
+
+{% hint style="success" %}
+&#x20;To do this, find your account in the [**Mina Explorer**](https://mina.staketab.com/), go to **Account Details** and select the "**Staking**" tab.
+{% endhint %}
+
+Also, click on the **details** of the delegation to study its entire history in the context of past epochs from the moment it was made.
+

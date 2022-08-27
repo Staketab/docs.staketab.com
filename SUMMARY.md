@@ -9,7 +9,7 @@
   * [Mina Domain Model](academy/mina/mina-domain-model.md)
   * [Mina Block Production](academy/mina/mina-block-production.md)
   * [Mina Accounts](academy/mina/mina-accounts.md)
-  * [Mina Staking](academy/mina/mina-staking.md)
+  * [Mina Staking Process](academy/mina/mina-staking-process.md)
   * [Mina Delegations Explained](academy/mina/mina-delegations-explained.md)
   * [Mina Reward Calculation](academy/mina/mina-reward-calculation.md)
   * [Account Balance: Locked and Unlocked Tokens](academy/mina/account-balance-locked-and-unlocked-tokens.md)

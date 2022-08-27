@@ -22,6 +22,10 @@ We suggest the following statuses for a delegation: **Waiting**, **Active**, **R
 * &#x20;<mark style="background-color:blue;">SKIPPED</mark> is a status when a new delegation was made to the same validator again before rewards were produced; such a transaction makes no sense, since the account balance will be fixed at the end of the epoch as it is, and the validator remains the same.
 * &#x20;<mark style="background-color:purple;">ENDED</mark> is a status when a delegation cycle comes to an end with rewards being produced, which was triggered by changing the validator 2 epochs before.
 
+{% hint style="success" %}
+We have illustrated this process in the [**Mina Explorer**](https://mina.staketab.com/). To do this, find your account there, go to **Account Details** and select the "**Staking**" tab.
+{% endhint %}
+
 ## Ledger Stages <a href="#delegation-ledgers" id="delegation-ledgers"></a>
 
 Delegation data is entered in 4 ledgers: the **snarked ledger**, the **staking ledger**, the **next epoch ledger,** and the **staged ledger**. Each ledger extracts data from node databases.
