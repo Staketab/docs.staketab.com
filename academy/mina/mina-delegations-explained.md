@@ -39,7 +39,7 @@ Delegation data are entered in 4 ledgers: the **snarked ledger**, the **staking 
 
 **Snarked ledger** - the ledger containing only transactions that have an associated proof (Epoch X+2).
 
-**Staged ledger** - most recent staged ledger (from the best tip of that node). A staged ledger can be regarded as a "Pending accounts database" that has transactions (payments, coinbase, and proof-fees) applied for which there are no snarks available yet (Epoch X+2).
+**Staged ledger** - most recent staged ledger (from the best tip of that node). A staged ledger can be regarded as a "Pending accounts database" that has transactions (payments, coinbase, and proof-fees) applied for which there are no snarks available yet.
 
 See [Mina glossary](mina-glossary.md).
 {% endhint %}
