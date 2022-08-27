@@ -4,11 +4,11 @@ description: >-
   for blockchain specialists and developers.
 ---
 
-# Mina Delegations (Advanced)
+# Mina Delegations Explained
 
-Before you read this article, you can learn the basics: [**Mina Delegations for beginners**](https://docs.staketab.com/academy/mina/mina-delegations-beginners).
+Before you read this article, you can learn the basics: [**Mina Staking**](https://docs.staketab.com/academy/mina/mina-delegations-beginners).
 
-## Delegation Statuses Explained <a href="#delegation-statuses-explained" id="delegation-statuses-explained"></a>
+## Delegation Statuses <a href="#delegation-statuses-explained" id="delegation-statuses-explained"></a>
 
 In the Mina blockchain, there are no statuses for delegations. We find it reasonable to introduce delegation statuses since it appears that delegations may come in different states. To do so it’s critical to understand how delegations are processed within the Mina Protocol.
 
@@ -22,7 +22,7 @@ We suggest the following statuses for a delegation: **Waiting**, **Active**, **R
 * &#x20;<mark style="background-color:blue;">SKIPPED</mark> is a status when a new delegation was made to the same validator again before rewards were produced; such a transaction makes no sense, since the account balance will be fixed at the end of the epoch as it is, and the validator remains the same.
 * &#x20;<mark style="background-color:purple;">ENDED</mark> is a status when a delegation cycle comes to an end with rewards being produced, which was triggered by changing the validator 2 epochs before.
 
-## Lifecycle Stages & Ledgers <a href="#delegation-ledgers" id="delegation-ledgers"></a>
+## Ledger Stages <a href="#delegation-ledgers" id="delegation-ledgers"></a>
 
 Delegation data is entered in 4 ledgers: the **snarked ledger**, the **staking ledger**, the **next epoch ledger,** and the **staged ledger**. Each ledger extracts data from node databases.
 

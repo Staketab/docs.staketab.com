@@ -5,7 +5,7 @@ description: >-
   starts to produce rewards" and more.
 ---
 
-# Mina Delegations (Beginners)
+# Mina Staking
 
 ## Delegation Transaction <a href="#delegation-transaction" id="delegation-transaction"></a>
 
@@ -13,7 +13,7 @@ If you don't run a node but want to stake, you can delegate your tokens to a val
 
 A delegation is not a transfer of tokens from one account to another - in fact, a transfer is another type of transaction. With a delegation delegator’s tokens remain on its account, but they are locked for the delegation period. A delegator may redelegate its funds to another validator or to the same validator again. After this there is a latency period of 2-4 weeks before your new stake delegation comes into effect.&#x20;
 
-## Delegation Lifecycle <a href="#delegation-lifecycle" id="delegation-lifecycle"></a>
+## Staking Lifecycle <a href="#delegation-lifecycle" id="delegation-lifecycle"></a>
 
 You don’t get your reward once you made your delegation. Overall, it takes over 2 or 3 epochs. This period includes:
 
@@ -23,7 +23,19 @@ You don’t get your reward once you made your delegation. Overall, it takes ove
 
 <figure><img src="../../.gitbook/assets/10153248-0087-4082-87c0-8e406aa8c8ec.png" alt=""><figcaption></figcaption></figure>
 
-### Rewards
+## Delegation Specifics
+
+At any point of the delegation lifecycle, a delegator may delegate funds to another validator. In Mina all account balance is delegated to only one validator. **You can’t delegate part of your balance and you can’t delegate to multiple validators.** If you’re a validator, you can validate to yourself.
+
+{% hint style="info" %}
+Please note that if you did not stake to anyone, then after 2 epochs the **protocol will automatically stake your tokens** (starting from the moment when there is more than 1 Mina on the balance)
+{% endhint %}
+
+{% hint style="warning" %}
+Also, you **cannot cancel the delegation** of your funds to Mina, since the developers of the protocol do not see the point in such an operation. Your funds are staked, and if you want to change the validator, you simply send a **new delegation**.
+{% endhint %}
+
+## Staking Rewards
 
 **Validator** gets rewarded for staking accounts from coinbase (720 - for a regular block, 1440 - for a supercharged block) according to its share in the validator’s stake in the event the said validator wins block production (for more information please go to [**Mina Bock Production**](https://docs.staketab.com/academy/mina/mina-block-production)).
 

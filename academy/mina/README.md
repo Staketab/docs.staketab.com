@@ -20,8 +20,8 @@
 [mina-reward-calculation.md](mina-reward-calculation.md)
 {% endcontent-ref %}
 
-{% content-ref url="mina-delegations-advanced.md" %}
-[mina-delegations-advanced.md](mina-delegations-advanced.md)
+{% content-ref url="mina-delegations-explained.md" %}
+[mina-delegations-explained.md](mina-delegations-explained.md)
 {% endcontent-ref %}
 
 {% content-ref url="account-balance-locked-and-unlocked-tokens.md" %}
