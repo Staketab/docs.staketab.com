@@ -8,11 +8,11 @@ description: >-
 
 Before you read this article, you can learn the basics: [**Mina Delegations for beginners**](https://docs.staketab.com/academy/mina/mina-delegations-beginners).
 
+##
+
 ## Delegation Statuses Explained <a href="#delegation-statuses-explained" id="delegation-statuses-explained"></a>
 
 In the Mina blockchain, there are no statuses for delegations. We find it reasonable to introduce delegation statuses since it appears that delegations may come in different states. To do so it’s critical to understand how delegations are processed within the Mina Protocol.
-
-At any point of the delegation lifecycle, a delegator may delegate funds to another validator or to the same validator. In Mina all account balance is delegated to only one validator. **You can’t delegate part of your balance and you can’t delegate to multiple validators.** If you’re a validator, you can validate to yourself.
 
 <figure><img src="../../.gitbook/assets/SMD Delegation Lifecycle.png" alt=""><figcaption><p><strong>State Machine Diagram - Delegation Statuses (Lifecycle)</strong></p></figcaption></figure>
 

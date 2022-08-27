@@ -23,7 +23,19 @@ You don’t get your reward once you made your delegation. Overall, it takes ove
 
 <figure><img src="../../.gitbook/assets/10153248-0087-4082-87c0-8e406aa8c8ec.png" alt=""><figcaption></figcaption></figure>
 
-### Rewards
+## Delegation specifics
+
+At any point of the delegation lifecycle, a delegator may delegate funds to another validator. In Mina all account balance is delegated to only one validator. **You can’t delegate part of your balance and you can’t delegate to multiple validators.** If you’re a validator, you can validate to yourself.
+
+{% hint style="info" %}
+Please note that if you did not stake to anyone, then after 2 epochs the **protocol will automatically stake your tokens** (starting from the moment when there is more than 1 Mina on the balance)
+{% endhint %}
+
+{% hint style="warning" %}
+Also, you **cannot cancel the delegation** of your funds to Mina, since the developers of the protocol do not see the point in such an operation. Your funds are staked, and if you want to change the validator, you simply send a **new delegation**.
+{% endhint %}
+
+## Rewards
 
 **Validator** gets rewarded for staking accounts from coinbase (720 - for a regular block, 1440 - for a supercharged block) according to its share in the validator’s stake in the event the said validator wins block production (for more information please go to [**Mina Bock Production**](https://docs.staketab.com/academy/mina/mina-block-production)).
 
