@@ -17,17 +17,17 @@ If you don't run a node but want to stake, you can delegate your tokens to a val
 
 A delegation is not a transfer of tokens from one account to another - in fact, a transfer is another type of transaction. With a delegation delegator’s tokens **remain on its account**.&#x20;
 
-After delegation, there is a **latency period of 2-4 weeks** before your new stake delegation comes into effect. (Sometimes, if you are making a delegation at the end of an epoch, the waiting period can be **6 weeks**.)
+After delegation, there is a **latency period of 2-4 weeks** before your new stake delegation comes into effect.
 
 ## Delegation Lifecycle <a href="#delegation-lifecycle" id="delegation-lifecycle"></a>
 
-You don’t get your reward once you made your delegation. Overall, it takes over 2 or 3 epochs. This period includes:
+You don’t get your reward once you made your delegation. Overall, it takes **over 2 or 3 epochs**. This period includes:
 
-1. 1-2 epochs until a delegation becomes active and starts to produce rewards (depending on when you made your delegation: if you made your delegation at the beginning of an epoch, this extends the waiting time, and if you did it at the end of an epoch, it will take less time);
-2. next epoch the active delegation produces rewards;
+1. 1 (2) epochs until a delegation becomes active and starts to produce rewards (depending on when you made your delegation: if you made your delegation at the beginning of an epoch, this extends the waiting time, and if you did it at the end of an epoch, it will take less time);
+2. in the next epoch after the waiting epoch the active delegation produces rewards;
 3. the validator distributes rewards; it takes some time until your validator provides you your share of the rewards depending on its terms.&#x20;
 
-<figure><img src="../../.gitbook/assets/10153248-0087-4082-87c0-8e406aa8c8ec.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/10153248-0087-4082-87c0-8e406aa8c8ec.png" alt=""><figcaption><p><strong>Delegation Lifecycle</strong></p></figcaption></figure>
 
 ## Delegation Rules
 
