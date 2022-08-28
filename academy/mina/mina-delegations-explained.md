@@ -44,7 +44,7 @@ Delegation data are entered in 4 ledgers: the **snarked ledger**, the **staking 
 See [Mina glossary](mina-glossary.md).
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/AD Delegation Lifecycle (2).png" alt=""><figcaption><p><strong>Activity Diagram - Delegation transaction made in epoch X</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/AD Delegation Lifecycle (1).png" alt=""><figcaption><p><strong>Activity Diagram - Delegation transaction made in epoch X</strong></p></figcaption></figure>
 
 When a delegation is made (**Epoch X**), it enters the <mark style="background-color:purple;"></mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">**staged ledger**</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;"></mark> . The delegation transaction enters the scan state for snark workers to generate a **snark proof** of the transaction - the amount of time this takes is dependent on the transaction throughput of the network. Once a proof containing the delegation transaction is generated a new <mark style="background-color:purple;"></mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;">**snarked ledger**</mark> <mark style="background-color:purple;"></mark><mark style="background-color:purple;"></mark> is produced.&#x20;
 
