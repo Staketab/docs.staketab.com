@@ -14,7 +14,7 @@ Before you read this article, you can learn the basics: [**Mina Staking Process*
 
 In the Mina blockchain, there are no statuses for delegations. We find it reasonable to introduce delegation statuses since it appears that delegations may come in different states. To do so it’s critical to understand how delegations are processed within the Mina Protocol.
 
-<figure><img src="../../.gitbook/assets/SMD Delegation Lifecycle.png" alt=""><figcaption><p><strong>State Machine Diagram - Delegation Statuses (Lifecycle)</strong></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/SMD Delegation Lifecycle (1).png" alt=""><figcaption><p><strong>State Machine Diagram - Delegation Statuses (Lifecycle)</strong></p></figcaption></figure>
 
 We suggest the following statuses for a delegation: **Waiting**, **Active**, **Replaced**, **Skipped**, **Ended**:
 
