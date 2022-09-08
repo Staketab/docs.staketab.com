@@ -34,7 +34,7 @@ You don’t get your reward once you made your delegation. Overall, it takes **o
 At any point of the delegation lifecycle, a delegator may delegate funds to another validator. In Mina all account balance is delegated to only one validator.
 
 {% hint style="success" %}
-In Mina, your **funds are** **never locked**!
+In Mina, your **delegated funds are** **never locked**!
 {% endhint %}
 
 Yes, and it's very convenient. You can safely dispose of your funds after sending the delegation. The thing is that the balance snapshot, which is taken into account when staking, is done at the end of the epoch.&#x20;
