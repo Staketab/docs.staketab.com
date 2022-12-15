@@ -8,18 +8,18 @@ description: >-
 
 ## Our projects:
 
-[staketab.com](https://staketab.com/) -- Staking provider website
+[staketab.com](https://staketab.com/) -- Staking provider. Stake and EARN.
 
-[mina.staketab.com](https://mina.staketab.com/) -- Mina Block Explorer & Analitycs Tools
+[https://minascan.io/](https://minascan.io/) -- Block Explorer and Analytics Platform for Mina with ZK-proof mechanism.
+
+[https://suiscan.xyz/](https://suiscan.xyz/) -- Feature rich Explorer and Analytics Platform for Sui.
+
+[https://services.staketab.com/](https://services.staketab.com/) -- Services for Cosmos based networks. Snapshots, guides, tools, node installers, public RPC, etc.
 
 ## Social media and contacts:
 
 [Twitter](https://twitter.com/staketab) -- Staketab announcement channel
 
 [Discord](https://discord.com/invite/6QUayW3ykD) -- Staketab community support channel for all our projects
-
-[Telegram channel](https://t.me/staketab\_ann) -- Staketab announcement channel
-
-[Telegram chat](https://t.me/mina\_staketab) -- Mina support chat
 
 support@staketab.com -- Staketab contact email
