@@ -31,6 +31,8 @@ You don’t get your reward once you made your delegation. Overall, it takes **o
 
 ## Delegation Rules
 
+### Funds are not locked
+
 At any point of the delegation lifecycle, a delegator may delegate funds to another validator. In Mina all account balance is delegated to only one validator.
 
 {% hint style="success" %}
@@ -39,19 +41,35 @@ In Mina, your **delegated funds are** **never locked**!
 
 Yes, and it's very convenient. You can safely dispose of your funds after sending the delegation. The thing is that the balance snapshot, which is taken into account when staking, is done at the end of the epoch.&#x20;
 
+### All funds delegated
+
 {% hint style="success" %}
 How much tokens you have on your **balance sheet at the end of the epoch**, that much will be taken into account for staking.
 {% endhint %}
 
+### **Only one staking provider**
+
 **You can’t delegate part of your balance and you can’t delegate to multiple validators.** If you’re a validator, you can validate to yourself.
+
+### Automated staking
 
 {% hint style="info" %}
 Please note that if you did not stake to anyone, then after 2 epochs the **protocol will automatically stake your tokens** (starting from the moment when there is more than 1 Mina on the balance)
 {% endhint %}
 
-{% hint style="warning" %}
+### Delegation is not canceled
+
 Also, you **cannot cancel the delegation** of your funds to Mina, since the developers of the protocol do not see the point in such an operation. Your funds are staked, and if you want to change the validator, you simply send a **new delegation**.
-{% endhint %}
+
+### Redelegation is simple
+
+To delegate your tokens to another validator, simply send a new delegation transaction. Keep in mind that the result of the operation will be fixed only at the end of the epoch.
+
+### Fixing time
+
+The result of your delegation transactions is only committed at the end of the epoch. Until the change of epochs, the blockchain does not record data in the operations ledger. Therefore, you may still have a considerable margin of time to change your mind.
+
+
 
 ## Staking Rewards
 
