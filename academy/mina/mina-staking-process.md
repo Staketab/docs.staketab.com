@@ -59,11 +59,11 @@ Please note that if you did not stake to anyone, then after 2 epochs the **proto
 
 ### Delegation is not canceled
 
-Also, you **cannot cancel the delegation** of your funds to Mina, since the developers of the protocol do not see the point in such an operation. Your funds are staked, and if you want to change the validator, you simply send a **new delegation**.
+Also, you **cannot cancel the delegation** of your funds to Mina, since the developers of the protocol do not see the point in such an operation.&#x20;
 
 ### Redelegation is simple
 
-To delegate your tokens to another validator, simply send a new delegation transaction. Keep in mind that the result of the operation will be fixed only at the end of the epoch.
+To delegate your tokens to another validator, simply send a **new delegation** transaction. Keep in mind that the result of the operation will be fixed only at the end of the epoch.
 
 ### Fixing time
 
