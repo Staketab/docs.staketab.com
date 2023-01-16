@@ -41,7 +41,7 @@ In Mina, your **delegated funds are** **never locked**!
 
 Yes, and it's very convenient. You can safely dispose of your funds after sending the delegation. The thing is that the balance snapshot, which is taken into account when staking, is done at the end of the epoch.&#x20;
 
-### All funds delegated
+### All funds are delegated
 
 {% hint style="success" %}
 How much tokens you have on your **balance sheet at the end of the epoch**, that much will be taken into account for staking.
