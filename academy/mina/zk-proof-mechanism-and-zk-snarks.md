@@ -34,7 +34,7 @@ Validators are **full nodes** that broadcast transactions and produce blocks. ZK
 
 1. **Verification key** - this is used for verifying the protocol state and a ZK proof.
 2. **Protocol state** - a clear an unambiguous representation of the state of the network.
-3. ZK-snark proof **** - an object we can verify if we have the verification key and the protocol state.
+3. ZK-snark proof - an object we can verify if we have the verification key and the protocol state.
 4. **Account** information.
 5. **Merkle path** - a path of the account in the **Merkle tree** in Mina, which convinces a node that this account is part of the ledger (see **Figure 2**).
 
@@ -90,7 +90,7 @@ See [Mina glossary](mina-glossary.md).
 
 ## Snarketplace <a href="#snarketplace" id="snarketplace"></a>
 
-In Mina block producers are encouraged to participate in including transactions in a block through transaction fees and gaining block production reward, they are responsible for offsetting the transactions by purchasing an equal number of completed snark work, thereby creating demand for snark work. Snark workers, for their part, charge a fee from a validator for providing snark works. Some fees can equal zero, but normally this is a particular amount of nanoMina **** funds. To add a transaction in a block a validator chooses a transaction from the **mempool** with the highest amount and aims to select a snark work from the snark pool with the lowest fee. Validators use their block rewards to purchase snark work from snark workers. Validators and snark workers together, therefore, make up a market called **snarketplace**, where snark fees are balanced by the economic mechanism of demand and supply. For more information on Mina Protocol please go to [Mina Domain Model](mina-domain-model.md).
+In Mina block producers are encouraged to participate in including transactions in a block through transaction fees and gaining block production reward, they are responsible for offsetting the transactions by purchasing an equal number of completed snark work, thereby creating demand for snark work. Snark workers, for their part, charge a fee from a validator for providing snark works. Some fees can equal zero, but normally this is a particular amount of nanoMina funds. To add a transaction in a block a validator chooses a transaction from the **mempool** with the highest amount and aims to select a snark work from the snark pool with the lowest fee. Validators use their block rewards to purchase snark work from snark workers. Validators and snark workers together, therefore, make up a market called **snarketplace**, where snark fees are balanced by the economic mechanism of demand and supply. For more information on Mina Protocol please go to [Mina Domain Model](mina-domain-model.md).
 
 A **snark coordinator** coordinates snark jobs among many snark workers. The coordinator is responsible for sending new work to the snark workers, ensuring they do not duplicate the same work. The snark workers communicate with the snark coordinator via RPC calls. **Figure 4** shows the mechanism of ZK-proof in the Mina Protocol.
 

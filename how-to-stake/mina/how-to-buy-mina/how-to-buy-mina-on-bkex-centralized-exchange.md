@@ -26,7 +26,7 @@
 
 5\. Copy your USDT address and send your USDT funds to it. In our case we copied BEP20 address, it is suitable to deposit BKEX account from Binance Smart Chain section of the Metamask wallet.
 
-![](<../../../.gitbook/assets/07\_usdt\_bep20\_chain\_address (1).png>)
+![](../../../.gitbook/assets/07\_usdt\_bep20\_chain\_address.png)
 
 When USDT funds arrive to the BKEX, they will be shown at the "Assets" section.
 

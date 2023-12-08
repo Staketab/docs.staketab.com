@@ -78,7 +78,7 @@ Let’s take a state scan with max\_no\_of\_transactions = 4 and work\_delay = 1
 
 ### Figure 1. Genesis
 
-![](<../../.gitbook/assets/Genesis (1).png>)
+![](../../.gitbook/assets/Genesis.png)
 
 **Block 1**: A block producer includes four transactions into the scan state labeled (B1). These transactions fill the base of the first tree (see **Figure 2**).
 
@@ -90,7 +90,7 @@ Let’s take a state scan with max\_no\_of\_transactions = 4 and work\_delay = 1
 
 ### Figure 3. Block 2
 
-![](<../../.gitbook/assets/Block 2.png>)
+![](<../../.gitbook/assets/Block 2 (1).png>)
 
 **Block 3**: At the third block, a block producer adds four (B3) transactions to the third tree but must include four proofs for the first tree. As a result of including these completed base proofs, two new (M3) merge jobs are created (see **Figure 4**).
 
@@ -102,7 +102,7 @@ For the fourth block, a block producer adds another four transactions (see **Fig
 
 ### Figure 5. Block 4
 
-![](<../../.gitbook/assets/Block 4 (2).png>)
+![](<../../.gitbook/assets/Block 4.png>)
 
 **Block 5**: In the fifth block, another four transactions are included to fill the base of tree five (B5), and six proofs must be included (B3s and M3s). The M3 merge jobs result in a final pending merge job for the first tree (M5) (see **Figure 6**).
 
@@ -120,6 +120,6 @@ For the fourth block, a block producer adds another four transactions (see **Fig
 
 ### Figure 8. Block 7
 
-![](<../../.gitbook/assets/Block 7.png>)
+![](<../../.gitbook/assets/Block 7 (1).png>)
 
 Newly added jobs to the scan state are pending jobs for snark workers to complete. Snark workers complete the required transaction Snarks, submitting bids for their completed work. When a node receives and validates the completed work, it will add to its local snark pool if it is valid and the lowest fee for the required work. The work will later be gossiped to other peers in the network. In the case where there is no completed snark work available to purchase in the order required, then the corresponding transactions will not be included in a block. This may result in an empty block, but also for the case where no transactions can be added (including a coinbase transaction), there will be no reward for the block producer.

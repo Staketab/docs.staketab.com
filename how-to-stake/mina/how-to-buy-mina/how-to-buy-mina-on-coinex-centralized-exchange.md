@@ -24,7 +24,7 @@
 
 5\. Copy your USDT address and send your USDT funds to it.
 
-![](../../../.gitbook/assets/05\_usdt\_trc20\_address\_copied.png)
+![](<../../../.gitbook/assets/05\_usdt\_trc20\_address\_copied (1).png>)
 
 When USDT funds arrive to the CoinEx, they will be shown at the "Assets" section.
 

@@ -98,6 +98,6 @@ When transfer is successful, the balance of your Trading account will be reduced
 
 6\. When your withdrawal request is approved by [OKX](https://www.okex.com/join/2995542), you will receive your MINA to your external wallet.
 
-![](<../../../.gitbook/assets/29\_withdrawal\_completed\_screen (1).png>)
+![](../../../.gitbook/assets/29\_withdrawal\_completed\_screen.png)
 
 After you bought Mina, you can stake it to get passive income. How to do this, please see [here](../how-to-stake-mina/).

@@ -15,7 +15,7 @@ The delegation process in Mina is explained here. If you need a guide to staking
 
 ## Delegation Transaction <a href="#delegation-transaction" id="delegation-transaction"></a>
 
-If you don't run a node but want to stake, you can delegate your tokens to a validator. A **** delegation is a transaction, when a delegator (i.e. an account that doesn’t run a node and can’t stake Mina itself), delegates its tokens to a validator.
+If you don't run a node but want to stake, you can delegate your tokens to a validator. A delegation is a transaction, when a delegator (i.e. an account that doesn’t run a node and can’t stake Mina itself), delegates its tokens to a validator.
 
 A delegation is not a transfer of tokens from one account to another a transfer is another type of transaction. With a delegation delegator’s tokens **remain on its account**.&#x20;
 
@@ -84,7 +84,7 @@ Mina does not regulate the validator-delegator relationship, so each validator s
 {% endhint %}
 
 {% hint style="info" %}
-For more information on the reward accrual **** please see **** [**Mina Reward Calculation**](https://docs.staketab.com/academy/mina/mina-reward-calculation).
+For more information on the reward accrual please see [**Mina Reward Calculation**](https://docs.staketab.com/academy/mina/mina-reward-calculation).
 {% endhint %}
 
 ## Delegation Tracking&#x20;

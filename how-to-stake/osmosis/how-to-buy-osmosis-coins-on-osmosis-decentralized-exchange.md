@@ -10,7 +10,7 @@
 
 3\. Connect your [Keplr](https://www.keplr.app/) wallet to the exchange. If [Keplr](https://www.keplr.app/) wallet window doesn't appear automatically, click on the Keplr button in the Chrome's top right corner and enter your password. How to install Keplr wallet, please see [here](how-to-install-keplr-wallet.md).
 
-![](<../../.gitbook/assets/02\_keplr\_login\_to\_osmosis\_exchange (1).png>)
+![](../../.gitbook/assets/02\_keplr\_login\_to\_osmosis\_exchange.png)
 
 ![](../../.gitbook/assets/03\_keplr\_logged\_in.png)
 

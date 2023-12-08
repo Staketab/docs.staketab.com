@@ -16,7 +16,7 @@ If you launch your Cosmostation app first time, follow these steps:
 
 ![](../../.gitbook/assets/02\_desmos\_selection.png)
 
-![](../../.gitbook/assets/03\_create\_buttton.png)
+![](<../../.gitbook/assets/03\_create\_buttton (1).png>)
 
 1.2. Tap _Show mnemonic_, write down your mnemonic (it is recommended to store one in a private place only you have access to as well as to use several places and storages, e. g. passworded USB and paper ones), enter your mnemonic into the fields in sequential order to confirm you have written down it successfully.
 

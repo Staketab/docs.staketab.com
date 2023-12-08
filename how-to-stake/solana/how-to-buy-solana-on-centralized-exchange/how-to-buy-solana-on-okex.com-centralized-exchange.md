@@ -92,7 +92,7 @@ When transfer is successful, the balance of your Trading account will be reduced
 
 5\. Enter your funds password, e-mail verification and sms codes you set up at the time of registration, then click confirm button.
 
-![](../../../.gitbook/assets/29\_withdrawal\_completed\_screen.png)
+![](<../../../.gitbook/assets/29\_withdrawal\_completed\_screen (1).png>)
 
 6\. When your withdrawal request is approved by [OKX](https://www.okex.com/join/2995542), you will receive your SOL to your external wallet.
 

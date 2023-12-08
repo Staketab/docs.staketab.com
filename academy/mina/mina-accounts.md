@@ -29,7 +29,7 @@ Basically, there are 4 ways you can make a profit in the Mina blockchain:
 1. **Running a node**. If you run a validator, you can maintain the consistency of Mina blockchain by producing new **blocks**. For this you get a **reward**.
 2. **Running a** **staking provider**. If you run a staking provider (validator), you can provide your node to delegators for staking. In return you get a **validator fee**.
 3. **ZK-snark works**. If you run a **ZK-snarker**, you can provide **ZK snark proofs** for validators and get a fee for that.
-4. **Staking and delegation**. If you don’t run a node, but you’re willing to participate in staking, you can delegate your Mina funds to one of its validators hoping to get your part of the validator’s reward. If run a validator, to whom funds were delegated, you get a validator fee **** for that.
+4. **Staking and delegation**. If you don’t run a node, but you’re willing to participate in staking, you can delegate your Mina funds to one of its validators hoping to get your part of the validator’s reward. If run a validator, to whom funds were delegated, you get a validator fee for that.
 
 ### Reference Gossary 2
 
@@ -75,13 +75,13 @@ See [Mina glossary](mina-glossary.md).
 
 ### Figure 2. Mina accounts
 
-![](<../../.gitbook/assets/Mina Accounts (2).png>)
+![](<../../.gitbook/assets/Mina Accounts (1).png>)
 
 A validator as an account can have two addresses: a node address, through which it operates, and a coinbase address, to which rewards are transferred (see **Figure 3**).
 
 ### Figure 3. Validator Account
 
-![](<../../.gitbook/assets/Mina Validator Account (1).png>)
+![](<../../.gitbook/assets/Mina Validator Account.png>)
 
 ## How to create an account in the Mina blockchain <a href="#how-to-create-an-account-in-the-mina-blockchain" id="how-to-create-an-account-in-the-mina-blockchain"></a>
 

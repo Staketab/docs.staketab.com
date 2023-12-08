@@ -67,7 +67,7 @@ See [Mina glossary](mina-glossary.md).
 
 ### Figure 1. Block production process in Mina
 
-![](<../../.gitbook/assets/Mina Block Production.png>)
+![](<../../.gitbook/assets/Mina Block Production (1).png>)
 
 ## Canonical and Orphaned Blocks <a href="#canonical-and-orphaned-blocks" id="canonical-and-orphaned-blocks"></a>
 
@@ -87,4 +87,4 @@ See [Mina glossary](mina-glossary.md).
 
 ### Figure 2. Canonical Chain
 
-![](<../../.gitbook/assets/Canonical Chain.png>)
+![](<../../.gitbook/assets/Canonical Chain (1).png>)
